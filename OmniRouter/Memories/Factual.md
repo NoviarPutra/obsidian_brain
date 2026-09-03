@@ -3,16 +3,32 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 0
-last_synced: "2026-09-03T14:25:14.425955+00:00"
+total_items: 1
+last_synced: "2026-09-03T15:21:35.816338+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-03 14:25:14 UTC*
+*Synced from OmniRoute VPS database on 2026-09-03 15:21:35 UTC*
 
-**Total `Factual` Records**: `0`
+**Total `Factual` Records**: `1`
 
-> [!INFO]
-> No active `factual` memories currently stored in OmniRoute.
+## 📌 `snape_obsidian_integration`
 
-Memories are automatically recorded when AI agents learn project context, coding rules, or factual details.
+- **Key**: `snape_obsidian_integration`
+- **Access Count**: `0`
+- **Created**: `2026-09-03T15:21:25.431Z`
+- **Updated**: `2026-09-03T15:21:25.431Z`
+
+### Memory Content
+```text
+Snape uses Obsidian for storing CEFR curated materials and session journals.
+```
+
+### Metadata
+```json
+{
+  "reason": "Verifying OmniRoute memory integration with Obsidian"
+}
+```
+
+---
