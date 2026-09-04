@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 23678
+total_requests: 23751
 success_rate: "97.2%"
-last_updated: "2026-09-04T10:30:01.959620+00:00"
+last_updated: "2026-09-04T11:00:01.383087+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-04 10:30:01 UTC*
+*Synced from OmniRoute VPS database on 2026-09-04 11:00:01 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `23.7k`
+- **Total AI Requests**: `23.8k`
 - **Success Rate**: `97.23%`
-- **Input Tokens Processed**: `552.43M` (`552,428,876` tokens)
-- **Output Tokens Generated**: `2.84M` (`2,838,695` tokens)
-- **Cache Tokens Read**: `496.53M`
-- **Avg Response Duration**: `2,297 ms`
+- **Input Tokens Processed**: `553.51M` (`553,510,417` tokens)
+- **Output Tokens Generated**: `2.86M` (`2,859,028` tokens)
+- **Cache Tokens Read**: `497.48M`
+- **Avg Response Duration**: `2,301 ms`
 
 ---
 
@@ -25,12 +25,12 @@ last_updated: "2026-09-04T10:30:01.959620+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`antigravity`** | `9.6k` | `526.74M` | `2.66M` | `3847 ms` |
-| **`groq`** | `8.2k` | `74.1k` | `4.8k` | `1324 ms` |
-| **`claude`** | `2.2k` | `25.60M` | `174.2k` | `1043 ms` |
+| **`antigravity`** | `9.6k` | `527.39M` | `2.67M` | `3845 ms` |
+| **`groq`** | `8.2k` | `74.1k` | `4.8k` | `1325 ms` |
+| **`claude`** | `2.2k` | `26.03M` | `187.1k` | `1102 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
-| **`upstage`** | `791` | `17.9k` | `144` | `414 ms` |
+| **`upstage`** | `796` | `17.9k` | `144` | `414 ms` |
 | **`openference-api`** | `592` | `738` | `646` | `2755 ms` |
 | **`zenmux`** | `164` | `57` | `128` | `1501 ms` |
 | **`orcarouter`** | `43` | `0` | `0` | `358 ms` |
@@ -44,15 +44,15 @@ last_updated: "2026-09-04T10:30:01.959620+00:00"
 
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`gemini-3.7-flash-high`** | `antigravity` | `8.6k` | `514.78M` | `3986 ms` |
-| **`connection-test`** | `groq` | `8.1k` | `0` | `1309 ms` |
+| **`gemini-3.7-flash-high`** | `antigravity` | `8.6k` | `515.44M` | `3985 ms` |
+| **`connection-test`** | `groq` | `8.1k` | `0` | `1310 ms` |
 | **`connection-test`** | `claude` | `2.0k` | `0` | `6 ms` |
 | **`connection-test`** | `ollama-cloud` | `1.0k` | `0` | `673 ms` |
 | **`connection-test`** | `openrouter` | `864` | `0` | `427 ms` |
-| **`connection-test`** | `antigravity` | `789` | `0` | `468 ms` |
-| **`connection-test`** | `upstage` | `785` | `0` | `409 ms` |
+| **`connection-test`** | `antigravity` | `793` | `0` | `470 ms` |
+| **`connection-test`** | `upstage` | `790` | `0` | `409 ms` |
 | **`connection-test`** | `openference-api` | `538` | `0` | `2577 ms` |
-| **`claude-sonnet-5`** | `claude` | `216` | `25.77M` | `10630 ms` |
+| **`claude-sonnet-5`** | `claude` | `224` | `26.21M` | `10903 ms` |
 | **`claude-sonnet-4-6`** | `antigravity` | `181` | `14.62M` | `11888 ms` |
 | **`openai/gpt-oss-120b`** | `groq` | `67` | `78.6k` | `3065 ms` |
 | **`AG`** | `AG` | `39` | `0` | `7594 ms` |
