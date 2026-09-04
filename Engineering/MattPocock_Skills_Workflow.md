@@ -24,7 +24,7 @@ Agen AI yang membaca dokumen ini **wajib** mematuhi 4 pilar operasional berikut:
 2. **Anti-Overengineering (Prinsip YAGNI & Senior Dev)**:
    - **TIDAK PERLU** memanggil seluruh pipeline jika tugasnya kecil / terlokalisasi.
    - Perbaikan 1 file / bug sepele / typo / CSS: **Langsung eksekusi atau pakai `/tdd`**.
-   - Fitur baru standar / butuh arsitektur: Masuk **Main Flow** (`grill-with-docs` $	o$ `to-spec` $	o$ `to-tickets` $	o$ `implement`).
+   - Fitur baru standar / butuh arsitektur: Masuk **Main Flow** (`grill-with-docs` → `to-spec` → `to-tickets` → `implement`).
    - Task besar, ambigu, dan gelap gulita: Panggil **`wayfinder`**.
    - Ragu memilih alur / bingung: Panggil **`ask-matt`** sebagai traffic controller.
 3. **Pre-Flight Verification (Wajib Cek Filesystem)**:
@@ -63,7 +63,7 @@ Agen AI yang membaca dokumen ini **wajib** mematuhi 4 pilar operasional berikut:
 | :--- | :--- | :--- | :--- |
 | **Micro (Level 1)** | Ganti copy, perbaiki CSS, tambah helper 1 line, fix typo. | Direct Edit / Verification | *None / Pure Edit* |
 | **Minor (Level 2)** | Tambah endpoint CRUD standar, fix bug dengan alur jelas. | TDD Focused | `tdd`, `diagnosing-bugs` |
-| **Standard (Level 3)** | Fitur baru lengkap, integrasi payment gateway, sistem auth. | Main Flow (Idea $	o$ Ship) | `grill-with-docs`, `to-spec`, `to-tickets`, `implement`, `code-review` |
+| **Standard (Level 3)** | Fitur baru lengkap, integrasi payment gateway, sistem auth. | Main Flow (Idea → Ship) | `grill-with-docs`, `to-spec`, `to-tickets`, `implement`, `code-review` |
 | **Epic (Level 4)** | Rancang platform dari nol, migrasi arsitektur monolit ke microservices. | Exploratory Mapping | `wayfinder`, `domain-modeling`, `research`, `prototype` |
 | **Ambiguous (?)** | Tidak tahu harus mulai dari mana atau flow mana yang cocok. | Interactive Routing | `ask-matt` |
 
@@ -93,7 +93,7 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
    - **Kapan Digunakan**: Fase penulisan kode per-tiket. Bekerja dalam context window bersih (`/clear` antar tiket).
 
 5. **`tdd`**
-   - **Fungsi**: Mendorong disiplin penulisan kode *Red-Green-Refactor* (tulis unit test yang gagal $	o$ tulis kode minimal $	o$ refactor).
+   - **Fungsi**: Mendorong disiplin penulisan kode *Red-Green-Refactor* (tulis unit test yang gagal → tulis kode minimal → refactor).
    - **Kapan Digunakan**: Saat membangun behavior baru atau memperbaiki bug secara test-first.
 
 6. **`code-review`**
@@ -179,8 +179,8 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
 22. **`migrate-to-shoehorn`**
     - **Fungsi**: Mengganti type assertion kotor (`as Type`) pada file testing dengan helper resmi `@total-typescript/shoehorn`.
 
-23. **`writing-fragments` $	o$ `writing-beats` $	o$ `writing-shape` $	o$ `writing-for-agents`**
-    - **Fungsi**: Rantai penulisan konten/artikel/dokumentasi dari ide mentah acak (*fragments*) $	o$ rangkaian ketukan alur (*beats*) $	o$ paragraf utuh (*shape*) $	o$ format optimal LLM (*writing-for-agents*).
+23. **`writing-fragments` → `writing-beats` → `writing-shape` → `writing-for-agents`**
+    - **Fungsi**: Rantai penulisan konten/artikel/dokumentasi dari ide mentah acak (*fragments*) → rangkaian ketukan alur (*beats*) → paragraf utuh (*shape*) → format optimal LLM (*writing-for-agents*).
 
 
 ---
@@ -199,8 +199,8 @@ Agar seluruh workflow di atas berjalan otomatis tanpa konfigurasi manual berulan
          ├──> 2. Tentukan Skill yang Dibutuhkan
          │
          ├──> 3. Cek Ketersediaan Skill di Disk (~/.kilocode/skills/ atau .kilo/skills/)
-         │        ├──> [Ada] $	o$ Panggil tool skill / ikuti instruksi resminya
-         │        └──> [Tidak Ada] $	o$ Terapkan alur logisnya secara native
+         │        ├──> [Ada] → Panggil tool skill / ikuti instruksi resminya
+         │        └──> [Tidak Ada] → Terapkan alur logisnya secara native
          │
          └──> 4. Eksekusi & Validasi Hasil
    ```
