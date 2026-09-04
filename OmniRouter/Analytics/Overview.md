@@ -2,13 +2,13 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 24355
+total_requests: 24413
 success_rate: "97.3%"
-last_updated: "2026-09-04T14:00:02.040880+00:00"
+last_updated: "2026-09-04T14:30:01.506134+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-04 14:00:02 UTC*
+*Synced from OmniRoute VPS database on 2026-09-04 14:30:01 UTC*
 
 ## ⚡ Key Metrics
 
@@ -17,7 +17,7 @@ last_updated: "2026-09-04T14:00:02.040880+00:00"
 - **Input Tokens Processed**: `566.06M` (`566,059,557` tokens)
 - **Output Tokens Generated**: `2.95M` (`2,951,599` tokens)
 - **Cache Tokens Read**: `508.19M`
-- **Avg Response Duration**: `2,341 ms`
+- **Avg Response Duration**: `2,338 ms`
 
 ---
 
@@ -25,12 +25,12 @@ last_updated: "2026-09-04T14:00:02.040880+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`antigravity`** | `9.9k` | `538.66M` | `2.74M` | `3924 ms` |
-| **`groq`** | `8.4k` | `74.1k` | `4.8k` | `1329 ms` |
-| **`claude`** | `2.3k` | `27.30M` | `208.2k` | `1165 ms` |
+| **`antigravity`** | `9.9k` | `538.66M` | `2.74M` | `3923 ms` |
+| **`groq`** | `8.5k` | `74.1k` | `4.8k` | `1329 ms` |
+| **`claude`** | `2.3k` | `27.30M` | `208.2k` | `1161 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
-| **`upstage`** | `832` | `17.9k` | `144` | `417 ms` |
+| **`upstage`** | `838` | `17.9k` | `144` | `417 ms` |
 | **`openference-api`** | `592` | `738` | `646` | `2755 ms` |
 | **`zenmux`** | `164` | `57` | `128` | `1501 ms` |
 | **`orcarouter`** | `43` | `0` | `0` | `358 ms` |
@@ -49,8 +49,8 @@ last_updated: "2026-09-04T14:00:02.040880+00:00"
 | **`connection-test`** | `claude` | `2.0k` | `0` | `6 ms` |
 | **`connection-test`** | `ollama-cloud` | `1.0k` | `0` | `673 ms` |
 | **`connection-test`** | `openrouter` | `864` | `0` | `427 ms` |
-| **`connection-test`** | `upstage` | `826` | `0` | `412 ms` |
-| **`connection-test`** | `antigravity` | `817` | `0` | `467 ms` |
+| **`connection-test`** | `upstage` | `832` | `0` | `412 ms` |
+| **`connection-test`** | `antigravity` | `821` | `0` | `465 ms` |
 | **`connection-test`** | `openference-api` | `538` | `0` | `2577 ms` |
 | **`claude-sonnet-4-6`** | `antigravity` | `415` | `25.96M` | `9427 ms` |
 | **`claude-sonnet-5`** | `claude` | `246` | `27.51M` | `10765 ms` |
