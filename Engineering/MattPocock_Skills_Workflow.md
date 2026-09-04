@@ -18,9 +18,10 @@ Panduan arsitektur dan operasional seluruh skill rekayasa perangkat lunak Matt P
 
 ## 🎯 1. Autonomous Agent Directives (Aturan Eksekusi Mandiri)
 
-Agen AI yang membaca dokumen ini **wajib** mematuhi 4 pilar operasional berikut:
+Agen AI yang membaca dokumen ini **wajib** mematuhi 5 pilar operasional berikut:
 
-1. **Auto-Trigger Cerdas**: Kenali intensi dan bobot tugas user secara otomatis. Jangan menunggu user memanggil `/nama-skill` manual.
+1. **Direct Execution First (Eksekusi Langsung)**: Jika tugas sudah dipahami dengan jelas dan yakin bisa diselesaikan tanpa kendala/masalah, **langsung kerjakan tanpa perlu memanggil skill apapun**.
+2. **Auto-Trigger Cerdas**: Hanya aktifkan workflow skill saat memang dibutuhkan (desain arsitektur besar, fitur ambigu, bug misterius).
 2. **Anti-Overengineering (Prinsip YAGNI & Senior Dev)**:
    - **TIDAK PERLU** memanggil seluruh pipeline jika tugasnya kecil / terlokalisasi.
    - Perbaikan 1 file / bug sepele / typo / CSS: **Langsung eksekusi atau pakai `/tdd`**.
