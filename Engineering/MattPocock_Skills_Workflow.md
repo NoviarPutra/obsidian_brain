@@ -33,3 +33,37 @@ Agen AI yang membaca dokumen ini **wajib** mematuhi 4 pilar operasional berikut:
    - Project level: `.kilo/skills/`, `.kilocode/skills/`
    - Global level: `~/.kilocode/skills/`, `~/.config/kilo/skills/`, `~/.agents/skills/`
 4. **Fallback Resilience**: Jika file skill tidak ditemukan secara fisik, terapkan prinsip logika skill tersebut secara langsung (*native reasoning*) tanpa melempar error tools missing.
+
+---
+
+## 🧭 2. Decision Matrix: Kapan Menggunakan Alur Apa?
+
+```
+                       ┌─────────────────────────────────┐
+                       │        User Task / Input        │
+                       └────────────────┬────────────────┘
+                                        │
+           ┌────────────────────────────┼────────────────────────────┐
+           ▼                            ▼                            ▼
+ 🟢 [Small / Isolated]         🟡 [Medium / New Feature]     🔴 [Massive / Foggy Scope]
+ - 1-2 files diff              - New subsystem               - Unknown architecture
+ - Clear bug fix               - Multi-component flow        - Greenfield idea
+ - UI / CSS tweak              - Architecture decisions      - High uncertainty
+           │                            │                            │
+           ▼                            ▼                            ▼
+  [Direct Fix / TDD]             [The Main Flow]                [Wayfinder]
+  • No grilling needed           1. /grill-with-docs            1. Map decision tickets
+  • Minimal diff                 2. /to-spec                    2. Settle blockers
+  • Fast verification            3. /to-tickets                 3. Hand off to /to-spec
+                                 4. /implement (/tdd + review)
+```
+
+### Panduan Ambang Batas Kompleksitas:
+| Level Kompleksitas | Karakteristik Tugas | Alur Rekomendasi | Skill Terkait |
+| :--- | :--- | :--- | :--- |
+| **Micro (Level 1)** | Ganti copy, perbaiki CSS, tambah helper 1 line, fix typo. | Direct Edit / Verification | *None / Pure Edit* |
+| **Minor (Level 2)** | Tambah endpoint CRUD standar, fix bug dengan alur jelas. | TDD Focused | `tdd`, `diagnosing-bugs` |
+| **Standard (Level 3)** | Fitur baru lengkap, integrasi payment gateway, sistem auth. | Main Flow (Idea $	o$ Ship) | `grill-with-docs`, `to-spec`, `to-tickets`, `implement`, `code-review` |
+| **Epic (Level 4)** | Rancang platform dari nol, migrasi arsitektur monolit ke microservices. | Exploratory Mapping | `wayfinder`, `domain-modeling`, `research`, `prototype` |
+| **Ambiguous (?)** | Tidak tahu harus mulai dari mana atau flow mana yang cocok. | Interactive Routing | `ask-matt` |
+
