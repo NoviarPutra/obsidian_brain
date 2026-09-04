@@ -67,3 +67,36 @@ Agen AI yang membaca dokumen ini **wajib** mematuhi 4 pilar operasional berikut:
 | **Epic (Level 4)** | Rancang platform dari nol, migrasi arsitektur monolit ke microservices. | Exploratory Mapping | `wayfinder`, `domain-modeling`, `research`, `prototype` |
 | **Ambiguous (?)** | Tidak tahu harus mulai dari mana atau flow mana yang cocok. | Interactive Routing | `ask-matt` |
 
+
+---
+
+## 📚 3. Katalog Lengkap Seluruh Skill Matt Pocock
+
+### 🅰️ Main Pipeline (Idea to Ship)
+Rute standar pembuatan fitur dari konsep hingga siap merge:
+
+1. **`grill-with-docs`**
+   - **Fungsi**: Wawancara mendalam (*relentless interview*) untuk menantang asumsi, menemukan edge-case, dan merekam hasil kesepakatan dalam format `CONTEXT.md` dan ADR (*Architecture Decision Record*).
+   - **Kapan Digunakan**: Saat memulai fitur baru di dalam direktori proyek aktif.
+   - **Bedanya dengan `grill-me`**: `grill-with-docs` bersifat **stateful** (menulis file ke disk), sedangkan `grill-me` bersifat stateless (cocok di luar repo).
+
+2. **`to-spec`**
+   - **Fungsi**: Menyintesis obrolan, hasil grilling, dan kesepakatan arsitektur menjadi satu dokumen spesifikasi sistem teknis (*System Spec*) yang utuh.
+   - **Kapan Digunakan**: Tepat setelah sesi interview/grilling selesai dan siap beralih ke perencanaan teknis.
+
+3. **`to-tickets`**
+   - **Fungsi**: Memecah dokumen spec menjadi tiket-tiket kecil (*tracer-bullet tickets*) yang mendeklarasikan dependensi pemblokir (*blocking edges*).
+   - **Kapan Digunakan**: Sebelum implementasi multi-sesi dimulai. Menyimpan tiket di `.scratch/<feature>/issues/` atau GitHub Issues.
+
+4. **`implement` & `implement-spec`**
+   - **Fungsi**: Mengambil satu tiket kerja, mengeksekusinya menggunakan loop `tdd`, dan mengakhiri sesi dengan `code-review` otomatis sebelum commit.
+   - **Kapan Digunakan**: Fase penulisan kode per-tiket. Bekerja dalam context window bersih (`/clear` antar tiket).
+
+5. **`tdd`**
+   - **Fungsi**: Mendorong disiplin penulisan kode *Red-Green-Refactor* (tulis unit test yang gagal $	o$ tulis kode minimal $	o$ refactor).
+   - **Kapan Digunakan**: Saat membangun behavior baru atau memperbaiki bug secara test-first.
+
+6. **`code-review`**
+   - **Fungsi**: Meninjau git diff secara objektif pada dua sumbu: **Standards** (aturan repo) dan **Spec** (kesesuaian tiket).
+   - **Kapan Digunakan**: Sebelum commit/merge atau saat memeriksa Pull Request.
+
