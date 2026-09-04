@@ -144,3 +144,66 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
 15. **`retro`**
     - **Fungsi**: Menjalankan evaluasi retrospeksi setelah fitur selesai dibuat untuk mendokumentasikan apa yang dipelajari dan apa yang perlu di-improve.
 
+
+---
+
+### 🅳 Manajemen Konteks & Interaksi Sesi
+
+16. **`ask-matt`**
+    - **Fungsi**: Router interaktif yang merekomendasikan skill atau workflow mana yang paling pas untuk kondisi spesifik saat ini.
+    - **Kapan Digunakan**: Saat ragu memilih alur kerja terbaik.
+
+17. **`handoff` & `claude-handoff`**
+    - **Fungsi**: Memadatkan (*compact*) riwayat percakapan panjang ke satu file Markdown portabel untuk dilanjutkan oleh agen/sesi baru dengan token bersih.
+    - **Kapan Digunakan**: Saat context window mendekati zona degradasi (>150k token) atau ingin berganti lingkungan/worktree.
+
+18. **`wait-what`**
+    - **Fungsi**: Rem darurat untuk mereset penjelasan agent yang melenceng atau terlalu berbelit-belit agar dijelaskan ulang dengan bahasa yang lebih sederhana dan grounded.
+    - **Kapan Digunakan**: Saat respons agen sebelumnya tidak mendarat dengan baik.
+
+---
+
+### 🅴 Setup, Automation & Tooling Khusus
+
+19. **`setup-matt-pocock-skills`**
+    - **Fungsi**: Menginisialisasi konfigurasi awal di repositori baru (triage labels, direktori ADR `docs/adr/`, format `CONTEXT.md`, dan tracker issues).
+    - **Kapan Digunakan**: Dijalankan satu kali saat pertama kali menyiapkan repositori baru.
+
+20. **`wizard`**
+    - **Fungsi**: Mengenerate script Bash interaktif langkah-demi-langkah untuk tugas-tugas yang hanya bisa dieksekusi oleh manusia (membuka dashboard cloud, setup secret CI, konfigurasi payment key).
+    - **Kapan Digunakan**: Menemukan blocker yang mutlak membutuhkan tindakan langsung user di GUI/dashboard eksternal.
+
+21. **`setup-ts-deep-modules`**
+    - **Fungsi**: Memasang `dependency-cruiser` pada project TypeScript untuk membatasi akses modul internal agar hanya bisa diakses via entry point.
+
+22. **`migrate-to-shoehorn`**
+    - **Fungsi**: Mengganti type assertion kotor (`as Type`) pada file testing dengan helper resmi `@total-typescript/shoehorn`.
+
+23. **`writing-fragments` $	o$ `writing-beats` $	o$ `writing-shape` $	o$ `writing-for-agents`**
+    - **Fungsi**: Rantai penulisan konten/artikel/dokumentasi dari ide mentah acak (*fragments*) $	o$ rangkaian ketukan alur (*beats*) $	o$ paragraf utuh (*shape*) $	o$ format optimal LLM (*writing-for-agents*).
+
+
+---
+
+## ⚡ 4. Aturan Integrasi Global Agent (Kilo / Claude Code)
+
+Agar seluruh workflow di atas berjalan otomatis tanpa konfigurasi manual berulang:
+
+1. **Global Hook**: Konfigurasi `~/.claude/CLAUDE.md` atau `~/.config/kilo/AGENTS.md` diarahkan untuk membaca aturan workflow ini.
+2. **Prosedur Pre-Flight**:
+   ```
+   [Tugas Masuk] 
+         │
+         ├──> 1. Analisis Kompleksitas (Micro vs Standard vs Epic)
+         │
+         ├──> 2. Tentukan Skill yang Dibutuhkan
+         │
+         ├──> 3. Cek Ketersediaan Skill di Disk (~/.kilocode/skills/ atau .kilo/skills/)
+         │        ├──> [Ada] $	o$ Panggil tool skill / ikuti instruksi resminya
+         │        └──> [Tidak Ada] $	o$ Terapkan alur logisnya secara native
+         │
+         └──> 4. Eksekusi & Validasi Hasil
+   ```
+
+3. **Context Zone Management**: Jaga ukuran context di bawah 150k token (Smart Zone). Jika sesi mulai panjang sebelum `/to-tickets`, lakukan compact di batas fase (*phase boundary*).
+
