@@ -12,28 +12,33 @@ type: reference
 
 # 🛠️ Matt Pocock Engineering Skills & Autonomous AI Flow
 
-Panduan arsitektur dan operasional seluruh skill rekayasa perangkat lunak Matt Pocock untuk agen AI (Kilo / Claude Code). Dokumen ini berfungsi sebagai **single source of truth** bagi agen AI agar dapat menentukan rute kerja, mengeksekusi skill secara otonom, dan memverifikasi ketersediaan dependensi tanpa overengineering.
+Panduan arsitektur dan operasional seluruh skill rekayasa perangkat lunak Matt Pocock untuk agen AI (Kilo / Claude Code). Dokumen ini berfungsi sebagai **single source of truth** bagi agen AI agar dapat menentukan rute kerja, mengeksekusi skill secara otonom, dan memverifikasi ketersediaan dependensi tanpa overengineering atau kebingungan logika (*zero ambiguity*).
 
 ---
 
-## 🎯 1. Autonomous Agent Directives (Aturan Eksekusi Mandiri)
+## 🎯 1. Autonomous Agent Directives (5 Pilar Eksekusi AI)
 
 Agen AI yang membaca dokumen ini **wajib** mematuhi 5 pilar operasional berikut:
 
-1. **Direct Execution First (Eksekusi Langsung)**: Jika tugas sudah dipahami dengan jelas dan yakin bisa diselesaikan tanpa kendala/masalah, **langsung kerjakan tanpa perlu memanggil skill apapun**.
-2. **Auto-Trigger Cerdas**: Hanya aktifkan workflow skill saat memang dibutuhkan (desain arsitektur besar, fitur ambigu, bug misterius).
-2. **Anti-Overengineering (Prinsip YAGNI & Senior Dev)**:
-   - **TIDAK PERLU** memanggil seluruh pipeline jika tugasnya kecil / terlokalisasi.
-   - Perbaikan 1 file / bug sepele / typo / CSS: **Langsung eksekusi atau pakai `/tdd`**.
-   - Fitur baru standar / butuh arsitektur: Masuk **Main Flow** (`grill-with-docs` → `to-spec` → `to-tickets` → `implement`).
-   - Task besar, ambigu, dan gelap gulita: Panggil **`wayfinder`**.
-   - Ragu memilih alur / bingung: Panggil **`ask-matt`** sebagai traffic controller.
-3. **Pre-Flight Verification (Wajib Cek Filesystem)**:
-   Sebelum menjalankan tool/flow skill tertentu, pastikan skill tersebut terpasang di:
-   - System prompt runtime (`<available_skills>`)
-   - Project level: `.kilo/skills/`, `.kilocode/skills/`
-   - Global level: `~/.kilocode/skills/`, `~/.config/kilo/skills/`, `~/.agents/skills/`
-4. **Fallback Resilience**: Jika file skill tidak ditemukan secara fisik, terapkan prinsip logika skill tersebut secara langsung (*native reasoning*) tanpa melempar error tools missing.
+1. **Direct Execution First (Eksekusi Langsung)**:
+   - Jika instruksi/tugas user sudah jelas, dipahami secara penuh, dan yakin bisa diselesaikan tanpa kendala (misal: single-file fix, helper function, typo, CSS tweak, refactor sepele), **langsung kerjakan dengan native tools**.
+   - **TIDAK PERLU** memanggil skill apa pun jika tidak ada nilai tambah arsitektural.
+
+2. **Auto-Trigger Cerdas (Tanpa Panggilan Manual)**:
+   - Jangan menunggu user mengetik `/nama-skill`. Kenali intensi dan bobot tugas secara otomatis untuk mengaktifkan workflow terkait hanya saat dibutuhkan.
+
+3. **Anti-Overengineering (Prinsip YAGNI)**:
+   - Dilarang memaksakan pipeline panjang (*grill → spec → tickets → implement*) untuk tugas kecil.
+   - Gunakan pipeline penuh **hanya** untuk perancangan fitur baru substansial, perubahan arsitektur besar, atau domain baru.
+
+4. **Pre-Flight Verification (Wajib Cek Filesystem)**:
+   - Sebelum mengeksekusi alur skill khusus, periksa ketersediaan skill di lingkungan saat ini:
+     - Runtime system prompt (`<available_skills>`)
+     - Direktori project: `.kilo/skills/`, `.kilocode/skills/`
+     - Direktori global: `~/.kilocode/skills/`, `~/.config/kilo/skills/`, `~/.agents/skills/`
+
+5. **Fallback Resilience (Native Reasoning)**:
+   - Jika file/tool skill tidak ditemukan secara fisik di runtime, **tetap jalankan prinsip dan metodologi logisnya secara native** tanpa melempar error `tool not found` kepada user.
 
 ---
 
@@ -41,33 +46,32 @@ Agen AI yang membaca dokumen ini **wajib** mematuhi 5 pilar operasional berikut:
 
 ```
                        ┌─────────────────────────────────┐
-                       │        User Task / Input        │
+                       │        User Task / Request      │
                        └────────────────┬────────────────┘
                                         │
            ┌────────────────────────────┼────────────────────────────┐
            ▼                            ▼                            ▼
- 🟢 [Small / Isolated]         🟡 [Medium / New Feature]     🔴 [Massive / Foggy Scope]
- - 1-2 files diff              - New subsystem               - Unknown architecture
- - Clear bug fix               - Multi-component flow        - Greenfield idea
- - UI / CSS tweak              - Architecture decisions      - High uncertainty
+ 🟢 [Small / Clear Task]       🟡 [Medium / New Feature]     🔴 [Massive / Foggy Scope]
+ • 1-2 files diff              • Fitur baru multi-komponen   • Ide belum matang
+ • Bug fix terlokalisir        • Perubahan alur data/bisnis  • Greenfield project
+ • CSS / Copy / One-liner      • Butuh kesepakatan arsitek   • Tingkat ketidakpastian tinggi
            │                            │                            │
            ▼                            ▼                            ▼
-  [Direct Fix / TDD]             [The Main Flow]                [Wayfinder]
-  • No grilling needed           1. /grill-with-docs            1. Map decision tickets
-  • Minimal diff                 2. /to-spec                    2. Settle blockers
-  • Fast verification            3. /to-tickets                 3. Hand off to /to-spec
+  [Direct Fix / /tdd]            [The Main Flow]                [Wayfinder]
+  1. Native edit / test          1. /grill-with-docs            1. Pemetaan kartu keputusan
+  2. Zero pipeline bloat         2. /to-spec                    2. Selesaikan blocker satu per satu
+  3. Verifikasi cepat            3. /to-tickets                 3. Oper ke /to-spec saat terang
                                  4. /implement (/tdd + review)
 ```
 
 ### Panduan Ambang Batas Kompleksitas:
 | Level Kompleksitas | Karakteristik Tugas | Alur Rekomendasi | Skill Terkait |
 | :--- | :--- | :--- | :--- |
-| **Micro (Level 1)** | Ganti copy, perbaiki CSS, tambah helper 1 line, fix typo. | Direct Edit / Verification | *None / Pure Edit* |
+| **Micro (Level 1)** | Ganti copy, perbaiki CSS, tambah helper 1 line, fix typo. | Direct Edit / Verification | *Tanpa skill (Pure Native)* |
 | **Minor (Level 2)** | Tambah endpoint CRUD standar, fix bug dengan alur jelas. | TDD Focused | `tdd`, `diagnosing-bugs` |
-| **Standard (Level 3)** | Fitur baru lengkap, integrasi payment gateway, sistem auth. | Main Flow (Idea → Ship) | `grill-with-docs`, `to-spec`, `to-tickets`, `implement`, `code-review` |
+| **Standard (Level 3)** | Fitur baru lengkap, integrasi payment gateway, sistem auth. | Main Flow (Idea $	o$ Ship) | `grill-with-docs`, `to-spec`, `to-tickets`, `implement`, `code-review` |
 | **Epic (Level 4)** | Rancang platform dari nol, migrasi arsitektur monolit ke microservices. | Exploratory Mapping | `wayfinder`, `domain-modeling`, `research`, `prototype` |
 | **Ambiguous (?)** | Tidak tahu harus mulai dari mana atau flow mana yang cocok. | Interactive Routing | `ask-matt` |
-
 
 ---
 
@@ -78,8 +82,8 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
 
 1. **`grill-with-docs`**
    - **Fungsi**: Wawancara mendalam (*relentless interview*) untuk menantang asumsi, menemukan edge-case, dan merekam hasil kesepakatan dalam format `CONTEXT.md` dan ADR (*Architecture Decision Record*).
-   - **Kapan Digunakan**: Saat memulai fitur baru di dalam direktori proyek aktif.
-   - **Bedanya dengan `grill-me`**: `grill-with-docs` bersifat **stateful** (menulis file ke disk), sedangkan `grill-me` bersifat stateless (cocok di luar repo).
+   - **Kapan Digunakan**: Memulai fitur baru di dalam repositori aktif.
+   - **Bedanya dengan `grill-me`**: `grill-with-docs` bersifat **stateful** (menulis file ke disk), sedangkan `grill-me` bersifat stateless (cocok di luar direktori repo).
 
 2. **`to-spec`**
    - **Fungsi**: Menyintesis obrolan, hasil grilling, dan kesepakatan arsitektur menjadi satu dokumen spesifikasi sistem teknis (*System Spec*) yang utuh.
@@ -94,13 +98,14 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
    - **Kapan Digunakan**: Fase penulisan kode per-tiket. Bekerja dalam context window bersih (`/clear` antar tiket).
 
 5. **`tdd`**
-   - **Fungsi**: Mendorong disiplin penulisan kode *Red-Green-Refactor* (tulis unit test yang gagal → tulis kode minimal → refactor).
-   - **Kapan Digunakan**: Saat membangun behavior baru atau memperbaiki bug secara test-first.
+   - **Fungsi**: Mendorong disiplin penulisan kode *Red-Green-Refactor* (tulis unit test yang gagal $	o$ tulis kode minimal $	o$ refactor).
+   - **Kapan Digunakan**: Membangun behavior baru atau memperbaiki bug secara test-first.
 
 6. **`code-review`**
    - **Fungsi**: Meninjau git diff secara objektif pada dua sumbu: **Standards** (aturan repo) dan **Spec** (kesesuaian tiket).
    - **Kapan Digunakan**: Sebelum commit/merge atau saat memeriksa Pull Request.
 
+---
 
 ### 🅱️ Strategic Planning, Prototyping & Investigation
 
@@ -114,11 +119,11 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
 
 9. **`research`**
    - **Fungsi**: Menugaskan sub-agent di background untuk membaca sumber primer (dokumentasi resmi, RFC, standard API) dan menghasilkan ringkasan Markdown terverifikasi.
-   - **Kapan Digunakan**: Saat butuh kepastian teknis pihak ketiga tanpa membebani context window sesi utama.
+   - **Kapan Digunakan**: Memerlukan kepastian teknis pihak ketiga tanpa membebani context window sesi utama.
 
 10. **`to-questionnaire`**
     - **Fungsi**: Kebalikan dari grilling; mengubah ketidakpastian yang bergantung pada pihak eksternal menjadi daftar kuesioner rapi untuk dikirim ke klien/stakeholder.
-    - **Kapan Digunakan**: Saat keputusan teknis terhambat oleh missing requirement dari luar tim.
+    - **Kapan Digunakan**: Keputusan teknis terhambat oleh missing requirement dari luar tim.
 
 ---
 
@@ -126,85 +131,78 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
 
 11. **`diagnosing-bugs`**
     - **Fungsi**: Loop diagnosis ketat untuk bug sulit/flaky. Menolak berteori sebelum memiliki *single command feedback loop* yang mereproduksi kegagalan (merah), lalu membuat tes regresi.
-    - **Kapan Digunakan**: Saat ada laporan bug misterius, error intermiten, atau regresi performa.
+    - **Kapan Digunakan**: Menghadapi laporan bug misterius, error intermiten, atau regresi performa.
 
-12. **`improve-codebase-architecture`**
+12. **`triage`**
+    - **Fungsi**: Memproses issue mentah dan PR eksternal melalui state-machine triage, mengategorikan, memverifikasi, dan menyusun brief kerja yang siap dieksekusi agent.
+    - **Kapan Digunakan**: Menangani backlog issue yang menumpuk dari user/kontributor luar.
+
+13. **`improve-codebase-architecture`**
     - **Fungsi**: Memindai codebase untuk menemukan peluang perbaikan struktur modul (*deep modules*) dan menyajikannya dalam laporan visual HTML.
-    - **Kapan Digunakan**: Saat jadwal refactoring berkala atau maintenance codebase.
+    - **Kapan Digunakan**: Jadwal refactoring berkala atau maintenance codebase.
 
-13. **`codebase-design` & `domain-modeling`**
+14. **`codebase-design` & `domain-modeling`**
     - **Fungsi**:
       - `codebase-design`: Mengatur interface modul agar dalam (*deep modules: interface sempit, fungsionalitas kaya*).
       - `domain-modeling`: Menajamkan istilah bisnis (domain glossary) di `CONTEXT.md` dan mencatat ADR.
     - **Kapan Digunakan**: Layer kosakata yang mendasari proses arsitektur dan refactoring.
 
-14. **`resolving-merge-conflicts`**
+15. **`resolving-merge-conflicts`**
     - **Fungsi**: Menyelesaikan git merge/rebase conflict hunk demi hunk berdasarkan intensi asli author tanpa pernah menjalankan `--abort`.
     - **Kapan Digunakan**: Terjadi konflik git saat rebase/merge.
 
-15. **`retro`**
+16. **`retro`**
     - **Fungsi**: Menjalankan evaluasi retrospeksi setelah fitur selesai dibuat untuk mendokumentasikan apa yang dipelajari dan apa yang perlu di-improve.
-
 
 ---
 
 ### 🅳 Manajemen Konteks & Interaksi Sesi
 
-16. **`ask-matt`**
+17. **`ask-matt`**
     - **Fungsi**: Router interaktif yang merekomendasikan skill atau workflow mana yang paling pas untuk kondisi spesifik saat ini.
-    - **Kapan Digunakan**: Saat ragu memilih alur kerja terbaik.
+    - **Kapan Digunakan**: Ragu memilih alur kerja terbaik.
 
-17. **`handoff` & `claude-handoff`**
+18. **`handoff` & `claude-handoff`**
     - **Fungsi**: Memadatkan (*compact*) riwayat percakapan panjang ke satu file Markdown portabel untuk dilanjutkan oleh agen/sesi baru dengan token bersih.
-    - **Kapan Digunakan**: Saat context window mendekati zona degradasi (>150k token) atau ingin berganti lingkungan/worktree.
+    - **Kapan Digunakan**: Context window mendekati zona degradasi (>150k token) atau ingin berganti lingkungan/worktree.
 
-18. **`wait-what`**
+19. **`wait-what`**
     - **Fungsi**: Rem darurat untuk mereset penjelasan agent yang melenceng atau terlalu berbelit-belit agar dijelaskan ulang dengan bahasa yang lebih sederhana dan grounded.
-    - **Kapan Digunakan**: Saat respons agen sebelumnya tidak mendarat dengan baik.
+    - **Kapan Digunakan**: Respons agen sebelumnya tidak mendarat dengan baik atau mulai halu.
 
 ---
 
 ### 🅴 Setup, Automation & Tooling Khusus
 
-19. **`setup-matt-pocock-skills`**
+20. **`setup-matt-pocock-skills`**
     - **Fungsi**: Menginisialisasi konfigurasi awal di repositori baru (triage labels, direktori ADR `docs/adr/`, format `CONTEXT.md`, dan tracker issues).
     - **Kapan Digunakan**: Dijalankan satu kali saat pertama kali menyiapkan repositori baru.
 
-20. **`wizard`**
+21. **`wizard`**
     - **Fungsi**: Mengenerate script Bash interaktif langkah-demi-langkah untuk tugas-tugas yang hanya bisa dieksekusi oleh manusia (membuka dashboard cloud, setup secret CI, konfigurasi payment key).
     - **Kapan Digunakan**: Menemukan blocker yang mutlak membutuhkan tindakan langsung user di GUI/dashboard eksternal.
 
-21. **`setup-ts-deep-modules`**
+22. **`setup-ts-deep-modules`**
     - **Fungsi**: Memasang `dependency-cruiser` pada project TypeScript untuk membatasi akses modul internal agar hanya bisa diakses via entry point.
 
-22. **`migrate-to-shoehorn`**
+23. **`migrate-to-shoehorn`**
     - **Fungsi**: Mengganti type assertion kotor (`as Type`) pada file testing dengan helper resmi `@total-typescript/shoehorn`.
 
-23. **`writing-fragments` → `writing-beats` → `writing-shape` → `writing-for-agents`**
-    - **Fungsi**: Rantai penulisan konten/artikel/dokumentasi dari ide mentah acak (*fragments*) → rangkaian ketukan alur (*beats*) → paragraf utuh (*shape*) → format optimal LLM (*writing-for-agents*).
-
+24. **`writing-fragments` → `writing-beats` → `writing-shape` → `writing-for-agents`**
+    - **Fungsi**: Rantai penulisan konten/artikel/dokumentasi dari ide mentah acak (*fragments*) $	o$ rangkaian ketukan alur (*beats*) $	o$ paragraf utuh (*shape*) $	o$ format optimal LLM (*writing-for-agents*).
 
 ---
 
-## ⚡ 4. Aturan Integrasi Global Agent (Kilo / Claude Code)
+## ⚡ 4. Ringkasan Eksekusi bagi AI Agent
 
-Agar seluruh workflow di atas berjalan otomatis tanpa konfigurasi manual berulang:
-
-1. **Global Hook**: Konfigurasi `~/.claude/CLAUDE.md` atau `~/.config/kilo/AGENTS.md` diarahkan untuk membaca aturan workflow ini.
-2. **Prosedur Pre-Flight**:
-   ```
-   [Tugas Masuk] 
-         │
-         ├──> 1. Analisis Kompleksitas (Micro vs Standard vs Epic)
-         │
-         ├──> 2. Tentukan Skill yang Dibutuhkan
-         │
-         ├──> 3. Cek Ketersediaan Skill di Disk (~/.kilocode/skills/ atau .kilo/skills/)
-         │        ├──> [Ada] → Panggil tool skill / ikuti instruksi resminya
-         │        └──> [Tidak Ada] → Terapkan alur logisnya secara native
-         │
-         └──> 4. Eksekusi & Validasi Hasil
-   ```
-
-3. **Context Zone Management**: Jaga ukuran context di bawah 150k token (Smart Zone). Jika sesi mulai panjang sebelum `/to-tickets`, lakukan compact di batas fase (*phase boundary*).
-
+```
+[Prompt Masuk]
+      │
+      ▼
+Apakah task sudah jelas & yakin aman?
+      ├──> [YA] $	o$ Eksekusi Langsung (Direct Execution / Native Tools)
+      │
+      └──> [TIDAK] $	o$ Cek Kompleksitas & Cek Ketersediaan Skill di Disk
+                         ├──> [Skill Ada] $	o$ Jalankan Tool Skill Terkait
+                         └──> [Skill Tidak Ada] $	o$ Terapkan Metodologi Logisnya secara Native
+```
