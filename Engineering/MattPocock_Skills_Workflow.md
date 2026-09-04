@@ -100,3 +100,47 @@ Rute standar pembuatan fitur dari konsep hingga siap merge:
    - **Fungsi**: Meninjau git diff secara objektif pada dua sumbu: **Standards** (aturan repo) dan **Spec** (kesesuaian tiket).
    - **Kapan Digunakan**: Sebelum commit/merge atau saat memeriksa Pull Request.
 
+
+### 🅱️ Strategic Planning, Prototyping & Investigation
+
+7. **`wayfinder`**
+   - **Fungsi**: Memecahkan inisiatif raksasa / *greenfield project* yang terlalu gelap (*foggy*) untuk satu sesi menjadi peta keputusan bersama (*map of decision tickets*).
+   - **Kapan Digunakan**: Proyek sangat besar yang belum jelas arsitektur akhirnya. Menghasilkan *keputusan*, bukan *deliverable*, lalu diserahkan ke `/to-spec`.
+
+8. **`prototype`**
+   - **Fungsi**: Membangun kode purwarupa cepat (*throwaway code*) untuk menjawab pertanyaan teknis (apakah state model cocok? bagaimana interaksi UI-nya?).
+   - **Kapan Digunakan**: Saat debat desain tidak bisa diselesaikan hanya lewat diskusi. Disimpan di branch `prototype/<name>` sebagai sumber primer.
+
+9. **`research`**
+   - **Fungsi**: Menugaskan sub-agent di background untuk membaca sumber primer (dokumentasi resmi, RFC, standard API) dan menghasilkan ringkasan Markdown terverifikasi.
+   - **Kapan Digunakan**: Saat butuh kepastian teknis pihak ketiga tanpa membebani context window sesi utama.
+
+10. **`to-questionnaire`**
+    - **Fungsi**: Kebalikan dari grilling; mengubah ketidakpastian yang bergantung pada pihak eksternal menjadi daftar kuesioner rapi untuk dikirim ke klien/stakeholder.
+    - **Kapan Digunakan**: Saat keputusan teknis terhambat oleh missing requirement dari luar tim.
+
+---
+
+### 🅲 Diagnosis, Arsitektur & Pemeliharaan Codebase
+
+11. **`diagnosing-bugs`**
+    - **Fungsi**: Loop diagnosis ketat untuk bug sulit/flaky. Menolak berteori sebelum memiliki *single command feedback loop* yang mereproduksi kegagalan (merah), lalu membuat tes regresi.
+    - **Kapan Digunakan**: Saat ada laporan bug misterius, error intermiten, atau regresi performa.
+
+12. **`improve-codebase-architecture`**
+    - **Fungsi**: Memindai codebase untuk menemukan peluang perbaikan struktur modul (*deep modules*) dan menyajikannya dalam laporan visual HTML.
+    - **Kapan Digunakan**: Saat jadwal refactoring berkala atau maintenance codebase.
+
+13. **`codebase-design` & `domain-modeling`**
+    - **Fungsi**:
+      - `codebase-design`: Mengatur interface modul agar dalam (*deep modules: interface sempit, fungsionalitas kaya*).
+      - `domain-modeling`: Menajamkan istilah bisnis (domain glossary) di `CONTEXT.md` dan mencatat ADR.
+    - **Kapan Digunakan**: Layer kosakata yang mendasari proses arsitektur dan refactoring.
+
+14. **`resolving-merge-conflicts`**
+    - **Fungsi**: Menyelesaikan git merge/rebase conflict hunk demi hunk berdasarkan intensi asli author tanpa pernah menjalankan `--abort`.
+    - **Kapan Digunakan**: Terjadi konflik git saat rebase/merge.
+
+15. **`retro`**
+    - **Fungsi**: Menjalankan evaluasi retrospeksi setelah fitur selesai dibuat untuk mendokumentasikan apa yang dipelajari dan apa yang perlu di-improve.
+
