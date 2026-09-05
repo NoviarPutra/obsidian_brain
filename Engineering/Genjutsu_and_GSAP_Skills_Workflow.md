@@ -73,7 +73,30 @@ Genjutsu terbagi menjadi dua pipeline utama: **`cast`** (enhancement) dan **`pai
 
 ---
 
-## 🟢 3. GSAP Suite (Official Animation Engine)
+## 💎 3. Deep Dive: `ui-ux-pro-max` (Design System Intelligence)
+
+`ui-ux-pro-max` adalah sub-modul otak kecerdasan desain Genjutsu yang menyediakan rekomendasi instan, tokenisasi tema, dan validasi heuristik UX berbasis dataset CSV + CLI tool.
+
+### 📊 Dataset Anatomy
+- **84 Styles**: Neo-brutalism, Glassmorphism, Minimalist, Cyberpunk, Bento grid, Material You, iOS Liquid, dsb.
+- **192 Color Palettes**: Semantic tokens (primary, surface, accent, destructive) dengan kalkulasi contrast WCAG teruji.
+- **74 Font Pairings**: Kombinasi heading/body untuk berbagai persona produk (SaaS, Luxury, Editorial, Developer Tool).
+- **99 UX Guidelines**: Aturan heuristik dengan prioritas ketat (P1 Accessibility & Touch -> P8 Charts).
+- **22 Stacks Support**: React, Next.js, Vue, Nuxt, Svelte, Tailwind, Shadcn UI, SwiftUI, Compose, Flutter, Three.js, dsb.
+
+### ⌨️ CLI Query & Intelligence Tools
+Agen AI dapat mengeksekusi script query langsung di `~/.agents/skills/genjutsu/_jutsu/ui-ux-pro-max/scripts/`:
+```bash
+# Search UX guidelines atau style
+python3 ~/.agents/skills/genjutsu/_jutsu/ui-ux-pro-max/scripts/search.py "dark mode contrast"
+
+# Generate complete design system tokens untuk stack tertentu
+python3 ~/.agents/skills/genjutsu/_jutsu/ui-ux-pro-max/scripts/design_system.py --stack react --style modern-saas
+```
+
+---
+
+## 🟢 4. GSAP Suite (Official Animation Engine)
 
 Paket resmi 8 skill terspesialisasi untuk orkestrasi animasi kelas industri dengan GreenSock Animation Platform.
 
