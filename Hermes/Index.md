@@ -2,18 +2,18 @@
 tags:
   - hermes/agent
   - hermes/dashboard
-total_sessions: 0
-last_synced: "2026-09-03T14:46:52.459342+00:00"
+total_sessions: 1
+last_synced: "2026-09-05T06:10:17.326191+00:00"
 ---
 # ⚕️ Hermes Agent Knowledge & Session Archive
 
-*Synced from local Hermes database on 2026-09-03 14:46:52 UTC*
+*Synced from local Hermes database on 2026-09-05 06:10:17 UTC*
 
 ## 🛠️ Integrated Capabilities
 
 - **Obsidian MCP Server**: `Enabled` (14 file & vault tools)
 - **Primary Model**: `AG` (Gemini 3.7 Flash High via OmniRoute Gateway)
-- **Recorded CLI Sessions**: `0`
+- **Recorded CLI Sessions**: `1`
 
 ---
 
@@ -21,10 +21,7 @@ last_synced: "2026-09-03T14:46:52.459342+00:00"
 
 | Title / Session | Model | Working Dir | Messages | Started At |
 | :--- | :--- | :--- | :--- | :--- |
-| *(No sessions recorded yet)* | - | - | - | - |
-
-> [!NOTE]
-> Hermes sessions will automatically appear here once conversations are completed in CLI.
+| **`Generate neon cybernetic owl image`** | `AG` | `/home/budiawan` | `6` | `2026-09-05 06:09` |
 
 ---
 
