@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 27419
+total_requests: 27468
 success_rate: "97.5%"
-last_updated: "2026-09-05T09:30:01.365667+00:00"
+last_updated: "2026-09-05T10:00:01.899387+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-05 09:30:01 UTC*
+*Synced from OmniRoute VPS database on 2026-09-05 10:00:01 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `27.4k`
-- **Success Rate**: `97.54%`
+- **Total AI Requests**: `27.5k`
+- **Success Rate**: `97.55%`
 - **Input Tokens Processed**: `632.24M` (`632,244,257` tokens)
 - **Output Tokens Generated**: `3.19M` (`3,191,229` tokens)
 - **Cache Tokens Read**: `560.70M`
-- **Avg Response Duration**: `2,319 ms`
+- **Avg Response Duration**: `2,316 ms`
 
 ---
 
@@ -25,9 +25,9 @@ last_updated: "2026-09-05T09:30:01.365667+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`antigravity`** | `10.8k` | `604.84M` | `2.98M` | `3943 ms` |
-| **`groq`** | `10.1k` | `74.1k` | `4.8k` | `1345 ms` |
-| **`claude`** | `2.5k` | `27.30M` | `208.2k` | `1058 ms` |
+| **`antigravity`** | `10.8k` | `604.84M` | `2.98M` | `3941 ms` |
+| **`groq`** | `10.1k` | `74.1k` | `4.8k` | `1344 ms` |
+| **`claude`** | `2.5k` | `27.30M` | `208.2k` | `1056 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`upstage`** | `1.1k` | `17.9k` | `144` | `418 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
@@ -49,7 +49,7 @@ last_updated: "2026-09-05T09:30:01.365667+00:00"
 | **`connection-test`** | `claude` | `2.3k` | `0` | `6 ms` |
 | **`connection-test`** | `upstage` | `1.1k` | `0` | `414 ms` |
 | **`connection-test`** | `ollama-cloud` | `1.0k` | `0` | `673 ms` |
-| **`connection-test`** | `antigravity` | `969` | `0` | `457 ms` |
+| **`connection-test`** | `antigravity` | `973` | `0` | `457 ms` |
 | **`connection-test`** | `openrouter` | `864` | `0` | `427 ms` |
 | **`connection-test`** | `openference-api` | `538` | `0` | `2577 ms` |
 | **`claude-sonnet-4-6`** | `antigravity` | `415` | `25.96M` | `9427 ms` |
