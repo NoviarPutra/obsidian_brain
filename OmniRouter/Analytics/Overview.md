@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 28699
-success_rate: "97.6%"
-last_updated: "2026-09-05T18:30:02.202489+00:00"
+total_requests: 28889
+success_rate: "97.7%"
+last_updated: "2026-09-05T19:00:01.630001+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-05 18:30:02 UTC*
+*Synced from OmniRoute VPS database on 2026-09-05 19:00:01 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `28.7k`
-- **Success Rate**: `97.64%`
-- **Input Tokens Processed**: `645.73M` (`645,729,916` tokens)
-- **Output Tokens Generated**: `3.26M` (`3,256,979` tokens)
-- **Cache Tokens Read**: `571.32M`
-- **Avg Response Duration**: `2,286 ms`
+- **Total AI Requests**: `28.9k`
+- **Success Rate**: `97.65%`
+- **Input Tokens Processed**: `659.67M` (`659,674,800` tokens)
+- **Output Tokens Generated**: `3.32M` (`3,318,746` tokens)
+- **Cache Tokens Read**: `584.00M`
+- **Avg Response Duration**: `2,292 ms`
 
 ---
 
@@ -25,9 +25,9 @@ last_updated: "2026-09-05T18:30:02.202489+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`antigravity`** | `11.2k` | `618.33M` | `3.04M` | `3915 ms` |
+| **`antigravity`** | `11.3k` | `632.28M` | `3.10M` | `3916 ms` |
 | **`groq`** | `10.8k` | `74.1k` | `4.8k` | `1347 ms` |
-| **`claude`** | `2.6k` | `27.30M` | `208.2k` | `1016 ms` |
+| **`claude`** | `2.6k` | `27.30M` | `208.2k` | `1014 ms` |
 | **`upstage`** | `1.2k` | `17.9k` | `144` | `414 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
@@ -44,10 +44,10 @@ last_updated: "2026-09-05T18:30:02.202489+00:00"
 
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`connection-test`** | `groq` | `10.7k` | `0` | `1336 ms` |
-| **`gemini-3.7-flash-high`** | `antigravity` | `9.7k` | `595.41M` | `4049 ms` |
+| **`connection-test`** | `groq` | `10.8k` | `0` | `1336 ms` |
+| **`gemini-3.7-flash-high`** | `antigravity` | `9.8k` | `609.42M` | `4050 ms` |
 | **`connection-test`** | `claude` | `2.4k` | `0` | `6 ms` |
-| **`connection-test`** | `upstage` | `1.2k` | `0` | `411 ms` |
+| **`connection-test`** | `upstage` | `1.2k` | `0` | `410 ms` |
 | **`connection-test`** | `antigravity` | `1.0k` | `0` | `449 ms` |
 | **`connection-test`** | `ollama-cloud` | `1.0k` | `0` | `673 ms` |
 | **`connection-test`** | `openrouter` | `864` | `0` | `427 ms` |
