@@ -136,13 +136,16 @@ Paket resmi 8 skill terspesialisasi untuk orkestrasi animasi kelas industri deng
 
 ---
 
-## 🎯 4. Decision Matrix: Kapan Pakai Apa?
+## 🎯 5. Decision Matrix: Kapan Pakai Apa?
 
 ```
 Kebutuhan Visual / Motion
 │
 ├──> Ingin desain sistem / visual identity baru dari nol?
-│    └──> Jalankan `/genjutsu:paint` (brainstorm -> design tokens -> MASTER.md -> audit)
+│    └──> Jalankan `/genjutsu:paint` (query `ui-ux-pro-max` -> tokens -> MASTER.md -> audit)
+│
+├──> Ingin riset style, palette, typography, atau aturan UX?
+│    └──> Query modul `ui-ux-pro-max` (via search.py / design_system.py)
 │
 ├──> Ingin mempercantik komponen / halaman yang sudah ada?
 │    └──> Jalankan `/genjutsu:cast`
@@ -161,7 +164,7 @@ Kebutuhan Visual / Motion
 
 ---
 
-## 🔒 5. Checklist Verifikasi Sebelum Deliver
+## 🔒 6. Checklist Verifikasi Sebelum Deliver
 
 - [ ] **FPS Benchmark**: Konstan 60 FPS tanpa jank di DevTools Performance panel.
 - [ ] **Reduced Motion**: Mendukung `prefers-reduced-motion: reduce` (animasi dimatikan/disederhanakan untuk a11y).
