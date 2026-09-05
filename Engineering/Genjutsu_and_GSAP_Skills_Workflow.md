@@ -52,7 +52,7 @@ Genjutsu terbagi menjadi dua pipeline utama: **`cast`** (enhancement) dan **`pai
 ### 🥷 Katalog Sub-Modul (Jutsu Skills)
 
 #### A. Web & Cross-Platform Engine
-1. **`ui-ux-pro-max`**: Design system intelligence internal (database 84 style visual, 192 palette warna, 74 font pairing, 99 pedoman UX lintas 22 tech stack).
+1. **`ui-ux-pro-max`**: Design system intelligence core (database terstruktur berisi 84 style visual, 192 palette warna, 74 font pairing, 99 pedoman UX, 25 jenis chart lintas 22 tech stack + CLI Python search engine).
 2. **`css-native`**: Animasi modern zero-dependency (Scroll-Driven Animations, View Transitions API, `@starting-style`, CSS Houdini).
 3. **`framer-motion`**: Motion orchestration untuk React/Next.js (`AnimatePresence`, layout animation, drag/gesture physics).
 4. **`canvas-generative`**: Algorithmic & generative art di HTML5 Canvas 2D (partikel, flow fields, Perlin noise, fractals, L-systems).
