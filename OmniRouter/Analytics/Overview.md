@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 31419
+total_requests: 31477
 success_rate: "97.8%"
-last_updated: "2026-09-06T13:30:01.412744+00:00"
+last_updated: "2026-09-06T14:00:01.941683+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-06 13:30:01 UTC*
+*Synced from OmniRoute VPS database on 2026-09-06 14:00:01 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `31.4k`
-- **Success Rate**: `97.84%`
+- **Total AI Requests**: `31.5k`
+- **Success Rate**: `97.85%`
 - **Input Tokens Processed**: `705.37M` (`705,373,192` tokens)
 - **Output Tokens Generated**: `3.45M` (`3,445,252` tokens)
 - **Cache Tokens Read**: `624.15M`
-- **Avg Response Duration**: `2,229 ms`
+- **Avg Response Duration**: `2,227 ms`
 
 ---
 
@@ -26,9 +26,9 @@ last_updated: "2026-09-06T13:30:01.412744+00:00"
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
 | **`groq`** | `12.4k` | `74.1k` | `4.8k` | `1350 ms` |
-| **`antigravity`** | `11.9k` | `677.97M` | `3.23M` | `3870 ms` |
-| **`claude`** | `2.8k` | `27.30M` | `208.2k` | `936 ms` |
-| **`upstage`** | `1.4k` | `17.9k` | `144` | `406 ms` |
+| **`antigravity`** | `11.9k` | `677.97M` | `3.23M` | `3869 ms` |
+| **`claude`** | `2.9k` | `27.30M` | `208.2k` | `934 ms` |
+| **`upstage`** | `1.4k` | `17.9k` | `144` | `405 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
 | **`openference-api`** | `592` | `738` | `646` | `2755 ms` |
@@ -47,8 +47,8 @@ last_updated: "2026-09-06T13:30:01.412744+00:00"
 | **`connection-test`** | `groq` | `12.3k` | `0` | `1340 ms` |
 | **`gemini-3.7-flash-high`** | `antigravity` | `10.2k` | `655.25M` | `4041 ms` |
 | **`connection-test`** | `claude` | `2.6k` | `0` | `6 ms` |
-| **`connection-test`** | `upstage` | `1.4k` | `0` | `403 ms` |
-| **`connection-test`** | `antigravity` | `1.2k` | `0` | `439 ms` |
+| **`connection-test`** | `upstage` | `1.4k` | `0` | `402 ms` |
+| **`connection-test`** | `antigravity` | `1.2k` | `0` | `441 ms` |
 | **`connection-test`** | `ollama-cloud` | `1.0k` | `0` | `673 ms` |
 | **`connection-test`** | `openrouter` | `864` | `0` | `427 ms` |
 | **`connection-test`** | `openference-api` | `538` | `0` | `2577 ms` |
