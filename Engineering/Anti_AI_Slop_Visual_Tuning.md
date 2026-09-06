@@ -66,8 +66,9 @@ Setiap kali merancang prompt visual, agen wajib menyandarkan deskripsi pada **pa
 
 ## 🛠️ 4. Asset Routing & Production
 
-- **Agent Name**: `visual` (Kilo primary agent) & `hermes-visual` (diagrams/Excalidraw/video).
-- **Target Folder**: `public/assets/images/` atau direct code (SVG / HTML5 Canvas).
+- **Image & Diagram Generation**: Didelegasikan ke subagent **`hermes-visual`** via tool `image_gen` (Cloudflare Workers AI - FLUX.1 Schnell) dan Hermes CLI (`hermes -z`).
+- **UI & Creative Code (Frontend)**: Ditangani langsung oleh **Kilo Native** via skill Genjutsu (`cast`, `paint`, `threejs-r3f`, `canvas-generative`).
+- **Target Folder**: `public/assets/images/` atau direct code (SVG / HTML5 Canvas / Excalidraw JSON).
 - **Aspect Ratio Mapping**:
   - Web Hero Banner: `16:9` / `21:9`
   - Cards & Social Feed: `4:5` / `1:1`
