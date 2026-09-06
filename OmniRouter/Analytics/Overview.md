@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 30123
-success_rate: "97.7%"
-last_updated: "2026-09-06T03:30:02.216733+00:00"
+total_requests: 30181
+success_rate: "97.8%"
+last_updated: "2026-09-06T04:00:01.626607+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-06 03:30:02 UTC*
+*Synced from OmniRoute VPS database on 2026-09-06 04:00:01 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `30.1k`
+- **Total AI Requests**: `30.2k`
 - **Success Rate**: `97.75%`
 - **Input Tokens Processed**: `701.50M` (`701,502,575` tokens)
 - **Output Tokens Generated**: `3.42M` (`3,424,932` tokens)
 - **Cache Tokens Read**: `621.76M`
-- **Avg Response Duration**: `2,270 ms`
+- **Avg Response Duration**: `2,267 ms`
 
 ---
 
@@ -25,9 +25,9 @@ last_updated: "2026-09-06T03:30:02.216733+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`antigravity`** | `11.6k` | `674.10M` | `3.21M` | `3906 ms` |
-| **`groq`** | `11.5k` | `74.1k` | `4.8k` | `1349 ms` |
-| **`claude`** | `2.7k` | `27.30M` | `208.2k` | `976 ms` |
+| **`antigravity`** | `11.6k` | `674.10M` | `3.21M` | `3904 ms` |
+| **`groq`** | `11.6k` | `74.1k` | `4.8k` | `1348 ms` |
+| **`claude`** | `2.7k` | `27.30M` | `208.2k` | `974 ms` |
 | **`upstage`** | `1.3k` | `17.9k` | `144` | `410 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
