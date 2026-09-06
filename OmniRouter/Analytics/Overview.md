@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 32673
+total_requests: 32742
 success_rate: "97.9%"
-last_updated: "2026-09-06T20:30:02.215100+00:00"
+last_updated: "2026-09-06T21:00:01.635517+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-06 20:30:02 UTC*
+*Synced from OmniRoute VPS database on 2026-09-06 21:00:01 UTC*
 
 ## ⚡ Key Metrics
 
 - **Total AI Requests**: `32.7k`
-- **Success Rate**: `97.91%`
-- **Input Tokens Processed**: `734.87M` (`734,869,705` tokens)
-- **Output Tokens Generated**: `3.58M` (`3,581,232` tokens)
-- **Cache Tokens Read**: `647.43M`
-- **Avg Response Duration**: `2,226 ms`
+- **Success Rate**: `97.92%`
+- **Input Tokens Processed**: `735.26M` (`735,255,099` tokens)
+- **Output Tokens Generated**: `3.58M` (`3,583,668` tokens)
+- **Cache Tokens Read**: `647.76M`
+- **Avg Response Duration**: `2,224 ms`
 
 ---
 
@@ -25,9 +25,9 @@ last_updated: "2026-09-06T20:30:02.215100+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`groq`** | `13.0k` | `74.1k` | `4.8k` | `1352 ms` |
-| **`antigravity`** | `12.4k` | `707.47M` | `3.37M` | `3860 ms` |
-| **`claude`** | `2.9k` | `27.30M` | `208.2k` | `910 ms` |
+| **`groq`** | `13.0k` | `74.1k` | `4.8k` | `1353 ms` |
+| **`antigravity`** | `12.4k` | `707.86M` | `3.37M` | `3858 ms` |
+| **`claude`** | `2.9k` | `27.30M` | `208.2k` | `908 ms` |
 | **`upstage`** | `1.5k` | `17.9k` | `144` | `405 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
@@ -44,8 +44,8 @@ last_updated: "2026-09-06T20:30:02.215100+00:00"
 
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`connection-test`** | `groq` | `12.9k` | `0` | `1343 ms` |
-| **`gemini-3.7-flash-high`** | `antigravity` | `10.7k` | `684.88M` | `4039 ms` |
+| **`connection-test`** | `groq` | `12.9k` | `0` | `1344 ms` |
+| **`gemini-3.7-flash-high`** | `antigravity` | `10.7k` | `685.27M` | `4039 ms` |
 | **`connection-test`** | `claude` | `2.7k` | `0` | `6 ms` |
 | **`connection-test`** | `upstage` | `1.5k` | `0` | `402 ms` |
 | **`connection-test`** | `antigravity` | `1.2k` | `0` | `443 ms` |
