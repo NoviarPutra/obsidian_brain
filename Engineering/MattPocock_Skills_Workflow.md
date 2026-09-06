@@ -6,7 +6,7 @@ tags:
   - engineering/guidelines
   - matt-pocock
 date: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-07
 type: reference
 ---
 
@@ -20,12 +20,15 @@ Panduan arsitektur dan operasional seluruh skill rekayasa perangkat lunak Matt P
 
 Agen AI yang membaca dokumen ini **wajib** mematuhi 5 pilar operasional berikut:
 
-1. **Direct Execution First (Eksekusi Langsung)**:
-   - Jika instruksi/tugas user sudah jelas, dipahami secara penuh, dan yakin bisa diselesaikan tanpa kendala (misal: single-file fix, helper function, typo, CSS tweak, refactor sepele), **langsung kerjakan dengan native tools**.
-   - **TIDAK PERLU** memanggil skill apa pun jika tidak ada nilai tambah arsitektural.
+1. **Proactive Skill Routing (Auto-Load by Intent)**:
+   - Proaktif memanggil tool `skill` saat task domain cocok (bug diagnosis -> `diagnosing-bugs`, testing/fitur -> `tdd`/`implement`, planning/ambigu -> `grill-me`/`to-spec`, UI motion -> `cast`).
+   - Jangan menunggu user mengetik `/nama-skill` secara manual. Evaluasi 3 sinyal utama (*Locality/Scope*, *Ambiguity*, *Behavioral Risk*).
+   - Bypass pemanggilan skill hanya untuk task sepele deterministik (typo, 1-line edit, CSS tweak lokal).
 
-2. **Auto-Trigger Cerdas (Tanpa Panggilan Manual)**:
-   - Jangan menunggu user mengetik `/nama-skill`. Kenali intensi dan bobot tugas secara otomatis untuk mengaktifkan workflow terkait hanya saat dibutuhkan.
+2. **Intent Evaluation via 3 Signals**:
+   - **Locality & Scope**: 1 file/baris lokal vs cross-file/modul.
+   - **Ambiguity**: Instruksi jelas langsung vs butuh investigasi/discovery.
+   - **Behavioral Risk**: Kosmetik/typo vs perubahan state runtime, schema, atau logic kritis.
 
 3. **Anti-Overengineering (Prinsip YAGNI)**:
    - Dilarang memaksakan pipeline panjang (*grill → spec → tickets → implement*) untuk tugas kecil.
