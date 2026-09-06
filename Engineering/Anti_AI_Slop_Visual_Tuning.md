@@ -13,7 +13,7 @@ type: reference
 
 # 🎨 Anti-AI-Slop Visual Tuning & Image Generation Protocol
 
-Dokumen ini adalah **single source of truth** untuk agen visual (`visual`) dan perancangan prompt/aset visual di ekosistem Kilo dan Hermes agar terbebas dari artefak klise/generik AI (*plastic look, oversaturated neon, cliché compositions*).
+Dokumen ini adalah **single source of truth** untuk subagent **`hermes-visual`** (generasi gambar Cloudflare FLUX.1, diagram arsitektur, infografis Baoyu, dan video motion) serta **Kilo Agent** (perancangan UI visual & motion Genjutsu) agar seluruh output visual di ekosistem terbebas dari artefak klise/generik AI (*plastic look, oversaturated neon, cliché compositions*).
 
 ---
 
