@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 29717
+total_requests: 29775
 success_rate: "97.7%"
-last_updated: "2026-09-06T00:00:02.065048+00:00"
+last_updated: "2026-09-06T00:30:01.525258+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-06 00:00:02 UTC*
+*Synced from OmniRoute VPS database on 2026-09-06 00:30:01 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `29.7k`
+- **Total AI Requests**: `29.8k`
 - **Success Rate**: `97.72%`
 - **Input Tokens Processed**: `701.50M` (`701,502,575` tokens)
 - **Output Tokens Generated**: `3.42M` (`3,424,932` tokens)
 - **Cache Tokens Read**: `621.76M`
-- **Avg Response Duration**: `2,287 ms`
+- **Avg Response Duration**: `2,284 ms`
 
 ---
 
@@ -25,9 +25,9 @@ last_updated: "2026-09-06T00:00:02.065048+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`antigravity`** | `11.6k` | `674.10M` | `3.21M` | `3914 ms` |
+| **`antigravity`** | `11.6k` | `674.10M` | `3.21M` | `3913 ms` |
 | **`groq`** | `11.3k` | `74.1k` | `4.8k` | `1349 ms` |
-| **`claude`** | `2.7k` | `27.30M` | `208.2k` | `991 ms` |
+| **`claude`** | `2.7k` | `27.30M` | `208.2k` | `989 ms` |
 | **`upstage`** | `1.2k` | `17.9k` | `144` | `412 ms` |
 | **`ollama-cloud`** | `1.1k` | `0` | `0` | `734 ms` |
 | **`openrouter`** | `948` | `2.7k` | `854` | `860 ms` |
@@ -48,7 +48,7 @@ last_updated: "2026-09-06T00:00:02.065048+00:00"
 | **`gemini-3.7-flash-high`** | `antigravity` | `10.1k` | `651.35M` | `4059 ms` |
 | **`connection-test`** | `claude` | `2.4k` | `0` | `6 ms` |
 | **`connection-test`** | `upstage` | `1.2k` | `0` | `409 ms` |
-| **`connection-test`** | `antigravity` | `1.1k` | `0` | `444 ms` |
+| **`connection-test`** | `antigravity` | `1.1k` | `0` | `443 ms` |
 | **`connection-test`** | `ollama-cloud` | `1.0k` | `0` | `673 ms` |
 | **`connection-test`** | `openrouter` | `864` | `0` | `427 ms` |
 | **`connection-test`** | `openference-api` | `538` | `0` | `2577 ms` |
