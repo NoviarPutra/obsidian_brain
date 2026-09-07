@@ -2,13 +2,13 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 34586
+total_requests: 34593
 success_rate: "97.7%"
-last_updated: "2026-09-07T21:00:02.241501+00:00"
+last_updated: "2026-09-07T21:30:01.692310+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-07 21:00:02 UTC*
+*Synced from OmniRoute VPS database on 2026-09-07 21:30:01 UTC*
 
 ## ⚡ Key Metrics
 
@@ -25,17 +25,17 @@ last_updated: "2026-09-07T21:00:02.241501+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`groq`** | `14.0k` | `74.2k` | `4.9k` | `1338 ms` |
-| **`antigravity`** | `12.3k` | `695.23M` | `3.26M` | `3868 ms` |
-| **`claude`** | `2.8k` | `27.30M` | `208.2k` | `958 ms` |
-| **`upstage`** | `1.8k` | `17.9k` | `144` | `396 ms` |
-| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `858` | `36.9k` | `160` | `2062 ms` |
-| **`openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67`** | `783` | `0` | `0` | `1416 ms` |
-| **`ollama-cloud`** | `549` | `0` | `0` | `800 ms` |
-| **`openrouter`** | `463` | `2.0k` | `829` | `1183 ms` |
-| **`openference-api`** | `298` | `709` | `582` | `3146 ms` |
-| **`aihorde`** | `270` | `103` | `2` | `2719 ms` |
-| **`agentrouter`** | `245` | `414` | `37` | `4969 ms` |
+| **`groq`** | `14.0k` | `74.2k` | `4.9k` | `1339 ms` |
+| **`antigravity`** | `12.3k` | `695.23M` | `3.26M` | `3867 ms` |
+| **`claude`** | `2.8k` | `27.30M` | `208.2k` | `960 ms` |
+| **`upstage`** | `1.8k` | `17.9k` | `144` | `395 ms` |
+| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `876` | `36.9k` | `160` | `2054 ms` |
+| **`openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67`** | `819` | `0` | `0` | `1398 ms` |
+| **`ollama-cloud`** | `525` | `0` | `0` | `813 ms` |
+| **`openrouter`** | `440` | `2.0k` | `829` | `1195 ms` |
+| **`openference-api`** | `286` | `709` | `582` | `3202 ms` |
+| **`aihorde`** | `276` | `103` | `2` | `2716 ms` |
+| **`agentrouter`** | `251` | `414` | `37` | `4947 ms` |
 | **`zenmux`** | `164` | `57` | `128` | `1501 ms` |
 | **`AG`** | `52` | `0` | `0` | `7971 ms` |
 | **`openai-compatible-chat-f3465424-d157-4419-a80a-f2cdee9559b8`** | `51` | `333` | `81` | `5892 ms` |
@@ -56,13 +56,13 @@ last_updated: "2026-09-07T21:00:02.241501+00:00"
 | **`connection-test`** | `claude` | `2.5k` | `0` | `7 ms` |
 | **`connection-test`** | `upstage` | `1.8k` | `0` | `393 ms` |
 | **`connection-test`** | `antigravity` | `1.3k` | `0` | `445 ms` |
-| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `828` | `0` | `1862 ms` |
-| **`connection-test`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `708` | `0` | `1166 ms` |
-| **`connection-test`** | `ollama-cloud` | `463` | `0` | `742 ms` |
+| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `846` | `0` | `1857 ms` |
+| **`connection-test`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `744` | `0` | `1158 ms` |
 | **`claude-sonnet-4-6`** | `antigravity` | `458` | `27.21M` | `9104 ms` |
-| **`connection-test`** | `openrouter` | `410` | `0` | `520 ms` |
-| **`connection-test`** | `aihorde` | `267` | `0` | `2709 ms` |
-| **`connection-test`** | `openference-api` | `249` | `0` | `2813 ms` |
+| **`connection-test`** | `ollama-cloud` | `439` | `0` | `755 ms` |
+| **`connection-test`** | `openrouter` | `390` | `0` | `530 ms` |
+| **`connection-test`** | `aihorde` | `273` | `0` | `2706 ms` |
 | **`claude-sonnet-5`** | `claude` | `246` | `27.51M` | `10765 ms` |
-| **`connection-test`** | `agentrouter` | `238` | `0` | `5088 ms` |
+| **`connection-test`** | `agentrouter` | `244` | `0` | `5062 ms` |
+| **`connection-test`** | `openference-api` | `237` | `0` | `2864 ms` |
 | **`openai/gpt-oss-120b`** | `groq` | `68` | `78.8k` | `3029 ms` |
