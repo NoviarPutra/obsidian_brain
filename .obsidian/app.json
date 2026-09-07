@@ -1,1 +1,9 @@
-{}
+{
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "readableLineLength": true,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "/"
+}
