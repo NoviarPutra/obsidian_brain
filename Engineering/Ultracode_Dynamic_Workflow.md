@@ -25,7 +25,14 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Ultracode Dynamic Workflo
    - Protokol berjalan di atas model LLM apa pun (Claude, GPT, DeepSeek, Gemini, Qwen, local LLM).
    - Seluruh sub-agent mewarisi model session aktif secara dinamis (*dynamic model inheritance*).
 
-2. **Ponytail Philosophy (Lazy Senior Dev)**:
+2. **Large-Document Ingestion & Zero-Gap Comprehension**:
+   - Mampu dan sanggup menelan 4-7+ dokumen markdown berukuran masif (2.000 hingga 20.000+ baris per file) secara terstruktur, detail, dan tanpa gap/kehilangan konteks (*lossless comprehension*).
+   - **Trik Operasional**:
+     - *Windowed Chunk Streaming*: Membaca file masif via tool `read` menggunakan `offset` dan `limit` berkala secara bertahap atau mengekstrak outline/heading terlebih dahulu.
+     - *Parallel Context Ingestion*: Memanfaatkan parallel sub-agents (`task: explore` / `task: general`) untuk mencerna dokumen-dokumen secara independen lalu mensintesiskan *cross-document domain graph* & *truth matrix*.
+     - *Exhaustive Cross-Referencing*: Memverifikasi referensi silang antar dokumen tanpa asumsi parsial atau halusinasi rangkuman pendek.
+
+3. **Ponytail Philosophy (Lazy Senior Dev)**:
    - Zero unrequested abstractions, zero boilerplate, YAGNI, shortest working diffs.
    - Perbaikan bug selalu menargetkan *root cause* di fungsi bersama (*shared function*), bukan menambal gejala pada setiap pemanggil (*caller*).
 
@@ -42,10 +49,11 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Ultracode Dynamic Workflo
 
 ```
 ┌────────────────────────────────────────────────────────┐
-│ Phase 1: Scout & Task Decomposition (Zero Direct Code) │
+│ Phase 1: Scout, Large-Doc Ingestion & Decomposition    │
+│ - Chunked/Parallel reading (2k-20k lines docs/codebase)│
 │ - Search & map scope boundaries (grep, glob, read)     │
-│ - Emit structured JSON DAG tickets                     │
-│ - Register tickets into todowrite                      │
+│ - Cross-document domain graph & truth matrix synthesis │
+│ - Emit structured JSON DAG tickets & todowrite         │
 └───────────────────────────┬────────────────────────────┘
                             │
                             ▼
@@ -106,7 +114,32 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Ultracode Dynamic Workflo
 
 ---
 
-## ⚙️ 5. Integrasi Konfigurasi Kilo (`kilo.json`)
+## 📚 5. Protokol Pembacaan Dokumen Masif (Massive Document Ingestion Protocol)
+
+Ketika berhadapan dengan 4-7+ dokumen markdown berukuran besar (2.000 s/d 20.000+ baris per file), agent Ultracode mengeksekusi strategi **Hierarchical Map-Reduce Ingestion** untuk menjamin pemahaman 100% tanpa celah (*zero gap*):
+
+1. **Structural Table of Contents (TOC) & Section Boundary Scan**:
+   - Menghindari *dumping* isi file secara membabi-buta ke context window utama.
+   - Menggunakan `grep` untuk mengekstrak struktur heading (`#`, `##`, `###`) dan line numbers dari tiap file guna memetakan arsitektur dokumen.
+
+2. **Windowed Offset-Limit Traversal**:
+   - Membaca file masif per blok 2.000 baris menggunakan `read` (`offset=1, limit=2000`, `offset=2001, limit=2000`, dst.) secara sistematis atau menargetkan section yang relevan dengan presisi baris.
+
+3. **Sub-Agent Fan-Out (Parallel Document Processing)**:
+   - Mendelegasikan pembacaan dan analisis tiap file (atau potongan file besar) ke sub-agent independen via `task` (`explore` atau `general`).
+   - Setiap sub-agent menghasilkan *Structured Extraction Payload*:
+     - **Core Architecture & Invariants**: Aturan mutlak dan state machine.
+     - **Entity & Glossary Mapping**: Entitas, model data, dan relasi.
+     - **Actionable Requirements & Constraints**: Dependency graf, edge cases, cross-file references.
+     - **Exact Line Citations**: Bookmark baris penting untuk deep reference.
+
+4. **Cross-Document Fusion & Truth Matrix**:
+   - Main agent menggabungkan output ekstraksi dari seluruh dokumen menjadi satu *Unified Knowledge Graph* dan *Truth Matrix*.
+   - Mencegah kontradiksi antar dokumen dan memastikan tidak ada blind spot sebelum melangkah ke Phase 2 (Execution).
+
+---
+
+## ⚙️ 6. Integrasi Konfigurasi Kilo (`kilo.json`)
 
 Agent `⚡ Ultracode` didaftarkan secara global di `~/.config/kilo/kilo.json`:
 - **Agent Name**: `ultracode` (Display: `⚡ Ultracode`, Color: `accent`, Mode: `all`).
