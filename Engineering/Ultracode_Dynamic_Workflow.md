@@ -13,6 +13,8 @@ type: reference
 
 # ⚡ Ultracode Dynamic Workflow Engine
 
+> **Activation Scope**: Engine ini **HANYA** aktif jika user secara eksplisit memilih agent `⚡ Ultracode` atau mengeksekusi command `/ultracode`. Pada agent lain (`code`, `plan`, `ask`, `debug`, `orchestrator`), protokol ini **TIDAK AKAN** ter-trigger dan alur kerja berjalan normal sesuai mode masing-masing.
+
 Dokumen arsitektur dan spesifikasi operasional untuk **Ultracode Dynamic Workflow Engine**. Protokol ini mengorkestrasi agen rekayasa perangkat lunak otonom (*autonomous engineering agent*) dengan disiplin tinggi menggunakan state machine 4-fase deterministik, dekomposisi task graf terarah (*Directed Acyclic Graph / DAG*), isolasi sub-agent, dan *adversarial dual-axis review*.
 
 ---
