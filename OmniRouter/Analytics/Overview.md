@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 34312
+total_requests: 34369
 success_rate: "97.8%"
-last_updated: "2026-09-08T08:30:02.285235+00:00"
+last_updated: "2026-09-08T09:00:01.739554+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-08 08:30:02 UTC*
+*Synced from OmniRoute VPS database on 2026-09-08 09:00:01 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `34.3k`
+- **Total AI Requests**: `34.4k`
 - **Success Rate**: `97.81%`
-- **Input Tokens Processed**: `694.39M` (`694,392,821` tokens)
-- **Output Tokens Generated**: `3.26M` (`3,255,947` tokens)
-- **Cache Tokens Read**: `604.20M`
-- **Avg Response Duration**: `2,240 ms`
+- **Input Tokens Processed**: `695.54M` (`695,535,579` tokens)
+- **Output Tokens Generated**: `3.26M` (`3,261,739` tokens)
+- **Cache Tokens Read**: `604.73M`
+- **Avg Response Duration**: `2,242 ms`
 
 ---
 
@@ -25,14 +25,14 @@ last_updated: "2026-09-08T08:30:02.285235+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`groq`** | `13.9k` | `71.3k` | `4.4k` | `1332 ms` |
-| **`antigravity`** | `11.9k` | `666.96M` | `3.04M` | `3828 ms` |
-| **`claude`** | `2.6k` | `27.30M` | `208.2k` | `1007 ms` |
-| **`upstage`** | `1.9k` | `17.9k` | `144` | `392 ms` |
-| **`openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67`** | `1.5k` | `0` | `0` | `1668 ms` |
-| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `1.2k` | `36.9k` | `160` | `1991 ms` |
-| **`aihorde`** | `401` | `103` | `2` | `2688 ms` |
-| **`agentrouter`** | `345` | `414` | `37` | `5258 ms` |
+| **`groq`** | `13.9k` | `71.3k` | `4.4k` | `1331 ms` |
+| **`antigravity`** | `12.0k` | `668.10M` | `3.05M` | `3829 ms` |
+| **`claude`** | `2.6k` | `27.30M` | `208.2k` | `1010 ms` |
+| **`upstage`** | `1.9k` | `17.9k` | `144` | `391 ms` |
+| **`openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67`** | `1.5k` | `0` | `0` | `1687 ms` |
+| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `1.3k` | `36.9k` | `160` | `1994 ms` |
+| **`aihorde`** | `407` | `103` | `2` | `2691 ms` |
+| **`agentrouter`** | `351` | `414` | `37` | `5237 ms` |
 | **`zenmux`** | `164` | `57` | `128` | `1501 ms` |
 | **`ollama-cloud`** | `63` | `0` | `0` | `740 ms` |
 | **`openai-compatible-chat-f3465424-d157-4419-a80a-f2cdee9559b8`** | `51` | `333` | `81` | `5892 ms` |
@@ -49,16 +49,16 @@ last_updated: "2026-09-08T08:30:02.285235+00:00"
 
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`connection-test`** | `groq` | `13.9k` | `0` | `1325 ms` |
-| **`gemini-3.7-flash-high`** | `antigravity` | `10.1k` | `642.80M` | `4047 ms` |
+| **`connection-test`** | `groq` | `13.9k` | `0` | `1323 ms` |
+| **`gemini-3.7-flash-high`** | `antigravity` | `10.1k` | `643.95M` | `4047 ms` |
 | **`connection-test`** | `claude` | `2.4k` | `0` | `7 ms` |
 | **`connection-test`** | `upstage` | `1.9k` | `0` | `389 ms` |
-| **`connection-test`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `1.4k` | `0` | `1556 ms` |
-| **`connection-test`** | `antigravity` | `1.4k` | `0` | `433 ms` |
-| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `1.2k` | `0` | `1854 ms` |
+| **`connection-test`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `1.4k` | `0` | `1577 ms` |
+| **`connection-test`** | `antigravity` | `1.4k` | `0` | `435 ms` |
+| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `1.2k` | `0` | `1859 ms` |
 | **`claude-sonnet-4-6`** | `antigravity` | `458` | `27.21M` | `9104 ms` |
-| **`connection-test`** | `aihorde` | `398` | `0` | `2681 ms` |
-| **`connection-test`** | `agentrouter` | `338` | `0` | `5348 ms` |
+| **`connection-test`** | `aihorde` | `404` | `0` | `2684 ms` |
+| **`connection-test`** | `agentrouter` | `344` | `0` | `5325 ms` |
 | **`claude-sonnet-5`** | `claude` | `246` | `27.51M` | `10765 ms` |
 | **`openai/gpt-oss-120b`** | `groq` | `60` | `75.6k` | `2835 ms` |
 | **`AG`** | `AG` | `51` | `0` | `8053 ms` |
