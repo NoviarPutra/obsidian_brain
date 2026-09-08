@@ -2,21 +2,21 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 34783
+total_requests: 34791
 success_rate: "97.6%"
-last_updated: "2026-09-08T15:30:01.414003+00:00"
+last_updated: "2026-09-08T16:00:01.913777+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-08 15:30:01 UTC*
+*Synced from OmniRoute VPS database on 2026-09-08 16:00:01 UTC*
 
 ## ⚡ Key Metrics
 
 - **Total AI Requests**: `34.8k`
 - **Success Rate**: `97.64%`
-- **Input Tokens Processed**: `726.52M` (`726,524,844` tokens)
-- **Output Tokens Generated**: `3.44M` (`3,442,158` tokens)
-- **Cache Tokens Read**: `612.65M`
+- **Input Tokens Processed**: `725.87M` (`725,865,472` tokens)
+- **Output Tokens Generated**: `3.44M` (`3,438,985` tokens)
+- **Cache Tokens Read**: `612.11M`
 - **Avg Response Duration**: `2,307 ms`
 
 ---
@@ -25,14 +25,14 @@ last_updated: "2026-09-08T15:30:01.414003+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`groq`** | `13.9k` | `71.3k` | `4.4k` | `1316 ms` |
-| **`antigravity`** | `11.9k` | `699.09M` | `3.23M` | `3911 ms` |
-| **`claude`** | `2.6k` | `27.30M` | `208.2k` | `1041 ms` |
-| **`upstage`** | `2.0k` | `17.9k` | `144` | `394 ms` |
-| **`openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67`** | `1.6k` | `0` | `0` | `2106 ms` |
-| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `1.5k` | `36.9k` | `160` | `2060 ms` |
-| **`aihorde`** | `480` | `103` | `2` | `2725 ms` |
-| **`agentrouter`** | `415` | `414` | `37` | `5554 ms` |
+| **`groq`** | `13.9k` | `71.3k` | `4.4k` | `1315 ms` |
+| **`antigravity`** | `11.9k` | `698.43M` | `3.23M` | `3912 ms` |
+| **`claude`** | `2.6k` | `27.30M` | `208.2k` | `1043 ms` |
+| **`upstage`** | `2.0k` | `17.9k` | `144` | `393 ms` |
+| **`openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67`** | `1.6k` | `0` | `0` | `2115 ms` |
+| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `1.5k` | `36.9k` | `160` | `2064 ms` |
+| **`aihorde`** | `486` | `103` | `2` | `2729 ms` |
+| **`agentrouter`** | `421` | `414` | `37` | `5535 ms` |
 | **`zenmux`** | `164` | `57` | `128` | `1501 ms` |
 | **`ollama-cloud`** | `63` | `0` | `0` | `740 ms` |
 | **`AG`** | `56` | `0` | `0` | `14941 ms` |
@@ -49,16 +49,16 @@ last_updated: "2026-09-08T15:30:01.414003+00:00"
 
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`connection-test`** | `groq` | `13.9k` | `0` | `1308 ms` |
-| **`gemini-3.7-flash-high`** | `antigravity` | `10.1k` | `675.12M` | `4156 ms` |
+| **`connection-test`** | `groq` | `13.9k` | `0` | `1307 ms` |
+| **`gemini-3.7-flash-high`** | `antigravity` | `10.0k` | `674.45M` | `4158 ms` |
 | **`connection-test`** | `claude` | `2.3k` | `0` | `7 ms` |
-| **`connection-test`** | `upstage` | `2.0k` | `0` | `392 ms` |
-| **`connection-test`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `1.5k` | `0` | `2024 ms` |
-| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `1.5k` | `0` | `1946 ms` |
-| **`connection-test`** | `antigravity` | `1.4k` | `0` | `438 ms` |
-| **`connection-test`** | `aihorde` | `477` | `0` | `2720 ms` |
+| **`connection-test`** | `upstage` | `2.0k` | `0` | `391 ms` |
+| **`connection-test`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `1.5k` | `0` | `2033 ms` |
+| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `1.5k` | `0` | `1952 ms` |
+| **`connection-test`** | `antigravity` | `1.4k` | `0` | `437 ms` |
+| **`connection-test`** | `aihorde` | `483` | `0` | `2723 ms` |
 | **`claude-sonnet-4-6`** | `antigravity` | `458` | `27.21M` | `9104 ms` |
-| **`connection-test`** | `agentrouter` | `408` | `0` | `5633 ms` |
+| **`connection-test`** | `agentrouter` | `414` | `0` | `5613 ms` |
 | **`claude-sonnet-5`** | `claude` | `246` | `27.51M` | `10765 ms` |
 | **`openai/gpt-oss-120b`** | `groq` | `60` | `75.6k` | `2835 ms` |
 | **`AG`** | `AG` | `56` | `0` | `14941 ms` |
