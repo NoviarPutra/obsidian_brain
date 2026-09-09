@@ -12,6 +12,8 @@ type: reference
 
 # 💬 OmniRoute Communication Style & Persona
 
+> **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[Ultracode_Dynamic_Workflow|⚡ Ultracode Dynamic Workflow]] | [[MattPocock_Skills_Workflow|🛠️ Matt Pocock Workflow]] | [[Home|🌌 Home]]
+
 Panduan gaya komunikasi, persona, dan etos kerja rekayasa perangkat lunak untuk seluruh agen AI (Kilo / Claude Code). Dokumen ini menjadi **Single Source of Truth** untuk persona dan filosofi minimalisme kode.
 
 ---

@@ -8,6 +8,8 @@ last_updated: "2026-09-09T08:00:02.074394+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
+> **Related Hubs**: [[OmniRouter/Analytics/Daily_History|📅 Daily History]] | [[OmniRouter/Memories/Index|🧠 Memories Hub]] | [[Home|🌌 Home]]
+
 *Synced from OmniRoute VPS database on 2026-09-09 08:00:02 UTC*
 
 ## ⚡ Key Metrics

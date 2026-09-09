@@ -12,6 +12,8 @@ type: reference
 
 # 🛠️ Matt Pocock Engineering Skills & Autonomous AI Flow
 
+> **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[Ultracode_Dynamic_Workflow|⚡ Ultracode Dynamic Workflow]] | [[OmniRoute_Communication_Style|💬 OmniRoute Persona]] | [[Home|🌌 Home]]
+
 Panduan arsitektur dan operasional seluruh skill rekayasa perangkat lunak Matt Pocock untuk agen AI (Kilo / Claude Code). Dokumen ini berfungsi sebagai **single source of truth** bagi agen AI agar dapat menentukan rute kerja, mengeksekusi skill secara otonom, dan memverifikasi ketersediaan dependensi tanpa overengineering atau kebingungan logika (*zero ambiguity*).
 
 ---

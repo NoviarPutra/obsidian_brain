@@ -7,6 +7,8 @@ last_synced: "2026-09-06T18:15:17.238066+00:00"
 ---
 # ⚕️ Hermes Agent Knowledge & Session Archive
 
+> **Related Hubs**: [[Hermes/SOUL|🔮 Hermes SOUL Directives]] | [[Worklogs/Index|📓 Worklogs]] | [[Home|🌌 Home]]
+
 *Synced from local Hermes database on 2026-09-06 18:15:17 UTC*
 
 ## 🛠️ Integrated Capabilities

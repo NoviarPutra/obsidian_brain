@@ -15,6 +15,8 @@ type: reference
 
 # 🎨 Genjutsu & GSAP Creative Coding & Motion Engine
 
+> **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[Anti_AI_Slop_Visual_Tuning|🎨 Anti-AI-Slop Visual Tuning]] | [[Home|🌌 Home]]
+
 Panduan komprehensif dan operasional untuk seluruh skill **Genjutsu** (Creative UI/UX, Motion, Anti-AI-Slop Visual Systems) dan **GSAP** (GreenSock Animation Platform) di ekosistem agen AI Kilo. Dokumen ini adalah **single source of truth** untuk standar implementasi animasi, interaksi mikro, dan visual design system lintas platform (Web, Jetpack Compose, SwiftUI).
 
 ---
