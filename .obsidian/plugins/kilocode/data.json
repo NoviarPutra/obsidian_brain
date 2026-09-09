@@ -7,7 +7,7 @@
   "chatViewPlacement": "right-sidebar",
   "locale": "en",
   "environmentVariables": {
-    "KILO_BASE_URL": "https://103-174-114-224.nip.io/v1"
+    "KILO_BASE_URL": "https://router.noviarputra/v1"
   },
   "autoStart": false,
   "defaultModel": "",
