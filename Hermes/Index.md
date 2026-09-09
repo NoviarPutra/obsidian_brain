@@ -2,18 +2,18 @@
 tags:
   - hermes/agent
   - hermes/dashboard
-total_sessions: 7
-last_synced: "2026-09-09T17:18:21.589882+00:00"
+total_sessions: 9
+last_synced: "2026-09-09T17:19:30.343231+00:00"
 ---
 # ⚕️ Hermes Agent Knowledge & Session Archive
 
-*Synced from local Hermes database on 2026-09-09 17:18:21 UTC*
+*Synced from local Hermes database on 2026-09-09 17:19:30 UTC*
 
 ## 🛠️ Integrated Capabilities
 
 - **Obsidian MCP Server**: `Enabled` (14 file & vault tools)
 - **Primary Model**: `AG` (Gemini 3.7 Flash High via OmniRoute Gateway)
-- **Recorded CLI Sessions**: `7`
+- **Recorded CLI Sessions**: `9`
 
 ---
 
@@ -21,6 +21,8 @@ last_synced: "2026-09-09T17:18:21.589882+00:00"
 
 | Title / Session | Model | Working Dir | Messages | Started At |
 | :--- | :--- | :--- | :--- | :--- |
+| **`Inspect Home.md first line`** | `AG` | `/home/budiawan` | `5` | `2026-09-09 17:19` |
+| **`reply with exactly: HERMES_OK`** | `AG` | `/home/budiawan` | `2` | `2026-09-09 17:18` |
 | **`test ping`** | `AG` | `/home/budiawan` | `1` | `2026-09-09 17:16` |
 | **`Generate brass rotary dial image`** | `AG` | `/home/budiawan` | `8` | `2026-09-06 18:14` |
 | **`Generate Swiss API Gateway poster SVG`** | `AG` | `/home/budiawan` | `10` | `2026-09-06 18:01` |
