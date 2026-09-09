@@ -2,18 +2,18 @@
 tags:
   - hermes/agent
   - hermes/dashboard
-total_sessions: 9
-last_synced: "2026-09-09T17:19:30.343231+00:00"
+total_sessions: 10
+last_synced: "2026-09-09T17:22:40.871853+00:00"
 ---
 # ⚕️ Hermes Agent Knowledge & Session Archive
 
-*Synced from local Hermes database on 2026-09-09 17:19:30 UTC*
+*Synced from local Hermes database on 2026-09-09 17:22:40 UTC*
 
 ## 🛠️ Integrated Capabilities
 
 - **Obsidian MCP Server**: `Enabled` (14 file & vault tools)
 - **Primary Model**: `AG` (Gemini 3.7 Flash High via OmniRoute Gateway)
-- **Recorded CLI Sessions**: `9`
+- **Recorded CLI Sessions**: `10`
 
 ---
 
@@ -21,6 +21,7 @@ last_synced: "2026-09-09T17:19:30.343231+00:00"
 
 | Title / Session | Model | Working Dir | Messages | Started At |
 | :--- | :--- | :--- | :--- | :--- |
+| **`Check enabled skills list`** | `AG` | `/home/budiawan` | `2` | `2026-09-09 17:22` |
 | **`Inspect Home.md first line`** | `AG` | `/home/budiawan` | `5` | `2026-09-09 17:19` |
 | **`reply with exactly: HERMES_OK`** | `AG` | `/home/budiawan` | `2` | `2026-09-09 17:18` |
 | **`test ping`** | `AG` | `/home/budiawan` | `1` | `2026-09-09 17:16` |
