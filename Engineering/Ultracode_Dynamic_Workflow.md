@@ -141,7 +141,17 @@ Ketika berhadapan dengan 4-7+ dokumen markdown berukuran besar (2.000 s/d 20.000
 
 ---
 
-## ⚙️ 6. Integrasi Konfigurasi Kilo (`kilo.json`)
+## 📓 6. Autonomous Worklog & Knowledge Persistence Directive
+
+1. **Auto-Persist Milestones**:
+   - Setelah menyelesaikan task atau milestone arsitektural (Level 2+), agent secara otonom mendokumentasikan ringkasan 2-3 baris ke daily worklog Obsidian (`/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`).
+   - Format: Waktu, topik/fitur, file disentuh, keputusan arsitektur, dan status verifikasi.
+2. **Zero Manual Overhead**:
+   - User tidak perlu lagi memanggil `/worklog` secara manual untuk setiap siklus task. Dokumen di-sync otomatis ke git remote via background runner.
+
+---
+
+## ⚙️ 7. Integrasi Konfigurasi Kilo (`kilo.json`)
 
 Agent `⚡ Ultracode` didaftarkan secara global di `~/.config/kilo/kilo.json`:
 - **Agent Name**: `ultracode` (Display: `⚡ Ultracode`, Color: `accent`, Mode: `all`).
