@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "cliPath": "",
+  "model": "",
+  "apiKey": "",
+  "maxTabs": 3,
+  "chatViewPlacement": "right-sidebar",
+  "locale": "en",
+  "environmentVariables": {
+    "KILO_BASE_URL": "https://103-174-114-224.nip.io/v1"
+  },
+  "autoStart": false,
+  "defaultModel": "",
+  "temperature": 0.7,
+  "autoSave": true,
+  "theme": "auto",
+  "fontSize": 14,
+  "compactKeepRecent": 5,
+  "permissionMode": "normal",
+  "mirrorUrl": "",
+  "idleTimeoutSeconds": 600,
+  "autoReview": false,
+  "customInstructions": ""
+}
