@@ -21,6 +21,8 @@ Guidelines and operational specs for autonomous AI agents and code craftsmanship
 - [[Engineering/Genjutsu_and_GSAP_Skills_Workflow|⚡ Genjutsu & GSAP Creative Engineering]]
 - [[Engineering/Anti_AI_Slop_Visual_Tuning|🎨 Anti-AI-Slop Visual Tuning Architecture]]
 - [[Engineering/OmniRoute_Communication_Style|💬 OmniRoute Communication Style & Persona]]
+- [[Engineering/DevOps_Isolation_Policy|🔒 DevOps VPS Isolation & Server Clean Layout]]
+- [[Engineering/Cloudflare_R2_Object_Storage_Architecture|☁️ Cloudflare R2 Object Storage Architecture]]
 
 ---
 

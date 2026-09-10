@@ -64,5 +64,10 @@ Real-world optical and physical anchoring:
 - Container-first architecture (zero host pollution) & modular service layout
 - Config versioning backups, non-breaking deployments, and SRE health observability
 
+### 7. [[Cloudflare_R2_Object_Storage_Architecture|☁️ Cloudflare R2 Object Storage Architecture & Media Flow]]
+- Cloudflare Workers AI FLUX.1 + R2 (`voldemort-gallery`) integration
+- Unified API token configuration and standard prefix layout (`flux/`, `documents/`, `backups/`)
+- Auto-cleaning local cache with $0 egress bandwidth architecture
+
 ---
 *Related: [[Home|🌌 Home]] | [[Worklogs/Index|📓 Worklogs]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]]*

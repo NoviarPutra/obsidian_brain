@@ -15,10 +15,9 @@ date: "2026-09-10"
 ## 🛡️ 1. Principle of Exclusive Delegation (Zero-Trust Tool Isolation)
 
 1. **Exclusive Delegation**:
-   - **HANYA** agent `devops` yang memiliki otorisasi untuk berinteraksi, menjalankan perintah SSH, deploy service, mengelola Docker container, atau mengubah konfigurasi di remote server VPS (`voldemort-vps` / production / staging) serta tools MCP `omniroute_*`.
+   - **HANYA** agent `devops` yang memiliki otorisasi untuk berinteraksi, menjalankan perintah SSH, deploy service, mengelola Docker container, atau mengubah konfigurasi di remote server VPS (`voldemort-vps` / production / staging).
 2. **Hard Lockdown for Other Agents**:
-   - Seluruh agent selain `devops` (`code`, `ultracode`, `ask`, `plan`, `debug`, `orchestrator`) **DILARANG KERAS** menjalankan command `ssh <vps-host>`, `scp`, `rsync` ke remote host, atau memanggil tool remote VPS (`omniroute_*`).
-   - Semua agent non-DevOps wajib memiliki rule explicit `"tools": { "omniroute_*": false }` di level konfigurasi `kilo.json`.
+   - Seluruh agent selain `devops` (`code`, `ultracode`, `ask`, `plan`, `debug`, `orchestrator`) **DILARANG KERAS** menjalankan command `ssh <vps-host>`, `scp`, `rsync` ke remote host.
 3. **Automated Sub-Agent Delegation (Frictionless Integration)**:
    - Jika agent `ultracode` atau agent coding lainnya memerlukan pembacaan log server, schema DB, atau health check di VPS, agent tersebut dilarang mengakses langsung dan **WAJIB** mendelegasikan tugas ke sub-agent `devops` via tool `task(subagent_type='devops', ...)` secara otonom.
 
