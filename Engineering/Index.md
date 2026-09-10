@@ -74,5 +74,10 @@ Real-world optical and physical anchoring:
 - Clean package decomposition (`telegram_bot/`), role-based admin menus (R2 & VPS status)
 - Zero-conflict polling guarantee and centralized 24/7 cloud runtime on `voldemort-vps`
 
+### 9. [[Telegram_Universal_Bot_Template_Architecture|🤖 Telegram Universal Bot & Hermes Agent Boilerplate Architecture]]
+- 3-in-1 multi-mode operational switcher (`menu` | `hermes` | `hybrid`)
+- Zero-dependency async SQLite WAL persistence & 3-Tier RBAC security layer
+- Drop-in plugin registry, universal LLM gateway, and 60-second CLI setup wizard (`init.sh`)
+
 ---
 *Related: [[Home|🌌 Home]] | [[Worklogs/Index|📓 Worklogs]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]]*
