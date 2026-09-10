@@ -69,5 +69,10 @@ Real-world optical and physical anchoring:
 - Unified API token configuration and standard prefix layout (`flux/`, `documents/`, `backups/`)
 - Auto-cleaning local cache with $0 egress bandwidth architecture
 
+### 8. [[Telegram_Bots_Architecture|🤖 Telegram Bots Dual Architecture & Modular Engine]]
+- Dual ecosystem: `@Voldemort_menu_bot` (Modular v2.0 Docker) & `Hermes AI Assistant Gateway` (Systemd)
+- Clean package decomposition (`telegram_bot/`), role-based admin menus (R2 & VPS status)
+- Zero-conflict polling guarantee and centralized 24/7 cloud runtime on `voldemort-vps`
+
 ---
 *Related: [[Home|🌌 Home]] | [[Worklogs/Index|📓 Worklogs]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]]*

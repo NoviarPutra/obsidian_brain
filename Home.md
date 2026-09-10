@@ -23,6 +23,7 @@ Guidelines and operational specs for autonomous AI agents and code craftsmanship
 - [[Engineering/OmniRoute_Communication_Style|💬 OmniRoute Communication Style & Persona]]
 - [[Engineering/DevOps_Isolation_Policy|🔒 DevOps VPS Isolation & Server Clean Layout]]
 - [[Engineering/Cloudflare_R2_Object_Storage_Architecture|☁️ Cloudflare R2 Object Storage Architecture]]
+- [[Engineering/Telegram_Bots_Architecture|🤖 Telegram Bots Dual Architecture & Modular Engine]]
 
 ---
 
