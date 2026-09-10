@@ -146,7 +146,10 @@ Ketika berhadapan dengan 4-7+ dokumen markdown berukuran besar (2.000 s/d 20.000
 1. **Auto-Persist Milestones**:
    - Setelah menyelesaikan task atau milestone arsitektural (Level 2+), agent secara otonom mendokumentasikan ringkasan 2-3 baris ke daily worklog Obsidian (`/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`).
    - Format: Waktu, topik/fitur, file disentuh, keputusan arsitektur, dan status verifikasi.
-2. **Zero Manual Overhead**:
+2. **Pre-Completion Zero-Gap & Stability Audit Directive**:
+   - Sebelum menyatakan task tuntas (Phase 4 finalization), agent **WAJIB** melakukan audit gap komparatif terhadap blueprint arsitektur/spesifikasi, mengecek kestabilan runtime, dan memastikan zero unhandled regression atau dangling state.
+   - Dilarang menutup task jika masih ada gap fungsional yang belum teratasi tanpa konfirmasi eksplisit.
+3. **Zero Manual Overhead**:
    - User tidak perlu lagi memanggil `/worklog` secara manual untuk setiap siklus task. Dokumen di-sync otomatis ke git remote via background runner.
 
 ---
