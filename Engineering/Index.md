@@ -59,5 +59,10 @@ Real-world optical and physical anchoring:
 - Jaksel street-smart, punchy, to-the-point bilingual style
 - **Ponytail (Lazy Senior Dev) Mindset**: YAGNI, shortest working diffs, fix root causes.
 
+### 6. [[DevOps_Isolation_Policy|🔒 DevOps VPS Isolation & Server Clean Layout]]
+- Exclusive delegation to dedicated `devops` agent & Zero-Trust tool lockdown
+- Container-first architecture (zero host pollution) & modular service layout
+- Config versioning backups, non-breaking deployments, and SRE health observability
+
 ---
 *Related: [[Home|🌌 Home]] | [[Worklogs/Index|📓 Worklogs]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]]*
