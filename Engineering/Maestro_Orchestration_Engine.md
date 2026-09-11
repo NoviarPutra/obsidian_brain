@@ -43,6 +43,7 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
 | **⚡ `builder`** | Isolated ticket TDD, root-cause bug fixing | `read`, `edit`, `write`, `glob`, `grep`, `bash` (test runner), `skill`, `todowrite` | Dilarang `ssh`, dilarang modif VPS | Ponytail minimal diff, Red-Green-Refactor. Proactive Skills: `tdd`, `implement`, `implement-spec`, `diagnosing-bugs`, `resolving-merge-conflicts`, `ui-styling`, `shadcn`, `migrate-radix-to-base`, `migrate-to-shoehorn`, `cast` (Genjutsu UI), `gsap-core`, `gsap-react`, `gsap-scrolltrigger`, `css-native`, `framer-motion`, `ui-ux-pro-max`. |
 | **⚖️ `reviewer`** | Dual-axis review, static audit, regression guard | `read`, `glob`, `grep`, `bash` (linter/test runner), `skill`, `kilo_local_recall` | Strict AUDITOR (`edit`, `write` forbidden) | Autonomous **PASS** / **REJECT** verdict with blockers. Proactive Skills: `code-review`, `design-audit`, `desktop-principles`, `mobile-principles`, `retro`. |
 | **🛠️ `devops`** | Remote VPS (`voldemort-vps`), Docker, Reverse Proxy | `bash` (SSH), `read`, `edit`, `write`, `todowrite`, MCP tools | Exclusive VPS authorization | Zero-host-pollution, backup before touch, safe deploy |
+| **🥷 `stealth`** | Stealth Web Scraping, Anti-Bot & Paywall Bypass | `webfetch`, `playwright_*`, `bash`, `read`, `write` | Dilarang mutating repo code & SSH VPS | Autonomous Stealth Recovery Ladder (Hermes / Playwright / Archive) |
 
 ---
 
