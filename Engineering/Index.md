@@ -19,7 +19,7 @@ Central map of content for all engineering standards, execution workflows, and d
                                  │
                  ┌───────────────┴───────────────┐
                  ▼                               ▼
-  [[Ultracode_Dynamic_Workflow|⚡ Ultracode Dynamic Workflow]]       [[OmniRoute_Communication_Style|💬 OmniRoute Persona & Style]]
+  [[Maestro_Orchestration_Engine|🎭 Maestro Orchestration Engine]]    [[OmniRoute_Communication_Style|💬 OmniRoute Persona & Style]]
                  │
   ┌──────────────┴──────────────┐
   ▼                             ▼
@@ -33,12 +33,12 @@ Central map of content for all engineering standards, execution workflows, and d
 
 ## 📚 Core Modules
 
-### 1. [[Ultracode_Dynamic_Workflow|⚡ Ultracode Dynamic Workflow Engine]]
-Autonomous high-leverage 4-phase state machine:
-- **Phase 1**: Scout, Large-Doc Ingestion & Task Decomposition (Zero Direct Code)
-- **Phase 2**: Isolated Ticket Execution (delegated to [[MattPocock_Skills_Workflow|Matt Pocock TDD loop]])
-- **Phase 3**: Adversarial Dual-Axis Review
-- **Phase 4**: Final Synthesis & Verification
+### 1. [[Maestro_Orchestration_Engine|🎭 Maestro Multi-Agent Orchestration Engine]]
+Autonomous high-leverage 4-phase state machine & squad dispatch:
+- **Phase 1**: Scout Reconnaissance, Large-Doc Ingestion & Task Decomposition (Zero Direct Code)
+- **Phase 2**: Isolated Ticket Execution (delegated to `builder` TDD loop / `genjutsu` UI)
+- **Phase 3**: Adversarial Dual-Axis Review (delegated to `reviewer`)
+- **Phase 4**: Final Synthesis & Workspace Verification (optional `devops` deploy)
 
 ### 2. [[MattPocock_Skills_Workflow|🛠️ Matt Pocock Autonomous AI Flow Engine]]
 Systematic problem-solving, deep modules, and test-driven development:
