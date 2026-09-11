@@ -15,7 +15,7 @@ type: reference
 
 > **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[MattPocock_Skills_Workflow|🛠️ Matt Pocock Workflow]] | [[OmniRoute_Communication_Style|💬 OmniRoute Persona]] | [[Home|🌌 Home]]
 
-> **Activation Scope**: Engine ini aktif saat menggunakan agent `🎭 Maestro` atau subagent squad (`scout`, `builder`, `reviewer`, `genjutsu`, `devops`). Maestro bertindak sebagai Chief Tech Lead & Orchestrator yang mengarahkan squad agent spesialis.
+> **Activation Scope**: Engine ini aktif saat menggunakan agent `🎭 Maestro` atau subagent squad (`scout`, `builder`, `reviewer`, `devops`). Maestro bertindak sebagai Chief Tech Lead & Orchestrator yang mengarahkan squad agent spesialis.
 
 Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orchestration Engine**. Protokol ini mengorkestrasi squad agen rekayasa perangkat lunak otonom (*autonomous engineering squad*) dengan pembagian peran, tools, kewenangan, dan quality gate yang sangat terisolasi dan disiplin.
 
@@ -29,11 +29,11 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
                                 │   High-Leverage Tech Lead, DAG Router & Synthesizer      │
                                 └────────────────────────────┬─────────────────────────────┘
                                                              │
-                 ┌───────────────────┬───────────────────────┼───────────────────────┬───────────────────┐
-                 │                   │                       │                       │                   │
-                 ▼                   ▼                       ▼                       ▼                   ▼
-          🔍 SCOUT            ⚡ BUILDER              ⚖️ REVIEWER             🎨 GENJUTSU          🛠️ DEVOPS
-     (Discovery & Specs)   (TDD Implementation)    (Adversarial QA)      (UI/UX & Motion)    (VPS & Remote SRE)
+                 ┌───────────────────┬───────────────────────┼───────────────────────┐
+                 │                   │                       │                       │
+                 ▼                   ▼                       ▼                       ▼
+          🔍 SCOUT            ⚡ BUILDER              ⚖️ REVIEWER             🛠️ DEVOPS
+     (Discovery & Specs)   (TDD Implementation)    (Adversarial QA)      (VPS & Remote SRE)
 ```
 
 | Agent | Focus & Specialization | Allowed Tools | Restricted Tools | Autonomous Decision |
@@ -42,7 +42,6 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
 | **🔍 `scout`** | Code exploration, caller tracing, large docs | `read`, `glob`, `grep`, `webfetch` | Strict READ-ONLY (`edit`, `write`, `bash` forbidden) | AST boundary mapping, Unified Truth Matrix |
 | **⚡ `builder`** | Isolated ticket TDD, root-cause bug fixing | `read`, `edit`, `write`, `glob`, `grep`, `bash` (test runner) | Dilarang `ssh`, dilarang modif VPS | Ponytail minimal diff, Red-Green-Refactor |
 | **⚖️ `reviewer`** | Dual-axis review, static audit, regression guard | `read`, `glob`, `grep`, `bash` (linter/test runner) | Strict AUDITOR (`edit`, `write` forbidden) | Autonomous **PASS** / **REJECT** verdict with blockers |
-| **🎨 `genjutsu`** | UI/UX motion, 60 FPS performance, Anti-AI-Slop | `read`, `edit`, `write`, `glob`, `grep`, `playwright_*` | Dilarang `ssh`, dilarang backend logic | Enforce hardware-accelerated transforms & tokens |
 | **🛠️ `devops`** | Remote VPS (`voldemort-vps`), Docker, Reverse Proxy | `bash` (SSH), `read`, `edit`, `write`, `todowrite`, MCP tools | Exclusive VPS authorization | Zero-host-pollution, backup before touch, safe deploy |
 
 ---
@@ -54,8 +53,8 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
 2. **Unified Truth Matrix**: Scout mensintesis temuan, dependensi, dan edge cases tanpa menyentuh file code.
 3. **Execution DAG**: Maestro memecah problem jadi tiket-tiket terisolasi dan mendaftarkannya di `todowrite`.
 
-### Phase 2: Isolated Ticket Execution (Builder / Genjutsu)
-1. **Context Isolation**: Maestro mendelegasikan tiap tiket ke agent spesialis (`builder` untuk core/TDD logic, `genjutsu` untuk visual/motion).
+### Phase 2: Isolated Ticket Execution (Builder)
+1. **Context Isolation**: Maestro mendelegasikan tiap tiket ke `builder` (backend/frontend logic).
 2. **TDD Cycle**: Builder menerapkan Red-Green-Refactor dengan prinsip Ponytail (Lazy Senior Dev) — shortest working diff wins.
 3. **Structured Return**: Subagent mengembalikan laporan perubahan file dan test assertion yang lulus.
 

@@ -16,7 +16,7 @@ Welcome to your central knowledge hub and persistent memory vault for **Kilo**, 
 
 ### 1. ⚡ [[Engineering/Index|Engineering & Architectural Standards]]
 Guidelines and operational specs for autonomous AI agents and code craftsmanship.
-- [[Engineering/Ultracode_Dynamic_Workflow|⚡ Ultracode Dynamic Workflow Engine]]
+- [[Engineering/Maestro_Orchestration_Engine|🎭 Maestro Multi-Agent Orchestration Engine]]
 - [[Engineering/MattPocock_Skills_Workflow|🛠️ Matt Pocock Skills & TDD Workflow]]
 - [[Engineering/Genjutsu_and_GSAP_Skills_Workflow|⚡ Genjutsu & GSAP Creative Engineering]]
 - [[Engineering/Anti_AI_Slop_Visual_Tuning|🎨 Anti-AI-Slop Visual Tuning Architecture]]

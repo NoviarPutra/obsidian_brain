@@ -17,9 +17,9 @@ date: "2026-09-10"
 1. **Exclusive Delegation**:
    - **HANYA** agent `devops` yang memiliki otorisasi untuk berinteraksi, menjalankan perintah SSH, deploy service, mengelola Docker container, atau mengubah konfigurasi di remote server VPS (`voldemort-vps` / production / staging).
 2. **Hard Lockdown for Other Agents**:
-   - Seluruh agent selain `devops` (`code`, `ultracode`, `ask`, `plan`, `debug`, `orchestrator`) **DILARANG KERAS** menjalankan command `ssh <vps-host>`, `scp`, `rsync` ke remote host.
+   - Seluruh agent selain `devops` (`code`, `maestro`, `scout`, `builder`, `reviewer`, `ask`, `plan`, `debug`, `orchestrator`) **DILARANG KERAS** menjalankan command `ssh <vps-host>`, `scp`, `rsync` ke remote host.
 3. **Automated Sub-Agent Delegation (Frictionless Integration)**:
-   - Jika agent `ultracode` atau agent coding lainnya memerlukan pembacaan log server, schema DB, atau health check di VPS, agent tersebut dilarang mengakses langsung dan **WAJIB** mendelegasikan tugas ke sub-agent `devops` via tool `task(subagent_type='devops', ...)` secara otonom.
+   - Jika agent `maestro` atau agent coding lainnya memerlukan pembacaan log server, schema DB, atau health check di VPS, agent tersebut dilarang mengakses langsung dan **WAJIB** mendelegasikan tugas ke sub-agent `devops` via tool `task(subagent_type='devops', ...)` secara otonom.
 
 ---
 
