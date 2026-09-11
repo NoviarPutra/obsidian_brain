@@ -39,7 +39,7 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
 | Agent | Focus & Specialization | Allowed Tools | Restricted Tools | Autonomous Decision |
 | :--- | :--- | :--- | :--- | :--- |
 | **🎭 `maestro`** | Chief Architect, DAG Routing, Quality Gates | `task`, `todowrite`, `read`, `glob`, `grep`, `webfetch`, `question` | Dilarang raw code implementation | Menentukan DAG tickets, flow, Circuit Breaker |
-| **🔍 `scout`** | Code exploration, caller tracing, large docs | `read`, `glob`, `grep`, `webfetch` | Strict READ-ONLY (`edit`, `write`, `bash` forbidden) | AST boundary mapping, Unified Truth Matrix |
+| **🔍 `scout`** | Code exploration, caller tracing, large docs | `read`, `glob`, `grep`, `webfetch`, `skill`, `kilo_local_recall` | Strict READ-ONLY (`edit`, `write`, `bash` forbidden) | AST boundary mapping, Unified Truth Matrix. Proactive Read-Only Skills: `codebase-design`, `improve-codebase-architecture`, `domain-modeling`, `research`, `kilo-config`, `find-skills`. |
 | **⚡ `builder`** | Isolated ticket TDD, root-cause bug fixing | `read`, `edit`, `write`, `glob`, `grep`, `bash` (test runner) | Dilarang `ssh`, dilarang modif VPS | Ponytail minimal diff, Red-Green-Refactor |
 | **⚖️ `reviewer`** | Dual-axis review, static audit, regression guard | `read`, `glob`, `grep`, `bash` (linter/test runner) | Strict AUDITOR (`edit`, `write` forbidden) | Autonomous **PASS** / **REJECT** verdict with blockers |
 | **🛠️ `devops`** | Remote VPS (`voldemort-vps`), Docker, Reverse Proxy | `bash` (SSH), `read`, `edit`, `write`, `todowrite`, MCP tools | Exclusive VPS authorization | Zero-host-pollution, backup before touch, safe deploy |
