@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 37756
+total_requests: 37896
 success_rate: "98.3%"
-last_updated: "2026-09-11T10:14:34.196111+00:00"
+last_updated: "2026-09-11T10:44:35.963193+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-11 10:14:34 UTC*
+*Synced from OmniRoute VPS database on 2026-09-11 10:44:35 UTC*
 
 ## ⚡ Key Metrics
 
-- **Total AI Requests**: `37.8k`
-- **Success Rate**: `98.29%`
-- **Input Tokens Processed**: `585.73M` (`585,729,596` tokens)
-- **Output Tokens Generated**: `2.55M` (`2,549,994` tokens)
-- **Cache Tokens Read**: `411.60M`
-- **Avg Response Duration**: `2,261 ms`
+- **Total AI Requests**: `37.9k`
+- **Success Rate**: `98.28%`
+- **Input Tokens Processed**: `598.25M` (`598,249,295` tokens)
+- **Output Tokens Generated**: `2.56M` (`2,555,579` tokens)
+- **Cache Tokens Read**: `417.66M`
+- **Avg Response Duration**: `2,270 ms`
 
 ---
 
@@ -26,13 +26,13 @@ last_updated: "2026-09-11T10:14:34.196111+00:00"
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
 | **`groq`** | `13.6k` | `86` | `64` | `1226 ms` |
-| **`antigravity`** | `9.4k` | `583.66M` | `2.50M` | `3882 ms` |
+| **`antigravity`** | `9.6k` | `596.93M` | `2.53M` | `3929 ms` |
 | **`openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67`** | `4.5k` | `0` | `0` | `2464 ms` |
-| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `3.8k` | `36.9k` | `160` | `2240 ms` |
-| **`claude`** | `2.0k` | `2.03M` | `48.4k` | `286 ms` |
+| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `3.8k` | `36.9k` | `160` | `2239 ms` |
+| **`claude`** | `2.0k` | `1.28M` | `21.1k` | `112 ms` |
 | **`upstage`** | `1.9k` | `121` | `16` | `450 ms` |
-| **`aihorde`** | `1.2k` | `206` | `4` | `2990 ms` |
-| **`agentrouter`** | `1.2k` | `414` | `37` | `5547 ms` |
+| **`aihorde`** | `1.2k` | `206` | `4` | `2988 ms` |
+| **`agentrouter`** | `1.2k` | `414` | `37` | `5538 ms` |
 | **`openai-compatible-chat-f3465424-d157-4419-a80a-f2cdee9559b8`** | `51` | `333` | `81` | `5892 ms` |
 | **`AG`** | `29` | `0` | `0` | `20982 ms` |
 | **`unoroutercom`** | `7` | `0` | `0` | `970 ms` |
@@ -46,17 +46,17 @@ last_updated: "2026-09-11T10:14:34.196111+00:00"
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
 | **`connection-test`** | `groq` | `13.6k` | `0` | `1225 ms` |
-| **`gemini-3.7-flash-high`** | `antigravity` | `7.1k` | `543.72M` | `4485 ms` |
+| **`gemini-3.7-flash-high`** | `antigravity` | `7.1k` | `543.06M` | `4486 ms` |
 | **`connection-test`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `4.4k` | `0` | `2292 ms` |
-| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `3.7k` | `0` | `2163 ms` |
+| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `3.8k` | `0` | `2162 ms` |
 | **`connection-test`** | `claude` | `1.9k` | `0` | `8 ms` |
 | **`connection-test`** | `upstage` | `1.9k` | `0` | `449 ms` |
-| **`connection-test`** | `antigravity` | `1.7k` | `0` | `492 ms` |
-| **`connection-test`** | `aihorde` | `1.2k` | `0` | `2874 ms` |
-| **`connection-test`** | `agentrouter` | `1.2k` | `0` | `5574 ms` |
-| **`gemini-3.8-flash-tiered`** | `antigravity` | `328` | `29.85M` | `5425 ms` |
+| **`connection-test`** | `antigravity` | `1.7k` | `0` | `506 ms` |
+| **`connection-test`** | `aihorde` | `1.2k` | `0` | `2873 ms` |
+| **`connection-test`** | `agentrouter` | `1.2k` | `0` | `5565 ms` |
+| **`gemini-3.8-flash-tiered`** | `antigravity` | `450` | `43.81M` | `6103 ms` |
 | **`claude-sonnet-4-6`** | `antigravity` | `278` | `12.59M` | `7278 ms` |
 | **`model-sync`** | `openai-compatible-chat-f58b1495-26f1-4b2a-a4f7-00b0ce6cbc67` | `44` | `0` | `21112 ms` |
-| **`claude-sonnet-5`** | `claude` | `38` | `2.08M` | `14538 ms` |
 | **`AG`** | `AG` | `29` | `0` | `20982 ms` |
+| **`claude-sonnet-5`** | `claude` | `22` | `1.30M` | `9359 ms` |
 | **`gpt-5.6-new`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `14` | `36.6k` | `8358 ms` |
