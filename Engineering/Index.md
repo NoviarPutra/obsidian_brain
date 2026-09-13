@@ -64,7 +64,8 @@ Real-world optical and physical anchoring:
 - Container-first architecture (zero host pollution) & modular service layout
 - Config versioning backups, non-breaking deployments, and SRE health observability
 
-### 7. [[Cloudflare_R2_Object_Storage_Architecture|☁️ Cloudflare R2 Object Storage Architecture & Media Flow]]
+- [[Engineering/Standalone_Face_Recognition_Anti_Spoofing_Architecture|Standalone Face Recognition & Anti-Spoofing Architecture (Zero ML Kit)]] - Production blueprint for high-security biometrics in Android & Flutter (BlazeFace + MiniFASNet + Screen Flash + ArcFace).
+- [[Engineering/Cloudflare_R2_Object_Storage_Architecture|Cloudflare R2 Object Storage Architecture]]
 - Cloudflare Workers AI FLUX.1 + R2 (`voldemort-gallery`) integration
 - Unified API token configuration and standard prefix layout (`flux/`, `documents/`, `backups/`)
 - Auto-cleaning local cache with $0 egress bandwidth architecture
