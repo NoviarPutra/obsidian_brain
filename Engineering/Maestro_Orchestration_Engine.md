@@ -15,7 +15,7 @@ type: reference
 
 > **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[MattPocock_Skills_Workflow|🛠️ Matt Pocock Workflow]] | [[OmniRoute_Communication_Style|💬 OmniRoute Persona]] | [[Home|🌌 Home]]
 
-> **Activation Scope**: Engine ini aktif saat menggunakan agent `🎭 Maestro` atau subagent squad (`scout`, `builder`, `reviewer`, `devops`, `redteam`). Maestro bertindak sebagai Chief Tech Lead & Orchestrator yang mengarahkan squad agent spesialis.
+> **Activation Scope**: Engine ini aktif saat menggunakan agent `🎭 Maestro` atau subagent squad (`scout`, `builder`, `reviewer`, `devops`, `stealth`). Maestro bertindak sebagai Chief Tech Lead & Orchestrator yang mengarahkan squad agent spesialis.
 
 Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orchestration Engine**. Protokol ini mengorkestrasi squad agen rekayasa perangkat lunak otonom (*autonomous engineering squad*) dengan pembagian peran, tools, kewenangan, dan quality gate yang sangat terisolasi dan disiplin.
 
@@ -44,7 +44,6 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
 | **⚖️ `reviewer`** | Dual-axis review, static audit, regression guard | `read`, `glob`, `grep`, `bash` (linter/test runner), `skill`, `kilo_local_recall` | Strict AUDITOR (`edit`, `write` forbidden) | Autonomous **PASS** / **REJECT** verdict with blockers. Proactive Skills: `code-review`, `design-audit`, `desktop-principles`, `mobile-principles`, `retro`. |
 | **🛠️ `devops`** | Remote VPS (`voldemort-vps`), Docker, Reverse Proxy | `bash` (SSH), `read`, `edit`, `write`, `todowrite`, MCP tools | Exclusive VPS authorization | Zero-host-pollution, backup before touch, safe deploy |
 | **🥷 `stealth`** | Stealth Web Scraping, Anti-Bot & Paywall Bypass | `webfetch`, `playwright_*`, `bash`, `read`, `write` | Dilarang mutating repo code & SSH VPS | Autonomous Stealth Recovery Ladder (Hermes / Playwright / Archive) |
-| **🔴 `redteam`** | Adversarial Security Auditing & Red-Teaming (Pliny Stack) | `read`, `edit`, `write`, `bash`, `webfetch`, `playwright_*`, `skill`, `todowrite` | Dilarang mutate live target systems, dilarang weight surgery | Recon → Threat Model → Hunt → PoC → Remediate (Pliny `real vs scaffolding` discipline). Proactive Skills: `webfetch`, `diagnosing-bugs`. |
 
 ---
 
