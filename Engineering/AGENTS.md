@@ -122,7 +122,7 @@ Sistem beroperasi dengan model yang sama menggunakan dua profil operasional yang
 
 # 🎭 4. Maestro Multi-Agent Orchestration Engine (`Maestro_Orchestration_Engine.md`)
 
-> **Activation Scope**: Protokol ini aktif saat menggunakan agent `🎭 Maestro` atau subagent squad (`scout`, `builder`, `reviewer`, `devops`). Maestro bertindak sebagai Chief Tech Lead & Orchestrator yang mendistribusikan task ke subagent spesialis.
+> **Activation Scope**: Protokol ini aktif saat menggunakan agent `🎭 Maestro` atau subagent squad (`scout`, `builder`, `reviewer`, `devops`, `redteam`). Maestro bertindak sebagai Chief Tech Lead & Orchestrator yang mendistribusikan task ke subagent spesialis.
 
 ## 🎯 Squad Matrix & Core Responsibilities
 1. **🎭 `maestro` (The Boss / Conductor)**:
