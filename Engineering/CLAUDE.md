@@ -110,5 +110,7 @@ Bug fix = root cause, not symptom. Grep every caller of the function you touch; 
 
 ---
 
-# 📓 4. Autonomous Worklog Persistence Directive
-- Setelah menyelesaikan task / milestone arsitektural substansial (Level 2+), agent secara otonom mendokumentasikan ringkasan 2-3 baris ke daily worklog Obsidian (`/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`) dengan tautan internal (`[[...]]`) tanpa menunggu instruksi manual.
+# 📓 4. Autonomous Worklog & Real-Time Vault Memory Ingestion
+- **Pre-Session Context Ingestion (Active Memory Reflection)**: Di awal sesi percakapan atau sebelum memulai task coding, Claude Code secara proaktif membaca file daily worklog terkini:
+  `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md` (hari ini) atau hari kemarin jika hari ini baru mulai. Ini menjamin pemahaman instan terhadap progres pekerjaan yang baru saja diselesaikan oleh Kilo atau Hermes.
+- **Milestone Persistence**: Setelah menyelesaikan task / milestone arsitektural substansial (Level 2+), agent secara otonom mendokumentasikan ringkasan 2-3 baris ke daily worklog Obsidian (`/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`) dengan tautan internal (`[[...]]`) tanpa menunggu instruksi manual.
