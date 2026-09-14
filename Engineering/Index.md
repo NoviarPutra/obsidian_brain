@@ -64,6 +64,11 @@ Real-world optical and physical anchoring:
 - Container-first architecture (zero host pollution) & modular service layout
 - Config versioning backups, non-breaking deployments, and SRE health observability
 
+### 7. [[Pliny_RedTeam_Methodology|🧪 Pliny RedTeam Methodology]]
+- Offensive security & adversarial auditing stack adopted from `github.com/elder-plinius`
+- Pliny modules: CL4R1T4S, L1B3RT4S, OBLITERATUS, T3MP3ST, ST3GG, GLOSSOPETRAE, P4RS3LT0NGV3, V3SP3R
+- Zero-Termination Protocol: CWE/CVE/MITRE framing, VERIFIED vs HYPOTHESIS evidence standard
+
 - [[Engineering/Standalone_Face_Recognition_Anti_Spoofing_Architecture|Standalone Face Recognition & Anti-Spoofing Architecture (Zero ML Kit)]] - Production blueprint for high-security biometrics in Android & Flutter (BlazeFace + MiniFASNet + Screen Flash + ArcFace).
 - [[Engineering/Cloudflare_R2_Object_Storage_Architecture|Cloudflare R2 Object Storage Architecture]]
 - Cloudflare Workers AI FLUX.1 + R2 (`voldemort-gallery`) integration
