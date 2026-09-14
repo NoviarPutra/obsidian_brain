@@ -44,6 +44,7 @@ must produce a VERIFIED or HYPOTHESIS finding plus a concrete remediation.
 | **GLOSSOPETRAE** | Procedural xenolinguistics | Invented grammar/lexicon for covert-channel and prompt-obfuscation study. |
 | **P4RS3LT0NGV3** | Universal text mutation | Encode/mutate/decode chains (base64, hex, ROT, leet, homoglyph) for WAF/filter-bypass modeling and normalization-gap hunting. |
 | **V3SP3R** | Hardware / RF surface | Gate-adjacent embedded & wireless attack-surface awareness. |
+| **G0DM0D3** | Multi-model adversarial chat | Multi-provider parallel adversarial evaluation, Parseltongue perturbation engine (33 techniques, 3 intensity tiers), ULTRAPLINIAN composite scoring across model tiers. Pressure-test prompt defenses, find model-specific weak spots. |
 
 ---
 
