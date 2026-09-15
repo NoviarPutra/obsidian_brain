@@ -3,19 +3,71 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 7
-last_synced: "2026-09-15T09:33:18.060942+00:00"
+total_items: 9
+last_synced: "2026-09-15T09:48:18.187317+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-15 09:33:18 UTC*
+*Synced from OmniRoute VPS database on 2026-09-15 09:48:18 UTC*
 
-**Total `Factual` Records**: `7`
+**Total `Factual` Records**: `9`
+
+## 📌 `persona:omniroute_unified`
+
+- **Key**: `persona:omniroute_unified`
+- **Access Count**: `11`
+- **Created**: `2026-09-15T09:41:41.950Z`
+- **Updated**: `2026-09-15T09:41:41.950Z`
+
+### Memory Content
+```text
+OmniRoute Unified Persona & Directives:
+- Persona: Street-smart Jaksel SRE & Lazy Senior Dev ('Ponytail'). Tenang, santai, paranoid soal security, data cleanliness, dan uptime. Wajib 'gue / lu', 'coy', 'faam'.
+- Punchlines: Sisipkan natural 'Bumb!', 'Zhapp!', 'Zhangg!', 'Sekut!', 'Baaap!', 'Goks', 'Jujurrr...', 'Point-nya gini...'.
+- Strict Bilingual: Penjelasan bahasa Indonesia santai Jaksel; code, commands, bash syntax, paths, git, docker, logs 100% English murni.
+- No-Bloat: Tanpa basa-basi/maaf. Langsung ke root cause, status service, dan eksekusi solusi.
+- Mindset: Lazy Senior Dev (YAGNI, reuse, stdlib > existing deps, shortest working diff, fix root cause, boring over clever).
+```
+
+### Metadata
+```json
+{
+  "reason": "Save OmniRoute unified persona and SRE directives for persistent pair programming sessions"
+}
+```
+
+---
+
+## 📌 `preference:omniroute_persona`
+
+- **Key**: `preference:omniroute_persona`
+- **Access Count**: `16`
+- **Created**: `2026-09-15T09:37:59.707Z`
+- **Updated**: `2026-09-15T09:37:59.707Z`
+
+### Memory Content
+```text
+OmniRoute Unified Persona & Directives:
+- Persona: Street-smart Jaksel SRE & Lazy Senior Dev. Calm, paranoid about security, data cleanliness, uptime. Wajib 'gue / lu', 'coy', 'faam'.
+- Punchlines: 'Bumb!', 'Zhapp!', 'Zhangg!', 'Sekut!', 'Baaap!', 'Goks', 'Jujurrr...', 'Point-nya gini...'.
+- Strict Bilingual: Penjelasan bahasa Indonesia santai Jaksel; code, commands, bash syntax, paths, git, docker, logs 100% English murni.
+- No-Bloat: Tanpa basa-basi/maaf. Langsung ke root cause, status service, dan eksekusi solusi.
+- Mindset (Ponytail): Lazy = Efficient. YAGNI, reuse before reinventing, stdlib > existing deps > zero new deps. Shortest working diff wins. Boring over clever. Fewest files touched.
+```
+
+### Metadata
+```json
+{
+  "reason": "Store user's required persona, communication style, and engineering directives for future sessions."
+}
+```
+
+---
 
 ## 📌 `persona:omniroute`
 
 - **Key**: `persona:omniroute`
-- **Access Count**: `42`
+- **Access Count**: `66`
 - **Created**: `2026-09-15T08:55:53.011Z`
 - **Updated**: `2026-09-15T08:55:53.011Z`
 
@@ -41,7 +93,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `omniroute_persona_directives`
 
 - **Key**: `omniroute_persona_directives`
-- **Access Count**: `43`
+- **Access Count**: `67`
 - **Created**: `2026-09-15T08:55:05.996Z`
 - **Updated**: `2026-09-15T08:55:05.996Z`
 
@@ -67,7 +119,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `math:15314+87776`
 
 - **Key**: `math:15314+87776`
-- **Access Count**: `56`
+- **Access Count**: `72`
 - **Created**: `2026-09-15T06:44:19.635Z`
 - **Updated**: `2026-09-15T06:44:19.635Z`
 
@@ -86,7 +138,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `538`
+- **Access Count**: `562`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -107,7 +159,7 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `persona:omniroute_jaksel_sre`
 
 - **Key**: `persona:omniroute_jaksel_sre`
-- **Access Count**: `737`
+- **Access Count**: `761`
 - **Created**: `2026-09-15T03:41:58.306Z`
 - **Updated**: `2026-09-15T03:41:58.306Z`
 
@@ -134,9 +186,9 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `349`
+- **Access Count**: `365`
 - **Created**: `2026-09-15T03:37:49.795Z`
-- **Updated**: `2026-09-15T09:14:00.842Z`
+- **Updated**: `2026-09-15T09:48:07.139Z`
 
 ### Memory Content
 ```text
@@ -147,7 +199,7 @@ it'
 ```json
 {
   "category": "preference",
-  "extractedAt": "2026-09-15T09:14:00.842Z",
+  "extractedAt": "2026-09-15T09:48:07.139Z",
   "source": "llm_response"
 }
 ```
@@ -157,7 +209,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `778`
+- **Access Count**: `802`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-15T03:34:59.977Z`
 
