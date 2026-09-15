@@ -1,7 +1,7 @@
 {
   "ruleConfigs": {
     "add-blank-line-after-yaml": {
-      "enabled": false
+      "enabled": true
     },
     "dedupe-yaml-array-values": {
       "enabled": false,
@@ -183,17 +183,17 @@
       "inner-new-lines": false
     },
     "consecutive-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "convert-spaces-to-tabs": {
       "enabled": false,
       "tabsize": 4
     },
     "empty-line-around-blockquotes": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-code-fences": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-horizontal-rules": {
       "enabled": false
@@ -202,15 +202,15 @@
       "enabled": false
     },
     "empty-line-around-tables": {
-      "enabled": false
+      "enabled": true
     },
     "heading-blank-lines": {
-      "enabled": false,
+      "enabled": true,
       "bottom": true,
       "empty-line-after-yaml": true
     },
     "line-break-at-document-end": {
-      "enabled": false
+      "enabled": true
     },
     "move-math-block-indicators-to-their-own-line": {
       "enabled": false
@@ -219,7 +219,7 @@
       "enabled": false
     },
     "remove-empty-lines-between-list-markers-and-checklists": {
-      "enabled": false
+      "enabled": true
     },
     "remove-link-spacing": {
       "enabled": false
@@ -245,17 +245,17 @@
       "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
-      "enabled": false,
+      "enabled": true,
       "two-space-line-break": false
     },
     "add-blockquote-indentation-on-paste": {
       "enabled": false
     },
     "prevent-double-checklist-indicator-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "prevent-double-list-item-indicator-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "proper-ellipsis-on-paste": {
       "enabled": false
