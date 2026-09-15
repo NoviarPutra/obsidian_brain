@@ -1547,3 +1547,6 @@
 "event_logs:sources:reimport_started": {"key":"sources:reimport_started","ct":146,"first_at":1789442476079,"last_at":1789464944127,"class_name":"EventLog","event_sources":{"run_re_import":146}},
 "event_logs:sources:reimport_progress": {"key":"sources:reimport_progress","ct":146,"first_at":1789442476090,"last_at":1789464944159,"class_name":"EventLog","event_sources":{"run_re_import":146}},
 "event_logs:sources:reimport_completed": {"key":"sources:reimport_completed","ct":145,"first_at":1789442477480,"last_at":1789464944181,"class_name":"EventLog","event_sources":{"run_re_import":145}},
+"event_logs:settings:changed": {"key":"settings:changed","ct":15,"first_at":1789442317132,"last_at":1789465023050,"class_name":"EventLog"},
+"event_logs:connections:opened": {"key":"connections:opened","ct":4,"first_at":1789444678221,"last_at":1789465021984,"class_name":"EventLog"},
+"event_logs:connections:open_random_unavailable": {"key":"connections:open_random_unavailable","ct":1,"first_at":1789465018084,"last_at":1789465018084,"class_name":"EventLog","event_sources":{"ribbon:smart-connections:random_note":1}},
