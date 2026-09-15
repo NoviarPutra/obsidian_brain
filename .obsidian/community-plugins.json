@@ -4,5 +4,7 @@
   "smart-connections",
   "dataview",
   "obsidian-linter",
-  "templater-obsidian"
+  "templater-obsidian",
+  "url-into-selection",
+  "omnisearch"
 ]
