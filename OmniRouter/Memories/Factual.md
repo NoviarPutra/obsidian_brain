@@ -4,11 +4,11 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 5
-last_synced: "2026-09-15T08:03:14.579944+00:00"
+last_synced: "2026-09-15T08:18:14.698170+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-15 08:03:14 UTC*
+*Synced from OmniRoute VPS database on 2026-09-15 08:18:14 UTC*
 
 **Total `Factual` Records**: `5`
 
@@ -34,7 +34,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `399`
+- **Access Count**: `419`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -55,7 +55,7 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `persona:omniroute_jaksel_sre`
 
 - **Key**: `persona:omniroute_jaksel_sre`
-- **Access Count**: `596`
+- **Access Count**: `618`
 - **Created**: `2026-09-15T03:41:58.306Z`
 - **Updated**: `2026-09-15T03:41:58.306Z`
 
@@ -82,7 +82,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `294`
+- **Access Count**: `307`
 - **Created**: `2026-09-15T03:37:49.795Z`
 - **Updated**: `2026-09-15T05:31:02.243Z`
 
@@ -105,7 +105,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `637`
+- **Access Count**: `659`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-15T03:34:59.977Z`
 
