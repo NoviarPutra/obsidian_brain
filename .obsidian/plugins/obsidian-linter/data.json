@@ -278,7 +278,7 @@
   "displayChanged": true,
   "suppressMessageWhenNoChange": false,
   "enableDiffPreviewView": true,
-  "suppressLintAllFilesConfirmationModal": false,
+  "suppressLintAllFilesConfirmationModal": true,
   "suppressLintAllFilesInFolderConfirmationModal": false,
   "lintOnFileChange": false,
   "displayLintOnFileChangeNotice": false,

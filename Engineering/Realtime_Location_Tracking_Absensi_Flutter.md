@@ -238,7 +238,7 @@ class AttendanceLocationService {
     if (location.isMoving == false && location.coords.altitude == 0.0 && location.coords.speed < 0) {
       // Suspicious default mock values
     }
-    
+
     final bool isMocked = location.mock == true;
     if (isMocked) {
       return PunchValidationResult(
