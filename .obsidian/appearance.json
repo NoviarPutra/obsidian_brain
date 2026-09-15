@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "Wasp",
   "textFontFamily": "FiraCode Nerd Font Mono",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono"
+  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "accentColor": "#f8c536"
 }
