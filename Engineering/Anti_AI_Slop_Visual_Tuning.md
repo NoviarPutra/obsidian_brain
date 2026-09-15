@@ -81,11 +81,13 @@ Setiap kali merancang prompt visual, agen wajib menyandarkan deskripsi pada **pa
 ## 💡 5. Curated Prompt Library (Anti-Slop Archetypes)
 
 ### Minimalist Developer Workspace (Editorial Interior)
+
 ```text
 Architectural Digest editorial photograph of a minimalist developer desk made of solid Japanese white oak wood, quiet tidy workspace with an anodized aluminum mechanical keyboard and a clean matte display, soft directional morning sunlight diffusing through large sheer-curtained window from the left, subtle natural dust motes and soft shadows, 35mm lens, f/2.8 aperture, Kodak Portra 400 film grain, raw organic texture, muted earthy color palette, 40% intentional negative space on the wall, no glowing neon, no clutter, no plastic gloss, authentic realistic interior photography
 ```
 
 ### Swiss / Brutalist Graphic System
+
 ```text
 International Typographic Style poster design for an API gateway system, strict modular grid layout, bold sans-serif typography hierarchy, two-color risograph printing technique with slate charcoal and warm terracotta ink, tactile 300gsm cotton paper texture with subtle dot screen, generous intentional whitespace, zero digital gradients
 ```

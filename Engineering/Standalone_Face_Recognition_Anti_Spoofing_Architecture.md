@@ -12,11 +12,13 @@ date: "2026-09-13"
 ---
 
 # 🛡️ Standalone Android Face Recognition & Anti-Spoofing Blueprint
+
 > **Design Target**: 60 FPS, Zero Google Play Services (GMS/ML Kit) dependency, Enterprise/Custom ROM support, ISO/IEC 30107-3 compliant PAD (Presentation Attack Detection).
 
 ---
 
 ## 📌 Architectural Tenets (The Ponytail Mindset)
+
 1. **Zero Google ML Kit Dependency**: App harus bisa jalan di non-GMS devices (Huawei HarmonyOS, enterprise warehouse tablets, AOSP custom ROMs) tanpa runtime crash.
 2. **Native Deep Engine, Flutter Glass View**: Raw camera frames (`ImageProxy` / YUV420) **dilarang keras** menyeberang ke Dart VM / `MethodChannel`. Frame diproses on-device di native thread C++/Kotlin. Flutter hanya bertindak sebagai rendering canvas & event receiver via **Pigeon**.
 3. **Multi-Layer Defense-in-Depth**: Menghadapi ancaman Level 1 (print/photo/display replay) dan Level 2 (3D mask, video injection, deepfake) tanpa mengorbankan UX dengan gerakan aktif yang menyebalkan (*active liveness*).

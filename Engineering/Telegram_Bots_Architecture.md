@@ -46,6 +46,7 @@ The environment operates **two distinct, complementary Telegram Bots** serving s
 ## 📦 2. Bot 1: Voldemort Menu Bot (`@Voldemort_menu_bot`)
 
 ### A. Modular Package Architecture (`telegram_bot/`)
+
 Refactored from a 1,300-line monolithic script into a clean, decoupled Python package:
 
 ```text
@@ -77,6 +78,7 @@ telegram_bot/
 ```
 
 ### B. Feature Matrix & Access Control
+
 | Feature | Target Audience | Technology Stack |
 |---|---|---|
 | **✍️ Meta-Prompt Generator** | Public / All Users | OmniRoute LLM (`AG`), 6 categories, bilingual (ID/EN) |
@@ -87,6 +89,7 @@ telegram_bot/
 | **☁️ Monitor Cloudflare R2** | **Admin Only (`708066102`)** | Direct R2 REST API, partition breakdown, 10 GB quota gauge |
 
 ### C. Containerized Docker Deployment
+
 - **Directory**: `/home/voldemort/services/telegram-bot/`
 - **Image**: `voldemort-menu-bot:2.0.0`
 - **Container Name**: `voldemort-menu-bot`
@@ -98,6 +101,7 @@ telegram_bot/
 ## ⚕️ 3. Bot 2: Hermes AI Assistant Telegram Gateway
 
 ### A. Core Engine & Capabilities
+
 - **Engine**: Native Hermes Autonomous Agent daemon (`hermes gateway run --external-supervisor`).
 - **Personality**: `Hermes Ultracode` (`SOUL.md`) with 4-phase dynamic workflow engine and Jaksel SRE persona.
 - **Skill Arsenal**: **67 active skill packages** with pre-installed virtualenv dependencies (`docx`, `pdf-toolkit`, `youtube-content`, `reddit-reading`, `web-search`, etc.).
@@ -105,6 +109,7 @@ telegram_bot/
 - **Memory Subsystem**: Persistent user profiling (`~/.hermes/memories/USER.md`), SQLite session state (`state.db`), and cron execution ledger.
 
 ### B. Systemd Daemon Deployment
+
 - **Unit**: `/etc/systemd/system/hermes-gateway.service`
 - **User**: `voldemort`
 - **Working Directory**: `/home/voldemort/.hermes`

@@ -6,6 +6,7 @@ tags:
   - security
 date: "2026-09-10"
 ---
+
 # 🔒 DevOps VPS Isolation & Server Clean Layout Policy
 
 > **Single Source of Truth**: `/Users/pt-dika/Documents/Obsidian/Engineering/DevOps_Isolation_Policy.md`
@@ -29,6 +30,7 @@ date: "2026-09-10"
    - Semua service wajib terpusat dan terisolasi di direktori terstandarisasi (`~/services/<service-name>` atau `/opt/services/<service-name>`).
    - Dilarang menyebar file script, konfigurasi sementara, atau data di root `/`, `/tmp`, atau root home user.
    - **Struktur Standar Setiap Service**:
+
      ```
      ~/services/<service-name>/
      ├── docker-compose.yml       # Single source of truth untuk stack container
@@ -36,13 +38,16 @@ date: "2026-09-10"
      ├── config/                  # Folder konfigurasi mounted (nginx, caddy, json, yaml)
      └── data/                    # Persistent bind-mounts / volume mappings
      ```
+
 2. **Container-First Doctrine (Zero Host Pollution)**:
    - Dilarang menginstall package, runtime, atau library langsung di host OS (`apt install nodejs`, `pip install`, dll.) bila service tersebut dapat di-containerize via Docker. Host OS wajib dijaga lean, minimalis, dan bersih.
 3. **Safe Config Versioning & Backup Before Touch**:
    - Sebelum menyentuh/mengubah file konfigurasi server yang sedang aktif, wajib membuat backup snapshot lokal di direktori yang sama:
+
      ```bash
      cp config.yml config.yml.bak.$(date +%Y%m%d%H%M%S)
      ```
+
 4. **Network & Reverse Proxy Isolation**:
    - Service internal dilarang melakukan port binding langsung ke `0.0.0.0:<port>`. Seluruh service internal wajib bind ke `127.0.0.1:<port>` atau Docker internal network, dan di-route via Central Reverse Proxy (Caddy / Nginx / Traefik) dengan HTTPS otomatis.
 

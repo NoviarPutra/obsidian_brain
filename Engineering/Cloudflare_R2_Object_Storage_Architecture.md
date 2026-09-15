@@ -64,6 +64,7 @@ All credentials are encrypted and stored in environment files (`chmod 600`) with
 | **Jurisdiction / Region** | `Automatic (APAC / Singapore)` | Low-latency global edge distribution |
 
 ### Exact Token Creation Steps (Cloudflare Dashboard)
+
 1. Navigate to **Manage Account > API Tokens** (or **My Profile > API Tokens**).
 2. Click **Create Token** -> Choose **Create Custom Token** (`Get started`).
 3. Set Token Name: `voldemort-r2-token`.
@@ -73,6 +74,7 @@ All credentials are encrypted and stored in environment files (`chmod 600`) with
    - `Include` | `All accounts` (or select Account `738f2def6189bcb43a3d5aae2347ca74`).
 6. Click **Continue to summary** -> **Create Token**.
 7. Verify Token via CLI:
+
    ```bash
    curl -s "https://api.cloudflare.com/client/v4/user/tokens/verify" \
      -H "Authorization: Bearer <R2_TOKEN>"
@@ -103,9 +105,11 @@ voldemort-gallery/
 ## 🌐 4. API Endpoints & Dual Protocol Support
 
 ### Protocol A: Direct Cloudflare REST API (HTTP Bearer Auth)
+
 Used by Python lightweight clients, CLI scripts, and Telegram bot without requiring heavy AWS SDK dependencies:
 - **Base Endpoint**: `https://api.cloudflare.com/client/v4/accounts/{ACCOUNT_ID}/r2/buckets/{BUCKET_NAME}/objects/{KEY}`
 - **Upload (PUT)**:
+
   ```http
   PUT /client/v4/accounts/738f2def6189bcb43a3d5aae2347ca74/r2/buckets/voldemort-gallery/objects/flux/image.jpg HTTP/1.1
   Host: api.cloudflare.com
@@ -114,7 +118,9 @@ Used by Python lightweight clients, CLI scripts, and Telegram bot without requir
 
   <BINARY_PAYLOAD>
   ```
+
 - **Download (GET)**:
+
   ```http
   GET /client/v4/accounts/738f2def6189bcb43a3d5aae2347ca74/r2/buckets/voldemort-gallery/objects/flux/image.jpg HTTP/1.1
   Host: api.cloudflare.com
@@ -122,6 +128,7 @@ Used by Python lightweight clients, CLI scripts, and Telegram bot without requir
   ```
 
 ### Protocol B: Standard S3-Compatible XML API (AWS SigV4)
+
 Used by `boto3`, `rclone`, `@aws-sdk/client-s3`, or MinIO client:
 - **S3 Endpoint**: `https://738f2def6189bcb43a3d5aae2347ca74.r2.cloudflarestorage.com`
 - **Region**: `auto` (or `us-east-1` for strict SDK defaults)
@@ -158,6 +165,7 @@ def upload_bytes_to_r2(payload: bytes, key: str, content_type: str = "image/jpeg
 ```
 
 ### B. CLI Client (`~/.hermes/bin/cf-flux`)
+
 The CLI script integrates AI generation and auto-cleaning:
 
 ```bash
@@ -175,6 +183,7 @@ cf-flux "Minimalist black obsidian pyramid" --keep-local
 ```
 
 ### C. Telegram Menu Bot (`@Voldemort_menu_bot`)
+
 - Generates image via Cloudflare Workers AI FLUX.1.
 - In-memory upload to R2 (`voldemort-gallery/flux/flux_*.jpg`).
 - Returns photo directly to user with R2 storage key badge.

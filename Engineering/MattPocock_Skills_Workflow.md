@@ -70,6 +70,7 @@ Agen AI yang membaca dokumen ini **wajib** mematuhi 5 pilar operasional berikut:
 ```
 
 ### Panduan Ambang Batas Kompleksitas:
+
 | Level Kompleksitas | Karakteristik Tugas | Alur Rekomendasi | Skill Terkait |
 | :--- | :--- | :--- | :--- |
 | **Micro (Level 1)** | Ganti copy, perbaiki CSS, tambah helper 1 line, fix typo. | Direct Edit / Verification | *Tanpa skill (Pure Native)* |
@@ -83,6 +84,7 @@ Agen AI yang membaca dokumen ini **wajib** mematuhi 5 pilar operasional berikut:
 ## 📚 3. Katalog Lengkap Seluruh Skill Matt Pocock
 
 ### 🅰️ Main Pipeline (Idea to Ship)
+
 Rute standar pembuatan fitur dari konsep hingga siap merge:
 
 1. **`grill-with-docs`**

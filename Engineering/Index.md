@@ -34,6 +34,7 @@ Central map of content for all engineering standards, execution workflows, and d
 ## 📚 Core Modules
 
 ### 1. [[Maestro_Orchestration_Engine|🎭 Maestro Multi-Agent Orchestration Engine]]
+
 Autonomous high-leverage 4-phase state machine & squad dispatch:
 - **Phase 1**: Scout Reconnaissance, Large-Doc Ingestion & Task Decomposition (Zero Direct Code)
 - **Phase 2**: Isolated Ticket Execution (delegated to `builder` TDD loop / `genjutsu` UI)
@@ -41,34 +42,39 @@ Autonomous high-leverage 4-phase state machine & squad dispatch:
 - **Phase 4**: Final Synthesis & Workspace Verification (optional `devops` deploy)
 
 ### 2. [[MattPocock_Skills_Workflow|🛠️ Matt Pocock Autonomous AI Flow Engine]]
+
 Systematic problem-solving, deep modules, and test-driven development:
 - Proactive skill routing (`tdd`, `grill-with-docs`, `to-spec`, `diagnosing-bugs`)
 - Deep module design & zero-leakage abstractions
 
 ### 3. [[Genjutsu_and_GSAP_Skills_Workflow|⚡ Genjutsu & GSAP Creative Engineering]]
+
 High-performance 60 FPS motion design & animation architecture:
 - Hardware-accelerated transforms
 - Integrated with [[Anti_AI_Slop_Visual_Tuning|Anti-AI-Slop standards]] for visual sophistication
 
 ### 4. [[Anti_AI_Slop_Visual_Tuning|🎨 Anti-AI-Slop Visual Tuning Architecture]]
+
 Real-world optical and physical anchoring:
 - Banned cliché buzzwords & radioactive palettes
 - Tactile materials, Swiss/Bauhaus composition, and natural lighting
 
 ### 5. [[OmniRoute_Communication_Style|💬 OmniRoute Communication Style & Persona]]
+
 - Jaksel street-smart, punchy, to-the-point bilingual style
 - **Ponytail (Lazy Senior Dev) Mindset**: YAGNI, shortest working diffs, fix root causes.
 
 ### 6. [[DevOps_Isolation_Policy|🔒 DevOps VPS Isolation & Server Clean Layout]]
+
 - Exclusive delegation to dedicated `devops` agent & Zero-Trust tool lockdown
 - Container-first architecture (zero host pollution) & modular service layout
 - Config versioning backups, non-breaking deployments, and SRE health observability
 
 ### 7. [[Pliny_Defensive_Security|🛡️ Pliny Defensive Security & AI Hardening]]
+
 - Defensive security & adversarial hardening stack adopted from `github.com/elder-plinius`
 - Pliny defensive modules: CL4R1T4S (Observability & Untrusted Data Wall), L1B3RT4S (Injection Classification), P4RS3LT0NGV3 (Normalization Gap Defense), OBLITERATUS (Safety Alignment Study)
 - Protocols: Instruction boundary verification, anti-prompt-injection, input canonicalization
-
 - [[Engineering/Standalone_Face_Recognition_Anti_Spoofing_Architecture|Standalone Face Recognition & Anti-Spoofing Architecture (Zero ML Kit)]] - Production blueprint for high-security biometrics in Android & Flutter (BlazeFace + MiniFASNet + Screen Flash + ArcFace).
 - [[Engineering/Cloudflare_R2_Object_Storage_Architecture|Cloudflare R2 Object Storage Architecture]]
 - Cloudflare Workers AI FLUX.1 + R2 (`voldemort-gallery`) integration
@@ -76,11 +82,13 @@ Real-world optical and physical anchoring:
 - Auto-cleaning local cache with $0 egress bandwidth architecture
 
 ### 8. [[Telegram_Bots_Architecture|🤖 Telegram Bots Dual Architecture & Modular Engine]]
+
 - Dual ecosystem: `@Voldemort_menu_bot` (Modular v2.0 Docker) & `Hermes AI Assistant Gateway` (Systemd)
 - Clean package decomposition (`telegram_bot/`), role-based admin menus (R2 & VPS status)
 - Zero-conflict polling guarantee and centralized 24/7 cloud runtime on `voldemort-vps`
 
 ### 9. [[Telegram_Universal_Bot_Template_Architecture|🤖 Telegram Universal Bot & Hermes Agent Boilerplate Architecture]]
+
 - 3-in-1 multi-mode operational switcher (`menu` | `hermes` | `hybrid`)
 - Zero-dependency async SQLite WAL persistence & 3-Tier RBAC security layer
 - Drop-in plugin registry, universal LLM gateway, and 60-second CLI setup wizard (`init.sh`)

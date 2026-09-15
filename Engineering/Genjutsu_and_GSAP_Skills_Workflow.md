@@ -54,6 +54,7 @@ Genjutsu terbagi menjadi dua pipeline utama: **`cast`** (enhancement) dan **`pai
 ### 🥷 Katalog Sub-Modul (Jutsu Skills)
 
 #### A. Web & Cross-Platform Engine
+
 1. **`ui-ux-pro-max`**: Design system intelligence core (database terstruktur berisi 84 style visual, 192 palette warna, 74 font pairing, 99 pedoman UX, 25 jenis chart lintas 22 tech stack + CLI Python search engine).
 2. **`css-native`**: Animasi modern zero-dependency (Scroll-Driven Animations, View Transitions API, `@starting-style`, CSS Houdini).
 3. **`framer-motion`**: Motion orchestration untuk React/Next.js (`AnimatePresence`, layout animation, drag/gesture physics).
@@ -61,6 +62,7 @@ Genjutsu terbagi menjadi dua pipeline utama: **`cast`** (enhancement) dan **`pai
 5. **`threejs-r3f`**: WebGL 3D scenes, custom GLSL shaders, lighting, post-processing dengan Three.js & React Three Fiber.
 
 #### B. Native Mobile & Platform Foundations
+
 6. **`compose-motion`**: Jetpack Compose foundational animations (`animate*AsState`, `updateTransition`, `SharedTransitionLayout`).
 7. **`compose-graphics`**: Advanced visual Compose (Material 3 Expressive motion physics, AGSL custom shaders Android 13+, `DrawScope` generative).
 8. **`compose-multiplatform`**: Compose Multiplatform (KMP) shared UI, expect/actual composables, density & font scaling antar target (Desktop/Android/iOS).
@@ -68,6 +70,7 @@ Genjutsu terbagi menjadi dua pipeline utama: **`cast`** (enhancement) dan **`pai
 10. **`swiftui-graphics`**: Metal shaders (`.colorEffect`, `.layerEffect`, `.distortionEffect`), iOS Liquid Glass, Canvas effects.
 
 #### C. Experience & Interaction Principles
+
 11. **`motion-principles`**: Standar fundamental motion design (easing curves, enter/exit hierarchy, durasi 150-400ms, reduced motion compliance).
 12. **`mobile-principles`**: Ergonomi mobile (touch target min 48x48dp, thumb zone routing, safe area insets, no hover reliance).
 13. **`desktop-principles`**: Desktop UX precision (keyboard shortcuts, multi-window focus, rich hover states, cursor interactions).
@@ -80,6 +83,7 @@ Genjutsu terbagi menjadi dua pipeline utama: **`cast`** (enhancement) dan **`pai
 `ui-ux-pro-max` adalah sub-modul otak kecerdasan desain Genjutsu yang menyediakan rekomendasi instan, tokenisasi tema, dan validasi heuristik UX berbasis dataset CSV + CLI tool.
 
 ### 📊 Dataset Anatomy
+
 - **84 Styles**: Neo-brutalism, Glassmorphism, Minimalist, Cyberpunk, Bento grid, Material You, iOS Liquid, dsb.
 - **192 Color Palettes**: Semantic tokens (primary, surface, accent, destructive) dengan kalkulasi contrast WCAG teruji.
 - **74 Font Pairings**: Kombinasi heading/body untuk berbagai persona produk (SaaS, Luxury, Editorial, Developer Tool).
@@ -87,7 +91,9 @@ Genjutsu terbagi menjadi dua pipeline utama: **`cast`** (enhancement) dan **`pai
 - **22 Stacks Support**: React, Next.js, Vue, Nuxt, Svelte, Tailwind, Shadcn UI, SwiftUI, Compose, Flutter, Three.js, dsb.
 
 ### ⌨️ CLI Query & Intelligence Tools
+
 Agen AI dapat mengeksekusi script query langsung di `~/.agents/skills/genjutsu/_jutsu/ui-ux-pro-max/scripts/`:
+
 ```bash
 # Search UX guidelines atau style
 python3 ~/.agents/skills/genjutsu/_jutsu/ui-ux-pro-max/scripts/search.py "dark mode contrast"

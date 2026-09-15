@@ -15,6 +15,7 @@ Welcome to your central knowledge hub and persistent memory vault for **Kilo**, 
 ## 🏛️ Core Knowledge Pillars (MOC)
 
 ### 1. ⚡ [[Engineering/Index|Engineering & Architectural Standards]]
+
 Guidelines and operational specs for autonomous AI agents and code craftsmanship.
 - [[Engineering/Maestro_Orchestration_Engine|🎭 Maestro Multi-Agent Orchestration Engine]]
 - [[Engineering/MattPocock_Skills_Workflow|🛠️ Matt Pocock Skills & TDD Workflow]]
@@ -29,6 +30,7 @@ Guidelines and operational specs for autonomous AI agents and code craftsmanship
 ---
 
 ### 2. 🧠 [[OmniRouter/Memories/Index|OmniRoute Memory & Knowledge Vault]]
+
 Persistent long-term cognitive models synced from the OmniRoute gateway database.
 - [[OmniRouter/Memories/Procedural|📋 Procedural Memories & Workflows]]
 - [[OmniRouter/Memories/Factual|📌 Factual Memories & Specs]]
@@ -39,6 +41,7 @@ Persistent long-term cognitive models synced from the OmniRoute gateway database
 ---
 
 ### 3. ⚕️ [[Hermes/Index|Hermes Agent Workspace]]
+
 Autonomous agent runtime profile, security policies, and session archive.
 - [[Hermes/SOUL|🔮 Hermes Core Directives & SOUL]]
 - [[Hermes/Index#📜 Recent Agent Sessions|📜 Recent Sessions]]
@@ -46,6 +49,7 @@ Autonomous agent runtime profile, security policies, and session archive.
 ---
 
 ### 4. 📓 [[Worklogs/Index|Daily Worklogs & Engineering Journal]]
+
 Chronological track record of milestones, tasks, scratchpads, and git sync activity.
 - [[Worklogs/2026-09-08|🗓️ Worklog 2026-09-08]]
 - [[Worklogs/2026-09-07|🗓️ Worklog 2026-09-07]]

@@ -50,21 +50,25 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
 ## 🌀 The 4-Phase Orchestration Pipeline
 
 ### Phase 1: Scout, Reconnaissance & DAG Decomposition
+
 1. **Intel Gathering**: Maestro mengutus `scout` untuk mapping boundaries, AST callers, dan membaca multi-file specs masif (2k-20k lines).
 2. **Unified Truth Matrix**: Scout mensintesis temuan, dependensi, dan edge cases tanpa menyentuh file code.
 3. **Execution DAG**: Maestro memecah problem jadi tiket-tiket terisolasi dan mendaftarkannya di `todowrite`.
 
 ### Phase 2: Isolated Ticket Execution (Builder)
+
 1. **Context Isolation**: Maestro mendelegasikan tiap tiket ke `builder` (backend/frontend logic).
 2. **TDD Cycle**: Builder menerapkan Red-Green-Refactor dengan prinsip Ponytail (Lazy Senior Dev) — shortest working diff wins.
 3. **Structured Return**: Subagent mengembalikan laporan perubahan file dan test assertion yang lulus.
 
 ### Phase 3: Adversarial Dual-Axis Review (Reviewer)
+
 1. **Axis 1 (Standards & Clean Code)**: YAGNI, no unrequested abstractions, zero bloat, robust error handling.
 2. **Axis 2 (Spec Compliance & Regression Guard)**: Backward compatibility, 100% spec coverage, zero broken callers.
 3. **Circuit Breaker**: Maksimal 2 kali perbaikan retry loop jika Reviewer memberi status `REJECT`. Jika belum lolos, eskalasi langsung ke user.
 
 ### Phase 4: Final Synthesis, Verification & Worklog
+
 1. **Workspace Verification**: Eksekusi workspace linter dan full test suites.
 2. **Remote Deployment**: Jika melibatkan VPS, delegasikan ke agent `devops`.
 3. **Autonomous Worklog Persistence**: Otomatis simpan ringkasan milestone ke `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`.

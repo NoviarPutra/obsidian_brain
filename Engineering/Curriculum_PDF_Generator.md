@@ -10,13 +10,14 @@ title: "Technical Curriculum Module PDF Generator Engine"
 
 # 📚 Technical Curriculum Module PDF Generator
 
-> **Skill**: `curriculum-module-generator`  
-> **Master Script**: `/home/voldemort/templates/curriculum_pdf_generator.py`  
+> **Skill**: `curriculum-module-generator`
+> **Master Script**: `/home/voldemort/templates/curriculum_pdf_generator.py`
 > **Primary Role**: [[Draft|Draft (The Scribe)]]
 
 ---
 
 ## 🎯 Pedagogical Architecture: BDBF
+
 Setiap modul kurikulum teknik wajib mengikuti formula **Breach-Deconstruct-Break-Fix (BDBF)**:
 1. **Breach (Incident Study)**: Kasus riil pembobolan / kebocoran data di dunia industri (studi kasus kerugian finansial/reputasi).
 2. **Deconstruction**: Pembedahan akar masalah teknis pada level protokol, byte stream, atau kernel.
@@ -27,6 +28,7 @@ Setiap modul kurikulum teknik wajib mengikuti formula **Breach-Deconstruct-Break
 ---
 
 ## 🎨 Visual & Typography Engine Specs
+
 - **Page Size**: A4 dengan margin seimbang `40pt` (Content width: `515pt`).
 - **Running Header & Footer**: Two-pass canvas (`NumberedCanvas`) menghitung otomatis "Halaman X dari Y" dan garis batas tipis `#CBD5E1`.
 - **Palette**:
@@ -40,6 +42,7 @@ Setiap modul kurikulum teknik wajib mengikuti formula **Breach-Deconstruct-Break
 ---
 
 ## 🚀 Cara Menghasilkan Modul Baru
+
 Gunakan class `CurriculumPDFBuilder` dari `/home/voldemort/templates/curriculum_pdf_generator.py`:
 
 ```python

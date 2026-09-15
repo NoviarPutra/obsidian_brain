@@ -1,12 +1,13 @@
 # Blueprint Arsitektur: Multi-Account Worker Farm Engine
 
-> **Status**: Archived / Backlog Design  
-> **Date**: 2026-09-12  
+> **Status**: Archived / Backlog Design
+> **Date**: 2026-09-12
 > **Tags**: #architecture #bot #worker #anti-detect #automation #python
 
 ---
 
 ## 1. Overview & Objective
+
 Sistem orkestrasi worker otomatis untuk multi-account automation (farming/ternak akun) dengan prioritas utama:
 - **Zero-Ban Rate**: Isolasi fingerprint dan network routing.
 - **Resource Efficiency**: Pilihan engine ringan (API-level TLS impersonation) vs real browser sandbox.
@@ -17,11 +18,13 @@ Sistem orkestrasi worker otomatis untuk multi-account automation (farming/ternak
 ## 2. Pilihan Arsitektur Worker
 
 ### A. Lightweight API Worker (`curl_cffi` / TLS Impersonation)
+
 - **Footprint**: ~30–50 MB RAM per instance (bisa jalanin ratusan akun per VPS).
 - **Mekanisme**: Bypass TLS JA3/JA4 & HTTP/2 frame fingerprinting langsung ke internal REST/GraphQL endpoints tanpa render layout/DOM.
 - **Use Cases**: Daily check-in, token claiming, faucet, checking status, polling updates, auto-fwd.
 
 ### B. Heavyweight Browser Sandbox (Playwright Stealth / Camoufox)
+
 - **Footprint**: ~200–400 MB RAM per instance (butuh cgroups/Docker resource limit ketat).
 - **Mekanisme**: Real Chromium/Firefox dengan spoofed canvas, WebGL vendor, WebRTC, audio context, fonts, dan timezone profile.
 - **Use Cases**: Registrasi akun baru, bypass Cloudflare Turnstile / reCAPTCHA v3, platform dengan evaluasi mouse movement bezier (behavioral analysis).
@@ -29,6 +32,7 @@ Sistem orkestrasi worker otomatis untuk multi-account automation (farming/ternak
 ---
 
 ## 3. 4 Pilar Anti-Detect (Zero-Ban Framework)
+
 1. **Proxy Binding (Strict Sticky IP)**: 1 Akun = 1 Dedicated Residential / 4G Mobile Proxy. Larang keras IP hopping antar sesi.
 2. **Device Fingerprint Isolation**: Tiap akun memiliki metadata tersimpan (User-Agent, Viewport, Storage, Cookie Jar, Hardware Concurrency).
 3. **Non-Linear Gaussian Jitter**: Hindari `sleep()` statis. Gunakan random delay berdistribusi normal (`random.gauss(mean, std)`) untuk menyerupai perilaku manusia.
@@ -94,6 +98,7 @@ class FarmWorker:
 ---
 
 ## 5. Next Discussion Checklist (Pending Inputs)
+
 - [ ] Penentuan target platform spesifik.
 - [ ] Pemilihan skema database akun (SQLite vs PostgreSQL vs JSON).
 - [ ] Tipe proxy yang akan digunakan (Rotating vs Sticky Mobile/Residential).

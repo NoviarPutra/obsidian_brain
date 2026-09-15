@@ -14,6 +14,7 @@ date: "2026-09-13"
 ---
 
 # 📍 Production Blueprint: Realtime Location Tracking & Anti-Spoofing Attendance (Flutter)
+
 > **Design Target**: Battery drain < 1.5%/hour during active shift, sub-second geofence validation, zero-trust anti-fake GPS detection, offline-first batch synchronization.
 
 ---
@@ -92,6 +93,7 @@ Sebelum nulis 1 baris kode, seorang Senior Dev wajib nanya: **"Lu butuh tracking
 Kelemahan terbesar aplikasi absensi GPS adalah aplikasi Fake GPS (contoh: *Fake GPS Location, Lexa, GPS JoyStick*), Xposed module (*Mock Mock Locations*), dan Frida runtime hooks.
 
 ### Defense Pipeline (Multi-Layer):
+
 1. **Direct OS Mock Flag Verification**:
    - Android 12+ (API 31+): `location.isMock()`
    - Android 6-11: `location.isFromMockProvider()`
@@ -126,11 +128,13 @@ Jika ditugaskan untuk tracking kurir/sales selama jam shift kerja:
 ## 🎯 5. Geofencing Calculation Engine
 
 ### A. Circular Geofence (Haversine Formula - Sub-millisecond O(1))
+
 Digunakan untuk kantor tunggal, ruko, atau outlet retail dengan radius tertentu.
 
 $$\text{distance} = 2 R \cdot \arcsin\left(\sqrt{\sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta\lambda}{2}\right)}\right)$$
 
 ### B. Irregular Polygon Geofence (Ray-Casting Algorithm)
+
 Digunakan untuk area perkantoran besar, pabrik, site tambang, atau kawasan industri yang bentuknya poligon tidak beraturan.
 
 ```dart
@@ -153,6 +157,7 @@ bool isPointInPolygon(LatLng point, List<LatLng> polygon) {
 ```
 
 ### C. Vertical Geofencing (Building Floors & Basements)
+
 GPS 2D tidak bisa membedakan lantai 1 vs lantai 20 (atau parkiran basement).
 - **Solusi**: Kombinasi **Barometric Pressure Sensor** (mengukur beda ketinggian barometrik) + **BLE iBeacon / Eddystone UUID RSSI scanning** di tiap lantai kantor.
 
@@ -161,6 +166,7 @@ GPS 2D tidak bisa membedakan lantai 1 vs lantai 20 (atau parkiran basement).
 ## 💻 6. Production Implementation (Flutter Clean Code)
 
 ### Production Stack Recommendation:
+
 - Engine: `flutter_background_geolocation` (Transistor Software) — The industry-grade battle-tested native background service.
 - State: `flutter_bloc`
 - Local Database: `drift` / `isar`
