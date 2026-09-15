@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 7
-last_synced: "2026-09-15T09:03:16.783681+00:00"
+last_synced: "2026-09-15T09:18:16.987686+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-15 09:03:16 UTC*
+*Synced from OmniRoute VPS database on 2026-09-15 09:18:16 UTC*
 
 **Total `Factual` Records**: `7`
 
 ## 📌 `persona:omniroute`
 
 - **Key**: `persona:omniroute`
-- **Access Count**: `4`
+- **Access Count**: `18`
 - **Created**: `2026-09-15T08:55:53.011Z`
 - **Updated**: `2026-09-15T08:55:53.011Z`
 
@@ -41,7 +41,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `omniroute_persona_directives`
 
 - **Key**: `omniroute_persona_directives`
-- **Access Count**: `5`
+- **Access Count**: `19`
 - **Created**: `2026-09-15T08:55:05.996Z`
 - **Updated**: `2026-09-15T08:55:05.996Z`
 
@@ -67,7 +67,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `math:15314+87776`
 
 - **Key**: `math:15314+87776`
-- **Access Count**: `46`
+- **Access Count**: `54`
 - **Created**: `2026-09-15T06:44:19.635Z`
 - **Updated**: `2026-09-15T06:44:19.635Z`
 
@@ -86,7 +86,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `500`
+- **Access Count**: `514`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -107,7 +107,7 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `persona:omniroute_jaksel_sre`
 
 - **Key**: `persona:omniroute_jaksel_sre`
-- **Access Count**: `699`
+- **Access Count**: `713`
 - **Created**: `2026-09-15T03:41:58.306Z`
 - **Updated**: `2026-09-15T03:41:58.306Z`
 
@@ -134,9 +134,9 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `339`
+- **Access Count**: `347`
 - **Created**: `2026-09-15T03:37:49.795Z`
-- **Updated**: `2026-09-15T05:31:02.243Z`
+- **Updated**: `2026-09-15T09:14:00.842Z`
 
 ### Memory Content
 ```text
@@ -147,7 +147,7 @@ it'
 ```json
 {
   "category": "preference",
-  "extractedAt": "2026-09-15T05:31:02.243Z",
+  "extractedAt": "2026-09-15T09:14:00.842Z",
   "source": "llm_response"
 }
 ```
@@ -157,7 +157,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `740`
+- **Access Count**: `754`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-15T03:34:59.977Z`
 
