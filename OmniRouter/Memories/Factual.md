@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 9
-last_synced: "2026-09-15T10:03:19.277175+00:00"
+last_synced: "2026-09-15T18:22:54.970076+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-15 10:03:19 UTC*
+*Synced from OmniRoute VPS database on 2026-09-15 18:22:54 UTC*
 
 **Total `Factual` Records**: `9`
 
 ## 📌 `persona:omniroute_unified`
 
 - **Key**: `persona:omniroute_unified`
-- **Access Count**: `20`
+- **Access Count**: `34`
 - **Created**: `2026-09-15T09:41:41.950Z`
 - **Updated**: `2026-09-15T09:41:41.950Z`
 
@@ -41,7 +41,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `preference:omniroute_persona`
 
 - **Key**: `preference:omniroute_persona`
-- **Access Count**: `25`
+- **Access Count**: `39`
 - **Created**: `2026-09-15T09:37:59.707Z`
 - **Updated**: `2026-09-15T09:37:59.707Z`
 
@@ -67,7 +67,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `persona:omniroute`
 
 - **Key**: `persona:omniroute`
-- **Access Count**: `75`
+- **Access Count**: `89`
 - **Created**: `2026-09-15T08:55:53.011Z`
 - **Updated**: `2026-09-15T08:55:53.011Z`
 
@@ -93,7 +93,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `omniroute_persona_directives`
 
 - **Key**: `omniroute_persona_directives`
-- **Access Count**: `76`
+- **Access Count**: `90`
 - **Created**: `2026-09-15T08:55:05.996Z`
 - **Updated**: `2026-09-15T08:55:05.996Z`
 
@@ -138,7 +138,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `570`
+- **Access Count**: `584`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -159,7 +159,7 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `persona:omniroute_jaksel_sre`
 
 - **Key**: `persona:omniroute_jaksel_sre`
-- **Access Count**: `770`
+- **Access Count**: `784`
 - **Created**: `2026-09-15T03:41:58.306Z`
 - **Updated**: `2026-09-15T03:41:58.306Z`
 
@@ -209,7 +209,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `811`
+- **Access Count**: `825`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-15T03:34:59.977Z`
 
