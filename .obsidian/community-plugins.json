@@ -2,5 +2,7 @@
   "obsidian-local-rest-api",
   "kilocode",
   "smart-connections",
-  "dataview"
+  "dataview",
+  "obsidian-linter",
+  "templater-obsidian"
 ]
