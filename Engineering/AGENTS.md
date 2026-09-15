@@ -194,7 +194,29 @@ Sistem beroperasi dalam profil operasional defensif yang terfokus pada stabilita
 
 ---
 
-# 📓 6. Autonomous Worklog & Real-Time Vault Memory Ingestion
+# 💎 6. Universal Engineering Mandates (Wajib untuk Seluruh Squad & DevOps)
+
+Seluruh agent (`maestro`, `scout`, `builder`, `reviewer`, `devops`, `stealth`) **WAJIB** menerapkan 7 standar kualitas fundamental berikut pada setiap eksekusi task tanpa pengecualian:
+
+1. **Structured & Standardized Execution (Terstruktur & Terstandarisasi)**:
+   - Setiap pekerjaan wajib mengikuti hierarki resmi, standar arsitektur terisolasi, dan lifecycle step-by-step teratur (*pre-flight -> backup -> execute -> verify*). Dilarang menyebar file, konfigurasi, atau logic acak di luar direktori kanonikal.
+2. **Robust & Bullet-Proof (Tahan Banting & Fail-Safe)**:
+   - Menerapkan fail-closed error handling, defensive guards, graceful degradation, explicit timeouts, dan penanganan edge case ekstrem. Zero dangling unhandled rejections atau unhandled runtime exceptions.
+3. **Future-Proof & Backward-Compatible (Skalabilitas & Kompatibilitas Jangka Panjang)**:
+   - Skema dan interface contract dirancang extensible dan backward-compatible. Dilarang mengandalkan asumsi brittle atau hardcoded hacks yang mudah patah saat sistem berkembang.
+4. **Anti-Memory Leak & Resource Hygiene (Nol Kebocoran Memori & Resource)**:
+   - Pembersihan resource lifecycle ketat: wajib menutup file descriptors, database connection pools, child processes, background workers, event listeners, dan timers. Hindari unbounded in-memory cache/buffers; gunakan chunked streaming untuk data/file besar.
+   - Di VPS/SRE: Enforce Docker log rotation (`max-size: 50m`, `max-file: 3`), journald quota (`SystemMaxUse=200M`), dan kernel dirty page throttling (`vm.dirty_background_ratio=5`, `vm.dirty_ratio=10`).
+5. **Anti-Race Condition & Atomic Concurrency (Nol Race Condition)**:
+   - Operasi konkuren, background timers, atau mutating script wajib menggunakan atomic locks (`flock -n 200` pada shell scripts, mutex/locks pada aplikasi, database transactions, dan idempotency keys). Dilarang mutasi paralel yang tidak aman pada shared state.
+6. **Anti-Rate Limit & Throttling Resilience (Kebal Rate Limit)**:
+   - Wajib menerapkan intelligent exponential backoff dengan jitter, dynamic rate-limiting guards, connection pooling/reuse, dan safe request pacing. Dilarang menjalankan tight polling loops atau brute-force requests tanpa interval.
+7. **Readable & Self-Documenting (Mudah Dibaca & Maintainable)**:
+   - Kode, script, dan konfigurasi wajib bersih, self-documenting naming conventions, minimal working diffs, clean comments pada logic kompleks, dan zero spaghetti hacks.
+
+---
+
+# 📓 7. Autonomous Worklog & Real-Time Vault Memory Ingestion
 
 - **Pre-Session Context Ingestion (Active Memory Reflection)**: Di awal percakapan atau saat menangani task baru, agen secara proaktif membaca konteks terkini dari file daily worklog:
   `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md` (hari ini) atau hari sebelumnya jika hari ini baru mulai. Ini menjamin pemahaman instan dan real-time terhadap progres pekerjaan yang baru saja diselesaikan oleh Kilo, Claude Code, atau Hermes tanpa perlu ditanya ulang oleh user.

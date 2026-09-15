@@ -73,3 +73,18 @@ Dokumen arsitektur dan spesifikasi operasional untuk **Maestro Multi-Agent Orche
 2. **Remote Deployment**: Jika melibatkan VPS, delegasikan ke agent `devops`.
 3. **Autonomous Worklog Persistence**: Otomatis simpan ringkasan milestone ke `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`.
 4. **Final Deliverable**: Kirim ringkasan teknis bersih dan to-the-point ke user.
+
+---
+
+## 💎 Squad-Wide Quality Mandates (Wajib untuk Seluruh Agent)
+
+Semua agent dalam squad Maestro (`scout`, `builder`, `reviewer`, `devops`, `stealth`) **WAJIB** mengeksekusi tugas dengan standar:
+
+1. **Structured & Standardized**: Hierarki resmi, isolasi direktori, dan lifecycle baku (*pre-flight -> backup -> execute -> verify*).
+2. **Robust & Bullet-Proof**: Fail-closed error handling, defensive guards, graceful degradation, explicit timeouts, zero dangling states.
+3. **Future-Proof & Backward-Compatible**: Extensible design, backward-compatible contracts, zero brittle hardcoded assumptions.
+4. **Anti-Memory Leak & Resource Hygiene**: Proper resource lifecycle cleanup (close FDs, DB connection pools, child processes, listeners, chunked streaming for large files, strict container log rotation).
+5. **Anti-Race Condition & Atomic Concurrency**: Atomic operations, mutex/flock locks (`flock -n`), DB transactions, idempotency keys.
+6. **Anti-Rate Limit & Throttling Resilience**: Exponential backoff with jitter, dynamic rate-limiting guards, connection pooling/reuse, safe pacing.
+7. **Readable & Self-Documenting**: Clean self-documenting code/config, minimal working diffs, clear comments, zero spaghetti hacks.
+
