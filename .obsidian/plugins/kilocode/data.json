@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "cliPath": "",
-  "model": "",
+  "cliPath": "/Users/pt-dika/.bun/bin/kilo",
+  "model": "omni_gateway_vps/AG",
   "apiKey": "sk-4bb289cc82d909f7-f7468b-f159ce2f",
   "maxTabs": 3,
   "chatViewPlacement": "right-sidebar",
@@ -10,7 +10,7 @@
     "KILO_BASE_URL": "https://router.noviarputra.my.id/v1"
   },
   "autoStart": false,
-  "defaultModel": "",
+  "defaultModel": "omni_gateway_vps/AG",
   "temperature": 0.7,
   "autoSave": true,
   "theme": "auto",
