@@ -45,9 +45,9 @@ sync_vault() {
         return
     fi
 
-    # Fetch and rebase remote changes first
+    # Fetch and rebase remote changes first with autostash
     if git fetch origin "$BRANCH" >/dev/null 2>&1; then
-        if ! git rebase "origin/$BRANCH" >/dev/null 2>&1; then
+        if ! git rebase --autostash "origin/$BRANCH" >/dev/null 2>&1; then
             echo "[$(date '+%Y-%m-%d %H:%M:%S')] Rebase conflict detected, aborting rebase..." >> "$LOG_FILE"
             git rebase --abort >/dev/null 2>&1 || true
         fi
