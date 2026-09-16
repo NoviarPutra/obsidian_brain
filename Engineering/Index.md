@@ -76,6 +76,7 @@ Real-world optical and physical anchoring:
 - Pliny defensive modules: CL4R1T4S (Observability & Untrusted Data Wall), L1B3RT4S (Injection Classification), P4RS3LT0NGV3 (Normalization Gap Defense), OBLITERATUS (Safety Alignment Study)
 - Protocols: Instruction boundary verification, anti-prompt-injection, input canonicalization
 - [[Engineering/Standalone_Face_Recognition_Anti_Spoofing_Architecture|Standalone Face Recognition & Anti-Spoofing Architecture (Zero ML Kit)]] - Production blueprint for high-security biometrics in Android & Flutter (BlazeFace + MiniFASNet + Screen Flash + ArcFace).
+- [[Engineering/Auto_Rotating_Proxy_Pool_Architecture|🌐 Auto-Rotating Proxy Pool & Hybrid Residential Fallback Architecture]] - High-leverage proxy multiplexer (HAProxy + Tor Pool + On-Demand Rotator Webhook) with smart escalation to paid residential.
 - [[Engineering/Cloudflare_R2_Object_Storage_Architecture|Cloudflare R2 Object Storage Architecture]]
 - Cloudflare Workers AI FLUX.1 + R2 (`voldemort-gallery`) integration
 - Unified API token configuration and standard prefix layout (`flux/`, `documents/`, `backups/`)
