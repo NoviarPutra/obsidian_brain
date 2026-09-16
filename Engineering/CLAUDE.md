@@ -11,6 +11,7 @@ title: "Claude Code Global Engineering Directives"
 # Global Engineering Rules & Guidelines (Synced from Obsidian Vault)
 
 > **Single Source of Truth**: `/Users/pt-dika/Documents/Obsidian/Engineering/`
+> **Related**: [[Engineering/Index|⚡ Engineering MOC]] | [[Home|🌌 Home]]
 
 ---
 
