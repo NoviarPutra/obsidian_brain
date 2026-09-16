@@ -20,3 +20,9 @@ Thumbs.db
 Untitled*.base
 Untitled*.md
 *.tmp
+
+# Large compiled binaries & vendor executables inside plugins
+.obsidian/plugins/*/bin/
+**/*.dylib
+**/*.so
+**/*.dll
