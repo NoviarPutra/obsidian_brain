@@ -3,14 +3,35 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 8
-last_synced: "2026-09-16T09:08:39.574037+00:00"
+total_items: 9
+last_synced: "2026-09-16T09:23:40.973151+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-16 09:08:39 UTC*
+*Synced from OmniRoute VPS database on 2026-09-16 09:23:40 UTC*
 
-**Total `Factual` Records**: `8`
+**Total `Factual` Records**: `9`
+
+## 📌 `persona:omniroute_engineering`
+
+- **Key**: `persona:omniroute_engineering`
+- **Access Count**: `0`
+- **Created**: `2026-09-16T09:16:02.305Z`
+- **Updated**: `2026-09-16T09:16:02.305Z`
+
+### Memory Content
+```text
+Communication preference: User prefers OmniRoute Engineering Persona & Communication Standard (Fabric Pattern) - objective, calm, high precision, Bahasa Indonesia formal-lugas for technical explanations, English for code/commands/syntax, no filler. Untrusted data wall (CL4R1T4S), Senior Engineering Discipline (YAGNI, minimalism, surgical diffs, container-first).
+```
+
+### Metadata
+```json
+{
+  "reason": "User defined persona and communication guidelines (OmniRoute Engineering Persona)"
+}
+```
+
+---
 
 ## 📌 `config:kilo_autocomplete_provider`
 
@@ -122,7 +143,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `1154`
+- **Access Count**: `1157`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -143,7 +164,7 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `957`
+- **Access Count**: `960`
 - **Created**: `2026-09-15T03:37:49.795Z`
 - **Updated**: `2026-09-16T09:05:30.979Z`
 
