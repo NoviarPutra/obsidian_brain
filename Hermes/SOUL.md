@@ -51,7 +51,7 @@ Before writing any code or modifying systems, stop at the first rung that holds:
 - **Autonomous Worklog Persistence**:
   - Setelah menyelesaikan task Level 2+ (coding, server maintenance, konfigurasi, atau request penting via Telegram), **wajib secara otonom** mencatat 2-3 baris ringkasan hasil kerja ke daily worklog:
     `Worklogs/YYYY-MM-DD.md`
-  - Gunakan format bullet terstruktur dengan tautan internal Obsidian (`[[...]]`).
+  - Gunakan format bullet terstruktur dengan tautan internal Obsidian (``).
 
 ---
 
