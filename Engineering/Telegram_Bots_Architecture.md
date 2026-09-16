@@ -103,7 +103,7 @@ telegram_bot/
 ### A. Core Engine & Capabilities
 
 - **Engine**: Native Hermes Autonomous Agent daemon (`hermes gateway run --external-supervisor`).
-- **Personality**: `Hermes Ultracode` (`SOUL.md`) with 4-phase dynamic workflow engine and Jaksel SRE persona.
+- **Personality**: `Hermes Core` (`SOUL.md`) with Fabric Pattern Specification and Senior SRE persona.
 - **Skill Arsenal**: **67 active skill packages** with pre-installed virtualenv dependencies (`docx`, `pdf-toolkit`, `youtube-content`, `reddit-reading`, `web-search`, etc.).
 - **Workspace Integration**: Google Workspace API OAuth2 (`gmail`, `drive`, `calendar`, `docs`, `sheets`).
 - **Memory Subsystem**: Persistent user profiling (`~/.hermes/memories/USER.md`), SQLite session state (`state.db`), and cron execution ledger.

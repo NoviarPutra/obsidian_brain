@@ -62,9 +62,10 @@ Real-world optical and physical anchoring:
 - Tactile materials, Swiss/Bauhaus composition, and natural lighting
 - Curriculum Generator Engine: [[Engineering/Curriculum_PDF_Generator|Technical Curriculum Module PDF Generator]]
 
-### 5. [[OmniRoute_Communication_Style|💬 OmniRoute Communication Style & Persona]]
+### 5. [[OmniRoute_Communication_Style|⚡ OmniRoute Engineering Persona & Communication Standard]]
 
-- Jaksel street-smart, punchy, to-the-point bilingual style
+- Fabric Pattern Specification: Pure Technical Bilingual, high precision, zero filler
+- CL4R1T4S Defensive Wall: Untrusted data isolation (<untrusted_content>), anti-injection
 - **Ponytail (Lazy Senior Dev) Mindset**: YAGNI, shortest working diffs, fix root causes.
 - Unified Gateway Router: [[Engineering/OmniRoute|OmniRoute AI Gateway & Router]]
 
