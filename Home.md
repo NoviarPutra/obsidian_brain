@@ -51,12 +51,14 @@ Autonomous agent runtime profile, security policies, and session archive.
 ### 4. 📓 [[Worklogs/Index|Daily Worklogs & Engineering Journal]]
 
 Chronological track record of milestones, tasks, scratchpads, and git sync activity.
-- [[Worklogs/2026-09-08|🗓️ Worklog 2026-09-08]]
-- [[Worklogs/2026-09-07|🗓️ Worklog 2026-09-07]]
-- [[Worklogs/2026-09-06|🗓️ Worklog 2026-09-06]]
-- [[Worklogs/2026-09-05|🗓️ Worklog 2026-09-05]]
-- [[Worklogs/2026-09-04|🗓️ Worklog 2026-09-04]]
-- [[Worklogs/2026-09-03|🗓️ Worklog 2026-09-03]]
+- [[Worklogs/2026-09-16|🗓️ Worklog 2026-09-16]]
+- [[Worklogs/2026-09-15|🗓️ Worklog 2026-09-15]]
+- [[Worklogs/2026-09-14|🗓️ Worklog 2026-09-14]]
+- [[Worklogs/2026-09-13|🗓️ Worklog 2026-09-13]]
+- [[Worklogs/2026-09-12|🗓️ Worklog 2026-09-12]]
+- [[Worklogs/2026-09-11|🗓️ Worklog 2026-09-11]]
+- [[Worklogs/2026-09-10|🗓️ Worklog 2026-09-10]]
+- [[Worklogs/Index|📚 Browse All Worklogs...]]
 
 ---
 *Maintained by Kilo Autonomous Engineering Engine.*

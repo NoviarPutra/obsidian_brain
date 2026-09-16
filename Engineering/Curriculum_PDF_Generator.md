@@ -13,6 +13,7 @@ title: "Technical Curriculum Module PDF Generator Engine"
 > **Skill**: `curriculum-module-generator`
 > **Master Script**: `/home/voldemort/templates/curriculum_pdf_generator.py`
 > **Primary Role**: Draft (The Scribe)
+> **Related**: [[Engineering/Index|⚡ Engineering MOC]] | [[Engineering/Anti_AI_Slop_Visual_Tuning|🎨 Anti-AI-Slop Architecture]]
 
 ---
 

@@ -8,6 +8,8 @@ last_synced: "2026-09-09T17:22:40.871853+00:00"
 
 # ⚕️ Hermes Agent Knowledge & Session Archive
 
+> **Related Hubs**: [[Home|🌌 Home]] | [[Hermes/SOUL|🔮 Hermes Core Directives & SOUL]] | [[Engineering/Index|⚡ Engineering MOC]]
+
 *Synced from local Hermes database on 2026-09-09 17:22:40 UTC*
 
 ## 🛠️ Integrated Capabilities

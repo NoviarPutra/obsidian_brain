@@ -15,7 +15,8 @@ Welcome to your automated daily worklog archive.
 
 ## 🗂️ Worklog Timeline (Direct Graph Links)
 
-- [[Worklogs/2026-09-15|🗓️ 2026-09-15 (Time Off Request reskin — tiket 04-07)]]
+- [[Worklogs/2026-09-16|🗓️ 2026-09-16 (Auto-Rotating Proxy Gateway Deployment & Architecture Documentation)]]
+- [[Worklogs/2026-09-15|🗓️ 2026-09-15 (Sevaka UI Reskin, VPS Hardening, Vault Graph Hardening)]]
 - [[Worklogs/2026-09-14|🗓️ 2026-09-14]]
 - [[Worklogs/2026-09-13|🗓️ 2026-09-13]]
 - [[Worklogs/2026-09-12|🗓️ 2026-09-12]]
