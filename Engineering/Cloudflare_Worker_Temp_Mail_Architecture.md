@@ -1,3 +1,11 @@
+---
+tags:
+  - engineering/architecture
+  - cloudflare
+  - serverless
+title: "Serverless Catch-All Temp Mail Architecture"
+---
+
 # ⚡ Serverless Catch-All Temp Mail Architecture (Cloudflare Workers + D1 / Telegram)
 
 Status: 📋 Planned / Future Implementation

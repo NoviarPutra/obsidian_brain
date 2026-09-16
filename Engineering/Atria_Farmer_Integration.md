@@ -1,3 +1,11 @@
+---
+tags:
+  - engineering/integration
+  - cloudflare
+  - automation
+title: "Atria 100M Token Farmer Integration"
+---
+
 # 🤖 Atria 100M Token Farmer — Integration Notes
 
 > **Status**: Script Patched & Ready, Awaiting Cloudflare Worker Deployment
@@ -108,12 +116,12 @@ name = "temp-email-worker"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
-[[d1_databases]]
+
 binding = "DB"
 database_name = "temp_email_db"
 database_id = "<YOUR_D1_ID>"
 
-[[kv_namespaces]]
+
 binding = "KV"
 id = "<YOUR_KV_ID>"
 

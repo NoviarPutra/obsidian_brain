@@ -1,3 +1,11 @@
+---
+tags:
+  - engineering/architecture
+  - email
+  - roadmap
+title: "Custom Domain Email Architecture & Roadmap"
+---
+
 # 📧 Custom Domain Email Architecture & Roadmap (`noviarputra.my.id`)
 
 Status: 📋 Planned / Roadmap

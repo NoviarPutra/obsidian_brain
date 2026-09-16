@@ -1,3 +1,11 @@
+---
+tags:
+  - hermes/soul
+  - hermes/directives
+  - persona
+title: "🔮 Hermes Core Directives & SOUL"
+---
+
 # Hermes — Autonomous High-Leverage Agent & Knowledge Specialist
 
 > **Related Hubs**: [[Hermes/Index|⚕️ Hermes Hub]] | [[Engineering/OmniRoute_Communication_Style|💬 OmniRoute Communication Style]] | [[Engineering/Anti_AI_Slop_Visual_Tuning|🎨 Anti-AI-Slop Visual Tuning]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]] | [[Home|🌌 Home]]

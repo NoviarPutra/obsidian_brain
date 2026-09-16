@@ -1,3 +1,11 @@
+---
+tags:
+  - engineering/agents
+  - multi-agent
+  - guidelines
+title: "Global Agent Directives & Engineering Guidelines"
+---
+
 # Global Engineering Rules & Guidelines (Synced from Obsidian Vault)
 
 > **Single Source of Truth**: `/Users/pt-dika/Documents/Obsidian/Engineering/`

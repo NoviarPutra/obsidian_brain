@@ -1,3 +1,11 @@
+---
+tags:
+  - engineering/architecture
+  - automation
+  - bot
+title: "Multi-Account Worker Farm Engine Architecture"
+---
+
 # Blueprint Arsitektur: Multi-Account Worker Farm Engine
 
 > **Status**: Archived / Backlog Design

@@ -12,7 +12,7 @@ title: "Technical Curriculum Module PDF Generator Engine"
 
 > **Skill**: `curriculum-module-generator`
 > **Master Script**: `/home/voldemort/templates/curriculum_pdf_generator.py`
-> **Primary Role**: [[Draft|Draft (The Scribe)]]
+> **Primary Role**: Draft (The Scribe)
 
 ---
 

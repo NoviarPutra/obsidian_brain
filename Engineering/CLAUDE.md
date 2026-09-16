@@ -1,3 +1,11 @@
+---
+tags:
+  - engineering/claude
+  - claude-code
+  - guidelines
+title: "Claude Code Global Engineering Directives"
+---
+
 @RTK.md
 
 # Global Engineering Rules & Guidelines (Synced from Obsidian Vault)
