@@ -40,6 +40,8 @@ Autonomous high-leverage 4-phase state machine & squad dispatch:
 - **Phase 2**: Isolated Ticket Execution (delegated to `builder` TDD loop / `genjutsu` UI)
 - **Phase 3**: Adversarial Dual-Axis Review (delegated to `reviewer`)
 - **Phase 4**: Final Synthesis & Workspace Verification (optional `devops` deploy)
+- Squad Protocol: [[Engineering/The_Minimalist_Seven_Squad_Protocol|The Minimalist Seven Squad Protocol]]
+- Agent Execution Rules: [[Engineering/AGENTS|Global Agent Directives]] & [[Engineering/CLAUDE|Claude Code Directives]]
 
 ### 2. [[MattPocock_Skills_Workflow|🛠️ Matt Pocock Autonomous AI Flow Engine]]
 
@@ -58,17 +60,20 @@ High-performance 60 FPS motion design & animation architecture:
 Real-world optical and physical anchoring:
 - Banned cliché buzzwords & radioactive palettes
 - Tactile materials, Swiss/Bauhaus composition, and natural lighting
+- Curriculum Generator Engine: [[Engineering/Curriculum_PDF_Generator|Technical Curriculum Module PDF Generator]]
 
 ### 5. [[OmniRoute_Communication_Style|💬 OmniRoute Communication Style & Persona]]
 
 - Jaksel street-smart, punchy, to-the-point bilingual style
 - **Ponytail (Lazy Senior Dev) Mindset**: YAGNI, shortest working diffs, fix root causes.
+- Unified Gateway Router: [[Engineering/OmniRoute|OmniRoute AI Gateway & Router]]
 
 ### 6. [[DevOps_Isolation_Policy|🔒 DevOps VPS Isolation & Server Clean Layout]]
 
 - Exclusive delegation to dedicated `devops` agent & Zero-Trust tool lockdown
 - Container-first architecture (zero host pollution) & modular service layout
 - Config versioning backups, non-breaking deployments, and SRE health observability
+- Host Infrastructure: [[Engineering/Voldemort_VPS|Voldemort VPS Topology & Services]]
 
 ### 7. [[Pliny_Defensive_Security|🛡️ Pliny Defensive Security & AI Hardening]]
 
@@ -93,6 +98,17 @@ Real-world optical and physical anchoring:
 - 3-in-1 multi-mode operational switcher (`menu` | `hermes` | `hybrid`)
 - Zero-dependency async SQLite WAL persistence & 3-Tier RBAC security layer
 - Drop-in plugin registry, universal LLM gateway, and 60-second CLI setup wizard (`init.sh`)
+
+### 10. 🌐 Cloudflare Serverless & Edge Automation Services
+
+- [[Engineering/Cloudflare_Worker_Temp_Mail_Architecture|⚡ Serverless Catch-All Temp Mail Architecture]] (Cloudflare Workers + D1 / Telegram)
+- [[Engineering/Custom_Domain_Email_Plan|📧 Custom Domain Email Architecture & Roadmap (`noviarputra.my.id`)]]
+- [[Engineering/Atria_Farmer_Integration|🤖 Atria 100M Token Farmer Cloudflare Worker Integration]]
+- [[Engineering/Multi_Account_Worker_Farm_Architecture|🚜 Multi-Account Worker Farm Engine Architecture]]
+
+### 11. 📱 Product Repositories & Client Frontends
+
+- [[Engineering/Sevaka_UI|💻 Sevaka UI — HRIS & Enterprise Portal Frontend]]
 
 ---
 *Related: [[Home|🌌 Home]] | [[Worklogs/Index|📓 Worklogs]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]]*
