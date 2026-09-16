@@ -53,6 +53,11 @@ sync_vault() {
         fi
     fi
 
+    # Pre-sync hygiene & linter
+    if [[ -f "$VAULT_DIR/scripts/vault_lint.py" ]]; then
+        python3 "$VAULT_DIR/scripts/vault_lint.py" >> "$LOG_FILE" 2>&1 || true
+    fi
+
     # Check for local modifications or untracked files
     if [[ -n $(git status --porcelain) ]]; then
         echo "[$(date '+%Y-%m-%d %H:%M:%S')] Local changes detected. Staging and committing..." >> "$LOG_FILE"
