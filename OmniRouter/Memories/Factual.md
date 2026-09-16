@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 9
-last_synced: "2026-09-16T03:23:21.346844+00:00"
+last_synced: "2026-09-16T03:38:21.483018+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-16 03:23:21 UTC*
+*Synced from OmniRoute VPS database on 2026-09-16 03:38:21 UTC*
 
 **Total `Factual` Records**: `9`
 
 ## 📌 `persona:omniroute_unified`
 
 - **Key**: `persona:omniroute_unified`
-- **Access Count**: `383`
+- **Access Count**: `436`
 - **Created**: `2026-09-15T09:41:41.950Z`
 - **Updated**: `2026-09-15T09:41:41.950Z`
 
@@ -41,7 +41,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `preference:omniroute_persona`
 
 - **Key**: `preference:omniroute_persona`
-- **Access Count**: `388`
+- **Access Count**: `441`
 - **Created**: `2026-09-15T09:37:59.707Z`
 - **Updated**: `2026-09-15T09:37:59.707Z`
 
@@ -67,7 +67,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `persona:omniroute`
 
 - **Key**: `persona:omniroute`
-- **Access Count**: `438`
+- **Access Count**: `470`
 - **Created**: `2026-09-15T08:55:53.011Z`
 - **Updated**: `2026-09-15T08:55:53.011Z`
 
@@ -93,7 +93,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `omniroute_persona_directives`
 
 - **Key**: `omniroute_persona_directives`
-- **Access Count**: `439`
+- **Access Count**: `492`
 - **Created**: `2026-09-15T08:55:05.996Z`
 - **Updated**: `2026-09-15T08:55:05.996Z`
 
@@ -119,7 +119,7 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `math:15314+87776`
 
 - **Key**: `math:15314+87776`
-- **Access Count**: `227`
+- **Access Count**: `237`
 - **Created**: `2026-09-15T06:44:19.635Z`
 - **Updated**: `2026-09-15T06:44:19.635Z`
 
@@ -138,7 +138,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `802`
+- **Access Count**: `812`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -159,7 +159,7 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `persona:omniroute_jaksel_sre`
 
 - **Key**: `persona:omniroute_jaksel_sre`
-- **Access Count**: `1133`
+- **Access Count**: `1165`
 - **Created**: `2026-09-15T03:41:58.306Z`
 - **Updated**: `2026-09-15T03:41:58.306Z`
 
@@ -186,9 +186,9 @@ OmniRoute Unified Persona & Directives:
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `521`
+- **Access Count**: `536`
 - **Created**: `2026-09-15T03:37:49.795Z`
-- **Updated**: `2026-09-15T09:48:07.139Z`
+- **Updated**: `2026-09-16T03:35:33.825Z`
 
 ### Memory Content
 ```text
@@ -199,7 +199,7 @@ it'
 ```json
 {
   "category": "preference",
-  "extractedAt": "2026-09-15T09:48:07.139Z",
+  "extractedAt": "2026-09-16T03:35:33.825Z",
   "source": "llm_response"
 }
 ```
@@ -209,7 +209,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `1176`
+- **Access Count**: `1216`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-15T03:34:59.977Z`
 
