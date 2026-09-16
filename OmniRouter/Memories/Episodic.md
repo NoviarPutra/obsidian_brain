@@ -3,17 +3,32 @@ tags:
   - omniroute/memory
   - omniroute/memory/episodic
 category: "Episodic"
-total_items: 0
-last_synced: "2026-09-03T14:25:14.425955+00:00"
+total_items: 1
+last_synced: "2026-09-16T04:23:24.377779+00:00"
 ---
-
 # 🧠 OmniRoute Memory: Episodic
 
-*Synced from OmniRoute VPS database on 2026-09-03 14:25:14 UTC*
+*Synced from OmniRoute VPS database on 2026-09-16 04:23:24 UTC*
 
-**Total `Episodic` Records**: `0`
+**Total `Episodic` Records**: `1`
 
-> [!INFO]
-> No active `episodic` memories currently stored in OmniRoute.
+## 📌 `obsidian_vault_review`
 
-Memories are automatically recorded when AI agents learn project context, coding rules, or factual details.
+- **Key**: `obsidian_vault_review`
+- **Access Count**: `26`
+- **Created**: `2026-09-16T04:10:52.501Z`
+- **Updated**: `2026-09-16T04:10:52.501Z`
+
+### Memory Content
+```text
+User asks about reviewing/validating Obsidian vault structure for robustness, clean connections, and MCP/AI integration readiness.
+```
+
+### Metadata
+```json
+{
+  "reason": "Record user goal regarding Obsidian vault architecture review"
+}
+```
+
+---
