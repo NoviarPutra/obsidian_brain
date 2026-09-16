@@ -58,6 +58,13 @@ sync_vault() {
         python3 "$VAULT_DIR/scripts/vault_lint.py" >> "$LOG_FILE" 2>&1 || true
     fi
 
+    # Hermes Local SSOT Symlink Integrity Guard
+    if [[ ! -L "$HOME/.hermes/SOUL.md" || "$(readlink "$HOME/.hermes/SOUL.md")" != "$VAULT_DIR/Hermes/SOUL.md" ]]; then
+        mkdir -p "$HOME/.hermes"
+        ln -sf "$VAULT_DIR/Hermes/SOUL.md" "$HOME/.hermes/SOUL.md"
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] Repaired ~/.hermes/SOUL.md symlink to SSOT." >> "$LOG_FILE"
+    fi
+
     # Check for local modifications or untracked files
     if [[ -n $(git status --porcelain) ]]; then
         echo "[$(date '+%Y-%m-%d %H:%M:%S')] Local changes detected. Staging and committing..." >> "$LOG_FILE"
