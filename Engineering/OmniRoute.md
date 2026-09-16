@@ -18,5 +18,5 @@ title: "OmniRoute AI Gateway & Proxy Router"
 ## 🧭 Core Directives
 
 - Single Source of Truth for model routing (`AG`, `Agnes`, upstream providers).
-- Strict persona enforcement: Street-smart Jaksel SRE & Lazy Senior Dev ('Ponytail').
+- Strict persona enforcement: OmniRoute Engineering Persona & Communication Standard (Fabric Pattern Specification).
 - Hardened prompt boundary verification and untrusted external data isolation (CL4R1T4S).
