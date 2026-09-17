@@ -2,22 +2,22 @@
 tags:
   - omniroute/analytics
   - omniroute/dashboard
-total_requests: 10000
+total_requests: 10018
 success_rate: "99.8%"
-last_updated: "2026-09-17T11:43:01.909788+00:00"
+last_updated: "2026-09-17T12:13:02.737246+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-17 11:43:01 UTC*
+*Synced from OmniRoute VPS database on 2026-09-17 12:13:02 UTC*
 
 ## ⚡ Key Metrics
 
 - **Total AI Requests**: `10.0k`
-- **Success Rate**: `99.79%`
-- **Input Tokens Processed**: `21.83M` (`21,832,492` tokens)
-- **Output Tokens Generated**: `185.0k` (`184,966` tokens)
-- **Cache Tokens Read**: `9.75M`
-- **Avg Response Duration**: `1,355 ms`
+- **Success Rate**: `99.77%`
+- **Input Tokens Processed**: `27.77M` (`27,770,287` tokens)
+- **Output Tokens Generated**: `230.7k` (`230,662` tokens)
+- **Cache Tokens Read**: `11.35M`
+- **Avg Response Duration**: `1,415 ms`
 
 ---
 
@@ -25,20 +25,20 @@ last_updated: "2026-09-17T11:43:01.909788+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799`** | `1.7k` | `0` | `0` | `1692 ms` |
-| **`openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844`** | `1.5k` | `0` | `0` | `479 ms` |
-| **`agnes`** | `1.5k` | `0` | `0` | `133 ms` |
-| **`groq`** | `1.3k` | `0` | `0` | `1085 ms` |
-| **`opencode`** | `950` | `0` | `0` | `770 ms` |
-| **`antigravity`** | `757` | `21.83M` | `185.0k` | `3905 ms` |
-| **`openrouter`** | `627` | `0` | `0` | `1696 ms` |
-| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `567` | `0` | `0` | `2096 ms` |
-| **`openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658`** | `245` | `0` | `0` | `1998 ms` |
-| **`aihorde`** | `203` | `0` | `0` | `4218 ms` |
-| **`claude`** | `190` | `0` | `0` | `11 ms` |
-| **`upstage`** | `189` | `0` | `0` | `477 ms` |
-| **`agentrouter`** | `187` | `0` | `0` | `4633 ms` |
-| **`AG`** | `3` | `0` | `0` | `12366 ms` |
+| **`openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799`** | `1.7k` | `0` | `0` | `1707 ms` |
+| **`agnes`** | `1.5k` | `0` | `0` | `138 ms` |
+| **`openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844`** | `1.5k` | `0` | `0` | `483 ms` |
+| **`groq`** | `1.3k` | `0` | `0` | `1090 ms` |
+| **`opencode`** | `942` | `0` | `0` | `777 ms` |
+| **`antigravity`** | `853` | `27.77M` | `230.7k` | `4136 ms` |
+| **`openrouter`** | `620` | `0` | `0` | `1713 ms` |
+| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `562` | `0` | `0` | `2161 ms` |
+| **`openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658`** | `257` | `0` | `0` | `2070 ms` |
+| **`aihorde`** | `202` | `0` | `0` | `4230 ms` |
+| **`claude`** | `189` | `0` | `0` | `11 ms` |
+| **`upstage`** | `188` | `0` | `0` | `488 ms` |
+| **`agentrouter`** | `186` | `0` | `0` | `4642 ms` |
+| **`AG`** | `4` | `0` | `0` | `11120 ms` |
 
 ---
 
@@ -46,18 +46,18 @@ last_updated: "2026-09-17T11:43:01.909788+00:00"
 
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`connection-test`** | `openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799` | `1.7k` | `0` | `1692 ms` |
-| **`connection-test`** | `agnes` | `1.5k` | `0` | `133 ms` |
-| **`connection-test`** | `openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844` | `1.5k` | `0` | `479 ms` |
-| **`connection-test`** | `groq` | `1.3k` | `0` | `1085 ms` |
-| **`connection-test`** | `opencode` | `949` | `0` | `766 ms` |
-| **`connection-test`** | `openrouter` | `612` | `0` | `399 ms` |
-| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `567` | `0` | `2096 ms` |
-| **`gemini-3.8-flash-tiered`** | `antigravity` | `509` | `22.01M` | `5554 ms` |
-| **`connection-test`** | `antigravity` | `245` | `0` | `437 ms` |
-| **`connection-test`** | `openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658` | `241` | `0` | `2016 ms` |
-| **`connection-test`** | `claude` | `190` | `0` | `11 ms` |
-| **`connection-test`** | `aihorde` | `189` | `0` | `2771 ms` |
-| **`connection-test`** | `upstage` | `189` | `0` | `477 ms` |
-| **`connection-test`** | `agentrouter` | `187` | `0` | `4633 ms` |
+| **`connection-test`** | `openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799` | `1.7k` | `0` | `1707 ms` |
+| **`connection-test`** | `agnes` | `1.5k` | `0` | `138 ms` |
+| **`connection-test`** | `openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844` | `1.5k` | `0` | `483 ms` |
+| **`connection-test`** | `groq` | `1.3k` | `0` | `1090 ms` |
+| **`connection-test`** | `opencode` | `941` | `0` | `773 ms` |
+| **`connection-test`** | `openrouter` | `605` | `0` | `401 ms` |
+| **`gemini-3.8-flash-tiered`** | `antigravity` | `605` | `28.00M` | `5615 ms` |
+| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `562` | `0` | `2161 ms` |
+| **`connection-test`** | `openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658` | `253` | `0` | `2088 ms` |
+| **`connection-test`** | `antigravity` | `245` | `0` | `445 ms` |
+| **`connection-test`** | `claude` | `189` | `0` | `11 ms` |
+| **`connection-test`** | `aihorde` | `188` | `0` | `2776 ms` |
+| **`connection-test`** | `upstage` | `188` | `0` | `488 ms` |
+| **`connection-test`** | `agentrouter` | `186` | `0` | `4642 ms` |
 | **`model-sync`** | `openrouter` | `15` | `0` | `54628 ms` |
