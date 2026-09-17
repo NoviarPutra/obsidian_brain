@@ -3,14 +3,35 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 12
-last_synced: "2026-09-17T06:39:44.380877+00:00"
+total_items: 13
+last_synced: "2026-09-17T06:57:52.723680+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-17 06:39:44 UTC*
+*Synced from OmniRoute VPS database on 2026-09-17 06:57:52 UTC*
 
-**Total `Factual` Records**: `12`
+**Total `Factual` Records**: `13`
+
+## 📌 `preference:persona_omniroute`
+
+- **Key**: `preference:persona_omniroute`
+- **Access Count**: `0`
+- **Created**: `2026-09-17T06:44:16.155Z`
+- **Updated**: `2026-09-17T06:44:16.155Z`
+
+### Memory Content
+```text
+User prefers OmniRoute Core AI persona: formal concise Indonesian for explanations, 100% English for code/commands/file paths/logs, lazy senior dev discipline (YAGNI, minimal diffs, root cause focus, zero conversational bloat).
+```
+
+### Metadata
+```json
+{
+  "reason": "Store user persona and communication standard preference"
+}
+```
+
+---
 
 ## 📌 `persona:omniroute_standard`
 
