@@ -3,14 +3,35 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 11
-last_synced: "2026-09-16T11:23:46.966816+00:00"
+total_items: 12
+last_synced: "2026-09-17T06:39:44.380877+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-16 11:23:46 UTC*
+*Synced from OmniRoute VPS database on 2026-09-17 06:39:44 UTC*
 
-**Total `Factual` Records**: `11`
+**Total `Factual` Records**: `12`
+
+## 📌 `persona:omniroute_standard`
+
+- **Key**: `persona:omniroute_standard`
+- **Access Count**: `0`
+- **Created**: `2026-09-17T06:26:58.922Z`
+- **Updated**: `2026-09-17T06:26:58.922Z`
+
+### Memory Content
+```text
+OmniRoute Engineering Persona & Ponytail output style: Objective, formal-lugas Indonesian explanation, 100% English code/syntax, zero conversational filler, YAGNI minimalism, lazy senior dev mindset (shortest working diff, no unrequested abstractions, root-cause focused).
+```
+
+### Metadata
+```json
+{
+  "reason": "Persist OmniRoute engineering persona and output style standard"
+}
+```
+
+---
 
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
