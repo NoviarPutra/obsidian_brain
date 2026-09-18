@@ -3,19 +3,65 @@ tags:
   - omniroute/memory
   - omniroute/memory/episodic
 category: "Episodic"
-total_items: 1
-last_synced: "2026-09-18T14:58:43.415335+00:00"
+total_items: 3
+last_synced: "2026-09-18T15:13:43.655768+00:00"
 ---
 # 🧠 OmniRoute Memory: Episodic
 
-*Synced from OmniRoute VPS database on 2026-09-18 14:58:43 UTC*
+*Synced from OmniRoute VPS database on 2026-09-18 15:13:43 UTC*
 
-**Total `Episodic` Records**: `1`
+**Total `Episodic` Records**: `3`
+
+## 📌 `decision:its_semantics_identifier_to_locate_it_an`
+
+- **Key**: `decision:its_semantics_identifier_to_locate_it_an`
+- **Access Count**: `7`
+- **Created**: `2026-09-18T15:12:26.551Z`
+- **Updated**: `2026-09-18T15:12:26.551Z`
+
+### Memory Content
+```text
+its semantics identifier to locate it and then simulate a tap
+```
+
+### Metadata
+```json
+{
+  "category": "decision",
+  "extractedAt": "2026-09-18T15:12:26.551Z",
+  "source": "llm_response"
+}
+```
+
+---
+
+## 📌 `decision:_reportsrepositoryprovider`
+
+- **Key**: `decision:_reportsrepositoryprovider`
+- **Access Count**: `27`
+- **Created**: `2026-09-18T15:07:48.459Z`
+- **Updated**: `2026-09-18T15:07:48.459Z`
+
+### Memory Content
+```text
+`reportsRepositoryProvider`
+```
+
+### Metadata
+```json
+{
+  "category": "decision",
+  "extractedAt": "2026-09-18T15:07:48.457Z",
+  "source": "llm_response"
+}
+```
+
+---
 
 ## 📌 `obsidian_vault_review`
 
 - **Key**: `obsidian_vault_review`
-- **Access Count**: `3454`
+- **Access Count**: `3540`
 - **Created**: `2026-09-16T04:10:52.501Z`
 - **Updated**: `2026-09-16T04:10:52.501Z`
 
