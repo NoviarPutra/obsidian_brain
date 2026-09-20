@@ -75,6 +75,7 @@ Real-world optical and physical anchoring:
 - Container-first architecture (zero host pollution) & modular service layout
 - Config versioning backups, non-breaking deployments, and SRE health observability
 - Host Infrastructure: [[Engineering/Voldemort_VPS|Voldemort VPS Topology & Services]]
+- On-Premises Expansion: [[Engineering/Mini_PC_Self_Hosted_Hardware_Plan|🖥️ Mini PC Self-Hosted Infrastructure & Hardware Migration Plan]]
 
 ### 7. [[Pliny_Defensive_Security|🛡️ Pliny Defensive Security & AI Hardening]]
 
