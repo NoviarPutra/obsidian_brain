@@ -64,6 +64,6 @@ Spesifikasi lengkap, arsitektur modul, dependency `pubspec.yaml`, dan implementa
 
 * Workstation lokal terhubung ke VPS melalui **Tailscale mesh network**.
 * Flutter Client mengarahkan traffic ke IP Tailscale VPS:
-  * REST API: `http://100.x.x.x:8088/api/v1`
-  * WebSocket: `ws://100.x.x.x:8088/ws`
+  * REST API: `http://100.x.x.x:8090/api/v1`
+  * WebSocket: `ws://100.x.x.x:8090/ws`
 * Tidak ada port yang dibuka ke internet publik.
