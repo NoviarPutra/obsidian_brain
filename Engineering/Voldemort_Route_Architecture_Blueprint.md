@@ -52,7 +52,7 @@ date: 2026-09-20
 
 ## 3. Industrial Telemetry & Anti-AI-Slop Visual Identity
 
-Dashboard Voldemort Route menolak estetika generic AI (warna ungu/cyan neon, sudut membulat 24px berlebih, blur glassmorphism, dan transisi lambat). Desain mengadopsi **Bauhaus Brutalism & Industrial Telemetry**:
+Dashboard Voldemort Route menolak estetika generic AI (warna ungu/cyan neon, sudut membulat 24px berlebih, blur glassmorphism, dan transisi lambat). Desain mengadopsi **Bauhaus Brutalism & Industrial Telemetry** (Spesifikasi lengkap terdokumentasi di [[Engineering/Voldemort_Route_Design_System]]):
 
 - **Color Foundation**:
   - `Background Base`: `#090D10` (Deep Obsidian Void)
