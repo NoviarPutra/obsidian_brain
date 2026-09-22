@@ -4,20 +4,20 @@ tags:
   - omniroute/dashboard
 total_requests: 10000
 success_rate: "98.6%"
-last_updated: "2026-09-22T21:16:27.507797+00:00"
+last_updated: "2026-09-22T21:46:28.241272+00:00"
 ---
 # 📈 OmniRoute AI Telemetry & Usage Overview
 
-*Synced from OmniRoute VPS database on 2026-09-22 21:16:27 UTC*
+*Synced from OmniRoute VPS database on 2026-09-22 21:46:28 UTC*
 
 ## ⚡ Key Metrics
 
 - **Total AI Requests**: `10.0k`
 - **Success Rate**: `98.61%`
-- **Input Tokens Processed**: `77.46M` (`77,459,289` tokens)
-- **Output Tokens Generated**: `337.3k` (`337,263` tokens)
-- **Cache Tokens Read**: `59.84M`
-- **Avg Response Duration**: `1,485 ms`
+- **Input Tokens Processed**: `71.30M` (`71,302,418` tokens)
+- **Output Tokens Generated**: `325.1k` (`325,112` tokens)
+- **Cache Tokens Read**: `54.93M`
+- **Avg Response Duration**: `1,474 ms`
 
 ---
 
@@ -25,23 +25,23 @@ last_updated: "2026-09-22T21:16:27.507797+00:00"
 
 | Provider | Total Requests | Input Tokens | Output Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`grok-cli`** | `2.8k` | `18.1k` | `4.8k` | `194 ms` |
-| **`openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799`** | `1.0k` | `0` | `0` | `1628 ms` |
-| **`openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844`** | `934` | `0` | `0` | `738 ms` |
-| **`agnes`** | `923` | `0` | `0` | `126 ms` |
-| **`antigravity`** | `859` | `77.42M` | `331.6k` | `7508 ms` |
-| **`groq`** | `810` | `0` | `0` | `1143 ms` |
-| **`opencode`** | `576` | `0` | `0` | `895 ms` |
-| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `445` | `0` | `0` | `2886 ms` |
-| **`openrouter`** | `365` | `0` | `0` | `382 ms` |
-| **`openai-compatible-chat-29071fba-7901-4e17-a211-74ca5c68b853`** | `229` | `23.9k` | `776` | `2077 ms` |
-| **`openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658`** | `228` | `0` | `0` | `2239 ms` |
-| **`agy`** | `197` | `0` | `0` | `630 ms` |
-| **`aihorde`** | `117` | `0` | `0` | `3239 ms` |
-| **`agentrouter`** | `117` | `0` | `0` | `4594 ms` |
-| **`upstage`** | `115` | `0` | `0` | `457 ms` |
-| **`claude`** | `115` | `0` | `0` | `9 ms` |
-| **`openai-compatible-chat-1813641a-3bff-4d6d-8290-4595e833431e`** | `114` | `0` | `0` | `2579 ms` |
+| **`grok-cli`** | `2.6k` | `18.1k` | `4.8k` | `207 ms` |
+| **`openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799`** | `1.1k` | `0` | `0` | `1630 ms` |
+| **`openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844`** | `971` | `0` | `0` | `742 ms` |
+| **`agnes`** | `960` | `0` | `0` | `122 ms` |
+| **`groq`** | `843` | `0` | `0` | `1141 ms` |
+| **`antigravity`** | `791` | `71.26M` | `319.5k` | `7693 ms` |
+| **`opencode`** | `601` | `0` | `0` | `882 ms` |
+| **`openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7`** | `465` | `0` | `0` | `2830 ms` |
+| **`openrouter`** | `380` | `0` | `0` | `379 ms` |
+| **`openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658`** | `238` | `0` | `0` | `2219 ms` |
+| **`openai-compatible-chat-29071fba-7901-4e17-a211-74ca5c68b853`** | `234` | `23.9k` | `776` | `2040 ms` |
+| **`agy`** | `202` | `0` | `0` | `628 ms` |
+| **`aihorde`** | `122` | `0` | `0` | `3198 ms` |
+| **`agentrouter`** | `122` | `0` | `0` | `4555 ms` |
+| **`upstage`** | `120` | `0` | `0` | `453 ms` |
+| **`claude`** | `120` | `0` | `0` | `9 ms` |
+| **`openai-compatible-chat-1813641a-3bff-4d6d-8290-4595e833431e`** | `119` | `0` | `0` | `2566 ms` |
 | **`AG`** | `4` | `0` | `0` | `30032 ms` |
 
 ---
@@ -50,18 +50,18 @@ last_updated: "2026-09-22T21:16:27.507797+00:00"
 
 | Model | Provider | Requests | Total Tokens | Avg Latency |
 | :--- | :--- | :--- | :--- | :--- |
-| **`connection-test`** | `grok-cli` | `2.8k` | `0` | `1 ms` |
-| **`connection-test`** | `openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799` | `1.0k` | `0` | `1628 ms` |
-| **`connection-test`** | `agnes` | `923` | `0` | `126 ms` |
-| **`connection-test`** | `openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844` | `923` | `0` | `496 ms` |
-| **`gemini-3.8-flash-high`** | `antigravity` | `859` | `77.75M` | `7508 ms` |
-| **`connection-test`** | `groq` | `807` | `0` | `1070 ms` |
-| **`connection-test`** | `opencode` | `575` | `0` | `838 ms` |
-| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `445` | `0` | `2886 ms` |
-| **`connection-test`** | `openrouter` | `365` | `0` | `382 ms` |
-| **`connection-test`** | `openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658` | `228` | `0` | `2239 ms` |
-| **`connection-test`** | `agy` | `196` | `0` | `422 ms` |
-| **`connection-test`** | `agentrouter` | `115` | `0` | `4285 ms` |
-| **`connection-test`** | `aihorde` | `115` | `0` | `2883 ms` |
-| **`connection-test`** | `claude` | `115` | `0` | `9 ms` |
-| **`connection-test`** | `openai-compatible-chat-29071fba-7901-4e17-a211-74ca5c68b853` | `115` | `0` | `220 ms` |
+| **`connection-test`** | `grok-cli` | `2.6k` | `0` | `1 ms` |
+| **`connection-test`** | `openai-compatible-chat-d8bf6c73-5708-45d0-8733-f59cfb786799` | `1.1k` | `0` | `1630 ms` |
+| **`connection-test`** | `agnes` | `960` | `0` | `122 ms` |
+| **`connection-test`** | `openai-compatible-chat-18c5987c-aa01-4e00-97e6-3ccbb9f3e844` | `960` | `0` | `509 ms` |
+| **`connection-test`** | `groq` | `840` | `0` | `1071 ms` |
+| **`gemini-3.8-flash-high`** | `antigravity` | `791` | `71.58M` | `7693 ms` |
+| **`connection-test`** | `opencode` | `600` | `0` | `827 ms` |
+| **`connection-test`** | `openai-compatible-chat-858b1eaf-e606-4423-8349-9d0e73c391b7` | `465` | `0` | `2830 ms` |
+| **`connection-test`** | `openrouter` | `380` | `0` | `379 ms` |
+| **`connection-test`** | `openai-compatible-chat-3ee7a89d-5af4-40a4-88c9-72b620f5a658` | `238` | `0` | `2219 ms` |
+| **`connection-test`** | `agy` | `201` | `0` | `426 ms` |
+| **`connection-test`** | `agentrouter` | `120` | `0` | `4258 ms` |
+| **`connection-test`** | `aihorde` | `120` | `0` | `2856 ms` |
+| **`connection-test`** | `claude` | `120` | `0` | `9 ms` |
+| **`connection-test`** | `openai-compatible-chat-29071fba-7901-4e17-a211-74ca5c68b853` | `120` | `0` | `225 ms` |
