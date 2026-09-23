@@ -112,5 +112,31 @@ Real-world optical and physical anchoring:
 
 - [[Engineering/Sevaka_UI|💻 Sevaka UI — HRIS & Enterprise Portal Frontend]]
 
+
+
+### 12. 📱 Mobile & Modern Frontend Architecture Standards
+
+- [[Engineering/Flutter_Riverpod_Architecture_Standard|🌊 Flutter Riverpod Architecture Standard]] - State management, code-gen, caching, dan anti-memory leak.
+- [[Engineering/Flutter_Go_Router_Architecture_Standard|🚦 Flutter Go Router Architecture Standard]] - StatefulShellRoute, deep link auth redirect, dan modal sheets.
+- [[Engineering/Flutter_Dio_Networking_Standard|🌐 Flutter Dio Networking Standard]] - Token refresh interceptor, idempotency, dan network resilience.
+- [[Engineering/Flutter_ScreenUtil_Plus_Performance_Standard|📐 Flutter ScreenUtil Plus Performance Standard]] - Responsive scaling, text clamping, dan accessible touch targets.
+- [[Engineering/Realtime_Location_Tracking_Absensi_Flutter|📍 Realtime Location Tracking Absensi Flutter]] - Geofencing, background GPS, dan mock location detection.
+- [[Engineering/Svelte_and_SvelteKit_Architecture_Standard|🔥 Svelte & SvelteKit Architecture Standard]] - Runes reactive model, SSR hydration, dan zero-bloat state.
+- [[Engineering/Hono_Performance_and_Architecture_Standard|⚡ Hono Performance & Architecture Standard]] - Edge-native microframework, strict typing, dan ultra-low latency routing.
+
+### 13. 🔀 OmniRoute, Voldemort Route & Headless Client Ecosystem
+
+- [[Engineering/BOZAGENTIC_GEMINI_CORE|💎 BOZAGENTIC Gemini Core Specification]] - Framework kedaulatan AI, target Gemini 3.8 Flash & Thinking via 9Router.
+- [[Engineering/OmniRoute_vs_9Router_Head_to_Head|⚖️ OmniRoute vs 9Router Head-to-Head Comparison]] - Analisis komparatif arsitektur gateway, routing, dan failover.
+- [[Engineering/Unified_Agent_Backend_Flutter_Architecture|🤖 Unified Headless Agent Backend & Flutter Client Architecture]] - Blueprint FastAPI async backend & Flutter client.
+- [[Engineering/OmniRoute_Flutter_Client_Sprint3_Plan|📱 OmniRoute Flutter Client Sprint 3 Plan]] - Rencana implementasi mobile client interaktif.
+- [[Engineering/Voldemort_Route_Architecture_Blueprint|🏛️ Voldemort Route Architecture Blueprint]] - Arsitektur battle-hardened 12 subsystems, gateway, dan resiliency engine.
+- [[Engineering/Voldemort_Route_Design_System|🎨 Voldemort Route Design System]] - Bauhaus Brutalism, industrial telemetry tokens, dan dynamic routing DAG.
+
+### 14. 📧 Domain Email Operations & User Guides
+
+- [[Engineering/Email_Accounts_NoviarPutra|📬 Email Accounts NoviarPutra Credential Index]] - Manajemen inventaris akun routing domain kustom.
+- [[Engineering/User_Guide_Email_Accounts|📖 User Guide Email Accounts Management]] - Panduan operasional akses dan administrasi email Cloudflare.
+
 ---
-*Related: [[Home|🌌 Home]] | [[Worklogs/Index|📓 Worklogs]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]]*
+*Related: [[Home|🌌 Home]] | [[Worklogs/Index|📓 Worklogs]] | [[OmniRouter/Index|🔀 OmniRoute Hub]] | [[OmniRouter/Memories/Index|🧠 Memory Vault]]*
