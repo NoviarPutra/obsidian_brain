@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 13
-last_synced: "2026-09-23T08:16:48.942236+00:00"
+last_synced: "2026-09-23T08:31:49.443099+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-23 08:16:48 UTC*
+*Synced from OmniRoute VPS database on 2026-09-23 08:31:49 UTC*
 
 **Total `Factual` Records**: `13`
 
 ## 📌 `pattern:accidentally_leak_credentials`
 
 - **Key**: `pattern:accidentally_leak_credentials`
-- **Access Count**: `6543`
+- **Access Count**: `6552`
 - **Created**: `2026-09-21T08:08:07.470Z`
 - **Updated**: `2026-09-21T09:23:25.852Z`
 
@@ -38,7 +38,7 @@ accidentally leak credentials
 ## 📌 `preference:persona_omniroute`
 
 - **Key**: `preference:persona_omniroute`
-- **Access Count**: `15211`
+- **Access Count**: `15221`
 - **Created**: `2026-09-17T06:44:16.155Z`
 - **Updated**: `2026-09-17T06:44:16.155Z`
 
@@ -82,7 +82,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `preference:omniroute_persona`
 
 - **Key**: `preference:omniroute_persona`
-- **Access Count**: `15084`
+- **Access Count**: `15094`
 - **Created**: `2026-09-16T10:16:54.489Z`
 - **Updated**: `2026-09-16T10:16:54.489Z`
 
@@ -103,7 +103,7 @@ User prefers OmniRoute Engineering Persona & Communication Standard (Fabric Patt
 ## 📌 `persona:omniroute_engineering`
 
 - **Key**: `persona:omniroute_engineering`
-- **Access Count**: `15183`
+- **Access Count**: `15193`
 - **Created**: `2026-09-16T09:16:02.305Z`
 - **Updated**: `2026-09-16T09:16:02.305Z`
 
@@ -124,7 +124,7 @@ Communication preference: User prefers OmniRoute Engineering Persona & Communica
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `12570`
+- **Access Count**: `12571`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -145,7 +145,7 @@ User requested Kilo autocomplete to use OmniRoute VPS provider with AG model.
 ## 📌 `persona:omniroute_core_ai`
 
 - **Key**: `persona:omniroute_core_ai`
-- **Access Count**: `15667`
+- **Access Count**: `15677`
 - **Created**: `2026-09-16T07:29:34.426Z`
 - **Updated**: `2026-09-16T08:49:58.486Z`
 
@@ -166,7 +166,7 @@ OmniRoute Core AI with Ponytail (lazy senior dev) style. Language: Bahasa Indone
 ## 📌 `persona:omniroute_sre`
 
 - **Key**: `persona:omniroute_sre`
-- **Access Count**: `15422`
+- **Access Count**: `15432`
 - **Created**: `2026-09-16T07:25:00.455Z`
 - **Updated**: `2026-09-16T07:25:00.455Z`
 
@@ -187,7 +187,7 @@ OmniRoute Core AI & Ponytail engineering standard. Tone: formal-lugas Indonesian
 ## 📌 `persona:omniroute_fabric_core`
 
 - **Key**: `persona:omniroute_fabric_core`
-- **Access Count**: `15882`
+- **Access Count**: `15894`
 - **Created**: `2026-09-16T06:54:13.757371Z`
 - **Updated**: `2026-09-16T06:54:13.757371Z`
 
@@ -231,7 +231,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `13117`
+- **Access Count**: `13118`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -275,7 +275,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `15908`
+- **Access Count**: `15919`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-16T06:54:13.751616Z`
 
