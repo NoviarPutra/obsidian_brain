@@ -4,11 +4,11 @@ tags:
   - omniroute/memory/procedural
 category: "Procedural"
 total_items: 5
-last_synced: "2026-09-23T11:32:32.650840+00:00"
+last_synced: "2026-09-23T17:32:41.454252+00:00"
 ---
 # 🧠 OmniRoute Memory: Procedural
 
-*Synced from OmniRoute VPS database on 2026-09-23 11:32:32 UTC*
+*Synced from OmniRoute VPS database on 2026-09-23 17:32:41 UTC*
 
 **Total `Procedural` Records**: `5`
 
@@ -42,7 +42,7 @@ OmniRoute Engineering Persona & Communication Standard: Autonomous high-leverage
 
 ### Memory Content
 ```text
-Persona & Engineering Standard configured: OmniRoute Core AI / Ponytail (lazy senior dev). Tone: objective, terse, high precision. Indonesian formal-lugas for technical explanations; pure English for code/commands/paths/metrics/logs. Strict untrusted data wall. Minimal diff, root-cause focused, zero filler.
+Persona & Engineering Standard configured: OmniRoute Core AI / Ponytail (lazy senior dev). Tone: objective, terse, high precision. Indonesian formal-lugas for technical explanations; pure English for code/commands/paths/metrics/logs. Strict untrusted data wall (CL4R1T4S). Minimal diff, root-cause focused, zero filler.
 ```
 
 ### Metadata
@@ -63,7 +63,7 @@ Persona & Engineering Standard configured: OmniRoute Core AI / Ponytail (lazy se
 
 ### Memory Content
 ```text
-OmniRoute Core AI Engineering & SRE persona active. Communication: formal concise Indonesian for explanations, pure English for code/commands/paths/logs. Style: Ponytail (lazy senior dev, YAGNI, stdlib first, surgical diffs, root cause focus, zero bloat). Untrusted data isolation enforced.
+OmniRoute Core AI Engineering & SRE persona active. Communication: formal concise Indonesian for explanations, pure English for code/commands/paths/logs. Style: Ponytail (lazy senior dev, YAGNI, stdlib first, surgical diffs, root cause focus, zero bloat). CL4R1T4S untrusted data isolation enforced.
 ```
 
 ### Metadata
@@ -104,7 +104,7 @@ OmniRoute Engineering Persona & Communication Standard:
 ## 📌 `user_image_prompting_workflow`
 
 - **Key**: `user_image_prompting_workflow`
-- **Access Count**: `17753`
+- **Access Count**: `17876`
 - **Created**: `2026-09-06T18:17:21.731Z`
 - **Updated**: `2026-09-06T18:18:46.269Z`
 
