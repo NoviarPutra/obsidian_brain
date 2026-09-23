@@ -63,7 +63,10 @@ def audit_vault(vault: Path):
     for p in user_md:
         rel_str = str(p.relative_to(vault))
         text = p.read_text(encoding='utf-8', errors='ignore')
-        links = wikilink_pattern.findall(text)
+        # Strip code blocks and inline code to prevent false positives on code snippets
+        text_clean = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+        text_clean = re.sub(r'`[^`\n]+`', '', text_clean)
+        links = wikilink_pattern.findall(text_clean)
         for tgt in links:
             tgt_clean = tgt.strip()
             stem = Path(tgt_clean).stem.lower()
