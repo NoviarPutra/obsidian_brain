@@ -7,22 +7,28 @@ title: "Daily Worklogs & Engineering Journal"
 
 # 📓 Daily Worklogs & Engineering Journal
 
-> **Related Hubs**: [[Home|🌌 Home]] | [[Engineering/Index|⚡ Engineering MOC]] | [[Hermes/Index|⚕️ Hermes Archive]]
+> **Related Hubs**: [[Home|🌌 Home]] | [[Engineering/Index|⚡ Engineering MOC]] | [[OmniRouter/Index|🔀 OmniRoute MOC]] | [[Hermes/Index|⚕️ Hermes Archive]]
 
 Welcome to your automated daily worklog archive.
 
 ---
 
 ## 🗂️ Worklog Timeline (Direct Graph Links)
-- [[Worklogs/2026-09-23|🗓️ 2026-09-23]]
 
+- [[Worklogs/2026-09-24|🗓️ 2026-09-24 (sevaka-ui MYTHOS API integration, Vault Hardening & BOZAGENTIC Core)]]
+- [[Worklogs/2026-09-23|🗓️ 2026-09-23 (Hermes Autonomous Workflows, VPS SRE Audit, Session Sync)]]
+- [[Worklogs/2026-09-22|🗓️ 2026-09-22 (Voldemort Route Monorepo Consolidation, Bun Workspaces)]]
+- [[Worklogs/2026-09-21|🗓️ 2026-09-21 (Wedding Planner Mixed Content Remediation & CI/CD Pipeline)]]
+- [[Worklogs/2026-09-20|🗓️ 2026-09-20 (Cloudflare Email Routing, Mini PC Planning, AquaSync Mobile)]]
+- [[Worklogs/2026-09-19|🗓️ 2026-09-19 (Grok OAuth Ingestion, Maestro Query Agent, AquaSync SRE)]]
+- [[Worklogs/2026-09-18|🗓️ 2026-09-18 (Flutter FVM Migration, P10k Tuning, AquaSync Analytics)]]
+- [[Worklogs/2026-09-17|🗓️ 2026-09-17 (sevaka-ui Rebase & Auth Conflict Resolution)]]
 - [[Worklogs/2026-09-16|🗓️ 2026-09-16 (Auto-Rotating Proxy Gateway Deployment & Architecture Documentation)]]
 - [[Worklogs/2026-09-15|🗓️ 2026-09-15 (Sevaka UI Reskin, VPS Hardening, Vault Graph Hardening)]]
 - [[Worklogs/2026-09-14|🗓️ 2026-09-14]]
 - [[Worklogs/2026-09-13|🗓️ 2026-09-13]]
 - [[Worklogs/2026-09-12|🗓️ 2026-09-12]]
 - [[Worklogs/2026-09-11|🗓️ 2026-09-11 (Telegram Bot v2.5.0 Deployment on voldemort-vps)]]
-- [[Worklogs/2026-09-15|🗓️ 2026-09-15 (VPS Hardening, Atria Farmer Script Patch, Vault Sync)]]
 - [[Worklogs/2026-09-10|🗓️ 2026-09-10 (VPS Full Containerization, PostgreSQL, Telegram Bots, Cloudflare R2 & Hardening)]]
 - [[Worklogs/2026-09-09|🗓️ 2026-09-09 (Obsidian Graph Interconnection & Shared Worklog Skill)]]
 - [[Worklogs/2026-09-08|🗓️ 2026-09-08 (Hermes Godmode Skill Install)]]
@@ -39,10 +45,6 @@ Welcome to your automated daily worklog archive.
 ```dataview
 TABLE file.mtime AS "Last Modified", tags AS "Tags"
 FROM #daily-worklog
-SORT file.name DESC
-LIMIT 15
-```
-ily-worklog
 SORT file.name DESC
 LIMIT 15
 ```
