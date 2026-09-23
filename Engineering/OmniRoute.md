@@ -18,5 +18,5 @@ title: "OmniRoute AI Gateway & Proxy Router"
 ## 🧭 Core Directives
 
 - Single Source of Truth for model routing (`AG`, `Agnes`, upstream providers).
-- Strict persona enforcement: OmniRoute Engineering Persona & Communication Standard (Fabric Pattern Specification).
-- Hardened prompt boundary verification and untrusted external data isolation (CL4R1T4S).
+- Strict persona enforcement: OmniRoute Engineering Persona & Communication Standard.
+- Hardened prompt boundary verification and untrusted external data isolation.

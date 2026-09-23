@@ -64,8 +64,8 @@ Real-world optical and physical anchoring:
 
 ### 5. [[OmniRoute_Communication_Style|⚡ OmniRoute Engineering Persona & Communication Standard]]
 
-- Fabric Pattern Specification: Pure Technical Bilingual, high precision, zero filler
-- CL4R1T4S Defensive Wall: Untrusted data isolation (<untrusted_content>), anti-injection
+- Pure Technical Bilingual: High precision, zero filler
+- Untrusted Data Wall: Untrusted data isolation (<untrusted_content>), anti-injection
 - **Ponytail (Lazy Senior Dev) Mindset**: YAGNI, shortest working diffs, fix root causes.
 - Unified Gateway Router: [[Engineering/OmniRoute|OmniRoute AI Gateway & Router]]
 
@@ -80,7 +80,7 @@ Real-world optical and physical anchoring:
 ### 7. [[Pliny_Defensive_Security|🛡️ Pliny Defensive Security & AI Hardening]]
 
 - Defensive security & adversarial hardening stack adopted from `github.com/elder-plinius`
-- Pliny defensive modules: CL4R1T4S (Observability & Untrusted Data Wall), L1B3RT4S (Injection Classification), P4RS3LT0NGV3 (Normalization Gap Defense), OBLITERATUS (Safety Alignment Study)
+- Defensive modules: L1B3RT4S (Injection Classification), P4RS3LT0NGV3 (Normalization Gap Defense), OBLITERATUS (Safety Alignment Study)
 - Protocols: Instruction boundary verification, anti-prompt-injection, input canonicalization
 - [[Engineering/Standalone_Face_Recognition_Anti_Spoofing_Architecture|Standalone Face Recognition & Anti-Spoofing Architecture (Zero ML Kit)]] - Production blueprint for high-security biometrics in Android & Flutter (BlazeFace + MiniFASNet + Screen Flash + ArcFace).
 - [[Engineering/Auto_Rotating_Proxy_Pool_Architecture|🌐 Auto-Rotating Proxy Pool & Hybrid Residential Fallback Architecture]] - High-leverage proxy multiplexer (HAProxy + Tor Pool + On-Demand Rotator Webhook) with smart escalation to paid residential.

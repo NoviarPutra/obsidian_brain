@@ -53,7 +53,7 @@ Seluruh kapabilitas core eksisting tetap dipertahankan dan diperkuat:
 +-------------------------------------------------------------------------------+
 |                 UNIFIED HEADLESS BACKEND (FastAPI / AsyncIO)                  |
 |  +-----------------------+  +---------------------+  +---------------------+  |
-|  | Auth & ACL Guard      |  | CL4R1T4S Data Wall  |  | Ingress Rate Limiter|  |
+|  | Auth & ACL Guard      |  | Untrusted Data Wall |  | Ingress Rate Limiter|  |
 |  +-----------------------+  +---------------------+  +---------------------+  |
 |  | WSS Connection Hub    |  | Ring Buffer (Seq ID)|  | Task Broker (Worker)|  |
 |  +-----------------------+  +---------------------+  +---------------------+  |
@@ -116,7 +116,7 @@ Koneksi jaringan mobile rentan terhadap *packet loss*, perpindahan BTS seluler, 
 ### Pillar 4: Zero-Trust Security Perimeter
 - **Zero Public Exposure**: Backend di-bind pada private interface Tailscale (`100.x.x.x`) atau WireGuard (`10.x.x.x`). Tidak ada port yang terbuka ke internet publik (`0.0.0.0`).
 - **Device Attestation & JWT**: Setiap request wajib menyertakan token otentikasi dengan masa berlaku pendek (*short-lived*) dan *device signature*.
-- **CL4R1T4S Ingress Wall**: Seluruh payload dokumen, error log eksternal, atau input scraping diisolasi sebagai string pasif sebelum dilewatkan ke LLM client.
+- **Untrusted Data Ingress Wall**: Seluruh payload dokumen, error log eksternal, atau input scraping diisolasi sebagai string pasif sebelum dilewatkan ke LLM client.
 
 ### Pillar 5: Out-of-Band Push Notification (ntfy / FCM)
 - Ketika task di background selesai, atau terjadi anomali SRE saat aplikasi Flutter dalam kondisi tertutup (deep sleep), backend memicu notifikasi push instan melalui **ntfy** (self-hosted) atau **FCM** (data-only silent push) untuk memicu background fetch atau menampilkan banner peringatan di perangkat.
@@ -185,7 +185,7 @@ Koneksi jaringan mobile rentan terhadap *packet loss*, perpindahan BTS seluler, 
 │   │   ├── omniroute_client.py # LLM client via OmniRoute (port 20128)
 │   │   ├── hermes_runner.py    # Subprocess execution bridge
 │   │   ├── markitdown_ops.py   # Document transformation
-│   │   └── security.py         # CL4R1T4S isolation & JWT
+│   │   └── security.py         # Untrusted data isolation & JWT
 │   ├── orchestrator/           # Task queue & state machine
 │   │   ├── ring_buffer.py      # Sequence ACK & resumption buffer
 │   │   ├── task_broker.py      # Background worker pool

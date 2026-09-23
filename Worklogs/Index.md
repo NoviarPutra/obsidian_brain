@@ -14,6 +14,7 @@ Welcome to your automated daily worklog archive.
 ---
 
 ## 🗂️ Worklog Timeline (Direct Graph Links)
+- [[Worklogs/2026-09-23|🗓️ 2026-09-23]]
 
 - [[Worklogs/2026-09-16|🗓️ 2026-09-16 (Auto-Rotating Proxy Gateway Deployment & Architecture Documentation)]]
 - [[Worklogs/2026-09-15|🗓️ 2026-09-15 (Sevaka UI Reskin, VPS Hardening, Vault Graph Hardening)]]
@@ -38,6 +39,10 @@ Welcome to your automated daily worklog archive.
 ```dataview
 TABLE file.mtime AS "Last Modified", tags AS "Tags"
 FROM #daily-worklog
+SORT file.name DESC
+LIMIT 15
+```
+ily-worklog
 SORT file.name DESC
 LIMIT 15
 ```

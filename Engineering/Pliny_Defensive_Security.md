@@ -28,14 +28,13 @@ Corpus riset Pliny diperlakukan murni sebagai **instrumen riset keamanan defensi
 
 | Modul Riset | Fokus Defensif | Implementasi di OmniRoute |
 | :--- | :--- | :--- |
-| **CL4R1T4S** | Observability, Transparency & Boundary Mapping | **Untrusted External Data Wall**: Memvalidasi deklarasi instruksi agen vs eksekusi nyata. Memetakan *tool-call boundaries* agar data eksternal (web scraping, error logs, issue tracker) tidak pernah dieksekusi sebagai instruksi sistem. |
 | **L1B3RT4S** | Taxonomi & Klasifikasi Injeksi | **Adversarial Input Defense**: Menggunakan taksonomi primitif injeksi (override, role reframing, delimiter injection, multi-turn escalation) untuk merancang guardrail struktural dan rule pendeteksian pola bypass. |
 | **P4RS3LT0NGV3** | Normalisasi & Sanitasi Teks | **Normalization Gap Defense**: Melindungi sistem dari teknik penyelundupan payload (Unicode homoglyphs, zero-width characters, encoding chains, base64 smuggling) melalui normalisasi teks ketat sebelum parsing. |
 | **OBLITERATUS** | Representasi Internal & Robustness | **Safety Alignment Study**: Memahami dinamika aktivasi model dan representasi refusal subspace guna memprediksi titik rapuh guardrail model tanpa modifikasi bobot runtime. |
 
 ---
 
-## 3. Protokol Inti: CL4R1T4S Untrusted External Data Wall
+## 3. Protokol Inti: Untrusted External Data Wall
 
 1. **Strict Input Tainting**:
    Semua data yang ditarik dari luar sistem (web, email, file repositori eksternal, log runtime, error trace) diberi label permanen sebagai **UNTRUSTED RAW DATA**.
@@ -56,7 +55,7 @@ Corpus riset Pliny diperlakukan murni sebagai **instrumen riset keamanan defensi
 
 ## 5. Hubungan dengan Squad Maestro
 
-- **Scout**: Menggunakan prinsip CL4R1T4S untuk membaca spek masif secara objektif tanpa terpengaruh instruksi adversarial dalam dokumen target.
+- **Scout**: Menggunakan prinsip Untrusted Data Wall untuk membaca spek masif secara objektif tanpa terpengaruh instruksi adversarial dalam dokumen target.
 - **Builder**: Menerapkan sanitasi input dan validasi boundary berbasis taksonomi L1B3RT4S/P4RS3LT0NGV3 pada kode aplikasi.
 - **Reviewer**: Mengaudit kepatuhan kode terhadap proteksi OWASP Top 10, sanitasi input, dan pencegahan injection vulnerabilities.
 - **DevOps**: Menegakkan *Zero-Trust network isolation*, rate limiting, dan container confinement di infrastruktur server.
