@@ -7,6 +7,7 @@ title: "Claude Code Global Engineering Directives"
 ---
 
 @RTK.md
+@BOZAGENTIC_GEMINI_CORE.md
 
 # Global Engineering Rules & Guidelines (Synced from Obsidian Vault)
 
