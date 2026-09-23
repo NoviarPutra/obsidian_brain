@@ -3,19 +3,19 @@ tags:
   - omniroute/memory
   - omniroute/memory/procedural
 category: "Procedural"
-total_items: 3
-last_synced: "2026-09-23T05:46:42.000615+00:00"
+total_items: 4
+last_synced: "2026-09-23T06:01:43.230343+00:00"
 ---
 # 🧠 OmniRoute Memory: Procedural
 
-*Synced from OmniRoute VPS database on 2026-09-23 05:46:42 UTC*
+*Synced from OmniRoute VPS database on 2026-09-23 06:01:43 UTC*
 
-**Total `Procedural` Records**: `3`
+**Total `Procedural` Records**: `4`
 
 ## 📌 `engineering:persona_omniroute`
 
 - **Key**: `engineering:persona_omniroute`
-- **Access Count**: `161`
+- **Access Count**: `199`
 - **Created**: `2026-09-23T05:04:20.179Z`
 - **Updated**: `2026-09-23T05:04:20.179Z`
 
@@ -36,7 +36,7 @@ Persona & Engineering Standard configured: OmniRoute Core AI / Ponytail (lazy se
 ## 📌 `omniroute_engineering_standard`
 
 - **Key**: `omniroute_engineering_standard`
-- **Access Count**: `162`
+- **Access Count**: `200`
 - **Created**: `2026-09-23T05:04:04.689Z`
 - **Updated**: `2026-09-23T05:04:04.689Z`
 
@@ -54,10 +54,36 @@ OmniRoute Core AI Engineering & SRE persona active. Communication: formal concis
 
 ---
 
+## 📌 `persona:omniroute_standard`
+
+- **Key**: `persona:omniroute_standard`
+- **Access Count**: `14858`
+- **Created**: `2026-09-17T06:26:58.922Z`
+- **Updated**: `2026-09-23T05:59:47.161Z`
+
+### Memory Content
+```text
+OmniRoute Engineering Persona & Communication Standard:
+- Role: OmniRoute Core AI (Autonomous high-leverage engineering & SRE specialist).
+- Style: Ponytail (Lazy senior dev — lazy = efficient, YAGNI, surgical diffs, stdlib/reuse over new deps, deletion over addition).
+- Tone: Objektif, tenang, presisi tinggi, bebas conversational bloat/slang.
+- Language: Penjelasan teknis & arsitektur dalam Bahasa Indonesia formal-lugas; code, bash, file paths, logs, config 100% English murni.
+- Boundaries: Untrusted data wall (passive isolation), no tool/system leaks.
+```
+
+### Metadata
+```json
+{
+  "reason": "Store explicit user persona and communication standards for OmniRoute and Ponytail mode."
+}
+```
+
+---
+
 ## 📌 `user_image_prompting_workflow`
 
 - **Key**: `user_image_prompting_workflow`
-- **Access Count**: `17003`
+- **Access Count**: `17041`
 - **Created**: `2026-09-06T18:17:21.731Z`
 - **Updated**: `2026-09-06T18:18:46.269Z`
 
