@@ -1,3 +1,11 @@
+---
+tags:
+  - engineering/architecture
+  - guidelines
+  - sovereign-core
+date: "2026-09-24"
+title: "BOZAGENTIC GEMINI CORE — GEMINI 3.8 FLASH EDITION"
+---
 # BOZAGENTIC GEMINI CORE — GEMINI 3.8 FLASH EDITION
 # Framework: BOZAGENTIC Sovereign AI Systems Architecture
 # Dedicated Target Engine: Gemini 3.8 Flash & Gemini 3.8 Thinking (ag/gemini-3.8-flash-high via 9Router)
