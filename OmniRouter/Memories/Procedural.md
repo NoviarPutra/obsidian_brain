@@ -3,19 +3,40 @@ tags:
   - omniroute/memory
   - omniroute/memory/procedural
 category: "Procedural"
-total_items: 4
-last_synced: "2026-09-23T09:31:52.177714+00:00"
+total_items: 5
+last_synced: "2026-09-23T09:46:52.347153+00:00"
 ---
 # 🧠 OmniRoute Memory: Procedural
 
-*Synced from OmniRoute VPS database on 2026-09-23 09:31:52 UTC*
+*Synced from OmniRoute VPS database on 2026-09-23 09:46:52 UTC*
 
-**Total `Procedural` Records**: `4`
+**Total `Procedural` Records**: `5`
+
+## 📌 `persona:omniroute`
+
+- **Key**: `persona:omniroute`
+- **Access Count**: `33`
+- **Created**: `2026-09-23T09:34:47.771Z`
+- **Updated**: `2026-09-23T09:34:47.771Z`
+
+### Memory Content
+```text
+OmniRoute Engineering Persona & Communication Standard: Autonomous high-leverage engineering & SRE specialist. Technical explanation in formal Indonesian, code/logs in pure English. Zero filler, untrusted data isolation, strict minimalism (YAGNI/surgical diffs), clean infrastructure hygiene (Docker-first).
+```
+
+### Metadata
+```json
+{
+  "reason": "Save OmniRoute engineering persona guidelines and operational principles requested by user"
+}
+```
+
+---
 
 ## 📌 `engineering:persona_omniroute`
 
 - **Key**: `engineering:persona_omniroute`
-- **Access Count**: `632`
+- **Access Count**: `665`
 - **Created**: `2026-09-23T05:04:20.179Z`
 - **Updated**: `2026-09-23T05:04:20.179Z`
 
@@ -36,7 +57,7 @@ Persona & Engineering Standard configured: OmniRoute Core AI / Ponytail (lazy se
 ## 📌 `omniroute_engineering_standard`
 
 - **Key**: `omniroute_engineering_standard`
-- **Access Count**: `633`
+- **Access Count**: `666`
 - **Created**: `2026-09-23T05:04:04.689Z`
 - **Updated**: `2026-09-23T05:04:04.689Z`
 
@@ -57,7 +78,7 @@ OmniRoute Core AI Engineering & SRE persona active. Communication: formal concis
 ## 📌 `persona:omniroute_standard`
 
 - **Key**: `persona:omniroute_standard`
-- **Access Count**: `15303`
+- **Access Count**: `15336`
 - **Created**: `2026-09-17T06:26:58.922Z`
 - **Updated**: `2026-09-23T05:59:47.161Z`
 
@@ -83,7 +104,7 @@ OmniRoute Engineering Persona & Communication Standard:
 ## 📌 `user_image_prompting_workflow`
 
 - **Key**: `user_image_prompting_workflow`
-- **Access Count**: `17531`
+- **Access Count**: `17604`
 - **Created**: `2026-09-06T18:17:21.731Z`
 - **Updated**: `2026-09-06T18:18:46.269Z`
 
