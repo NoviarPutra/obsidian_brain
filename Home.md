@@ -8,7 +8,7 @@ title: "🌌 Obsidian Second Brain Hub"
 
 # 🌌 OmniRoute & Engineering Knowledge Base
 
-Welcome to your central knowledge hub and persistent memory vault for **Kilo**, **Hermes**, and **OmniRoute**.
+Welcome to your central knowledge hub and persistent memory vault for **Kilo** and **OmniRoute**.
 
 ---
 
@@ -25,7 +25,7 @@ Guidelines and operational specs for autonomous AI agents and code craftsmanship
 - [[Engineering/DevOps_Isolation_Policy|🔒 DevOps VPS Isolation & Server Clean Layout]]
 - [[Engineering/Cloudflare_R2_Object_Storage_Architecture|☁️ Cloudflare R2 Object Storage Architecture]]
 - [[Engineering/Telegram_Bots_Architecture|🤖 Telegram Bots Dual Architecture & Modular Engine]]
-- [[Engineering/Telegram_Universal_Bot_Template_Architecture|🤖 Telegram Universal Bot & Hermes Agent Boilerplate Architecture]]
+- [[Engineering/Telegram_Universal_Bot_Template_Architecture|🤖 Telegram Universal Bot Architecture]]
 
 ---
 
@@ -37,14 +37,6 @@ Persistent long-term cognitive models synced from the OmniRoute gateway database
 - [[OmniRouter/Memories/Semantic|🌐 Semantic Concepts]]
 - [[OmniRouter/Memories/Episodic|📜 Episodic Session Memories]]
 - [[OmniRouter/Analytics/Overview|📊 Analytics Overview]] & [[OmniRouter/Analytics/Daily_History|Daily History]]
-
----
-
-### 3. ⚕️ [[Hermes/Index|Hermes Agent Workspace]]
-
-Autonomous agent runtime profile, security policies, and session archive.
-- [[Hermes/SOUL|🔮 Hermes Core Directives & SOUL]]
-- [[Hermes/Index#📜 Recent Agent Sessions|📜 Recent Sessions]]
 
 ---
 

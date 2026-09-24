@@ -408,6 +408,6 @@ Seluruh agent (`maestro`, `scout`, `builder`, `reviewer`, `devops`, `stealth`) *
 # 📓 7. Autonomous Worklog & Real-Time Vault Memory Ingestion
 
 - **Pre-Session Context Ingestion (Active Memory Reflection)**: Di awal percakapan atau saat menangani task baru, agen secara proaktif membaca konteks terkini dari file daily worklog:
-  `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md` (hari ini) atau hari sebelumnya jika hari ini baru mulai. Ini menjamin pemahaman instan dan real-time terhadap progres pekerjaan yang baru saja diselesaikan oleh Kilo, Claude Code, atau Hermes tanpa perlu ditanya ulang oleh user.
+  `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md` (hari ini) atau hari sebelumnya jika hari ini baru mulai. Ini menjamin pemahaman instan dan real-time terhadap progres pekerjaan yang baru saja diselesaikan oleh Kilo, Claude Code, atau  tanpa perlu ditanya ulang oleh user.
 - **Milestone Persistence**: Setelah menyelesaikan task / milestone arsitektural substansial (Level 2+), agent secara otonom mendokumentasikan ringkasan 2-3 baris ke daily worklog Obsidian (`/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`) dengan tautan internal (``) tanpa menunggu instruksi manual.
 - **Pre-Completion Zero-Gap Audit**: Sebelum menyatakan task tuntas (Phase 4 finalization), agent **WAJIB** memvalidasi gap komparatif terhadap blueprint arsitektur/spesifikasi, mengecek kestabilan runtime, dan memastikan zero dangling state/regresi. Dilarang menutup task jika masih ada gap fungsional yang belum teratasi tanpa konfirmasi eksplisit.

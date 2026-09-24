@@ -4,13 +4,13 @@ tags:
   - telegram
   - template
   - boilerplate
-  - hermes
-title: "🤖 Telegram Universal Bot & Hermes Agent Boilerplate Architecture"
+  - 
+title: "🤖 Telegram Universal Bot & AI Agent Boilerplate Architecture"
 ---
 
-# 🤖 Telegram Universal Bot & Hermes Agent Boilerplate Architecture
+# 🤖 Telegram Universal Bot & AI Agent Boilerplate Architecture
 
-Production-grade, multi-mode, zero-bloat boilerplate specification for building modern Telegram Bots and Hermes Autonomous AI Agents.
+Production-grade, multi-mode, zero-bloat boilerplate specification for building modern Telegram Bots and  Autonomous AI Agents.
 
 ---
 
@@ -23,8 +23,8 @@ Production-grade, multi-mode, zero-bloat boilerplate specification for building 
 │  ┌───────────────────────────────────────────────────────────────────────┐  │
 │  │                        DYNAMIC MODE SWITCHER                          │  │
 │  │   • BOT_MODE=menu     (Interactive button menus & utility tools)      │  │
-│  │   • BOT_MODE=hermes   (Autonomous AI reasoning agent & tool loop)     │  │
-│  │   • BOT_MODE=hybrid   (Menu UI + integrated "Ask Hermes AI" sub-agent)│  │
+│  │   • BOT_MODE=   (Autonomous AI reasoning agent & tool loop)     │  │
+│  │   • BOT_MODE=hybrid   (Menu UI + integrated "Ask  AI" sub-agent)│  │
 │  └──────────────────┬────────────────────────────────────┬───────────────┘  │
 │                     │                                    │                  │
 │                     ▼                                    ▼                  │
@@ -60,8 +60,8 @@ telegram-universal-bot-template/
 │   │   ├── error_relay.py     # Unhandled exception DM relay to Bot Owner
 │   │   ├── storage.py         # Stdlib async SQLite WAL adapter (Zero dependencies)
 │   │   └── llm_client.py      # Universal OpenAI / OmniRoute gateway adapter
-│   ├── hermes/
-│   │   ├── client.py          # Hermes Autonomous Agent client & reasoning extractor
+│   ├── /
+│   │   ├── client.py          #  Autonomous Agent client & reasoning extractor
 │   │   └── prompt_builder.py  # System prompt & memory context assembler
 │   ├── plugins/
 │   │   ├── __init__.py        # Drop-in plugin registry (@register_plugin)
@@ -86,7 +86,7 @@ telegram-universal-bot-template/
 
 ## ⚡ 3. Key Design Decisions
 
-1. **Framework Choice**: Python 3.11+ with `python-telegram-bot` v21+ Async. Native compatibility with Hermes Agent core and Microsoft MarkItDown without foreign language bridges.
+1. **Framework Choice**: Python 3.11+ with `python-telegram-bot` v21+ Async. Native compatibility with AI Agent core and Microsoft MarkItDown without foreign language bridges.
 2. **Persistence**: Asynchronous SQLite WAL mode with zero third-party dependencies (`sqlite3` stdlib via `asyncio.to_thread`).
 3. **RBAC Guardrails**: 3-tier hierarchy (`Owner` > `Admin` > `Whitelist` > `Guest`) with sliding-window rate limiters.
 4. **DevEx**: Interactive setup wizard (`./scripts/init.sh`) generates valid configuration in under 60 seconds.

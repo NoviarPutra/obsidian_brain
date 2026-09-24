@@ -91,13 +91,13 @@ Real-world optical and physical anchoring:
 
 ### 8. [[Telegram_Bots_Architecture|🤖 Telegram Bots Dual Architecture & Modular Engine]]
 
-- Dual ecosystem: `@Voldemort_menu_bot` (Modular v2.0 Docker) & `Hermes AI Assistant Gateway` (Systemd)
+- Dual ecosystem: `@Voldemort_menu_bot` (Modular v2.0 Docker)
 - Clean package decomposition (`telegram_bot/`), role-based admin menus (R2 & VPS status)
 - Zero-conflict polling guarantee and centralized 24/7 cloud runtime on `voldemort-vps`
 
-### 9. [[Telegram_Universal_Bot_Template_Architecture|🤖 Telegram Universal Bot & Hermes Agent Boilerplate Architecture]]
+### 9. [[Telegram_Universal_Bot_Template_Architecture|🤖 Telegram Universal Bot Architecture]]
 
-- 3-in-1 multi-mode operational switcher (`menu` | `hermes` | `hybrid`)
+- 3-in-1 multi-mode operational switcher (`menu`)
 - Zero-dependency async SQLite WAL persistence & 3-Tier RBAC security layer
 - Drop-in plugin registry, universal LLM gateway, and 60-second CLI setup wizard (`init.sh`)
 

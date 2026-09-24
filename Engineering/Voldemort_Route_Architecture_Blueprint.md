@@ -126,7 +126,7 @@ Mencegah error HTTP 429 (Rate Limit Exceeded) akibat lonjakan request konkuren d
 - Jika sebuah akun provider memiliki batas maksimum 5 RPM, request ke-6 tidak langsung ditolak dengan status 429, melainkan di-*queue* dalam waktu terukur (backpressure queue) hingga slot sewa (*lease*) tersedia.
 
 ### Subsystem 8: Model Context Protocol (MCP) & A2A Orchestration
-- **MCP Server over STDIO & SSE**: Kompatibel 100% dengan spesifikasi Anthropic MCP. Menjembatani tool execution ke Claude Code, Codex, dan Hermes Agent.
+- **MCP Server over STDIO & SSE**: Kompatibel 100% dengan spesifikasi Anthropic MCP. Menjembatani tool execution ke Claude Code, Codex, dan AI Agent.
 - **A2A (Agent-to-Agent) Task Engine**: Orkestrasi komunikasi antar-agent dengan verifikasi tanda tangan digital **HMAC-SHA256** untuk mencegah unauthorized task injection.
 - **Agent Card Standard**: Manifest `/.well-known/agent-card.json` untuk auto-discovery kemampuan model.
 

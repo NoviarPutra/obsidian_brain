@@ -9,7 +9,7 @@ title: "☁️ Cloudflare R2 Object Storage Architecture & Media Flow"
 
 # ☁️ Cloudflare R2 Object Storage Architecture & Media Flow
 
-Comprehensive, production-grade technical specification for **Cloudflare R2 Object Storage** integration across Local Workstations, Hermes Agent, Telegram Bot, and `voldemort-vps`.
+Comprehensive, production-grade technical specification for **Cloudflare R2 Object Storage** integration across Local Workstations, AI Agent, Telegram Bot, and `voldemort-vps`.
 
 ---
 
@@ -18,7 +18,7 @@ Comprehensive, production-grade technical specification for **Cloudflare R2 Obje
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                      INGESTION & EXECUTION LAYER                       │
-│  • CLI: ~/.hermes/bin/cf-flux                                         │
+│  • CLI:                                          │
 │  • Telegram: @Voldemort_menu_bot (Dockerized)                          │
 │  • SRE Backup: /home/voldemort/services/backup/scripts/backup.sh      │
 └──────────────────────────────────┬─────────────────────────────────────┘
@@ -57,8 +57,8 @@ All credentials are encrypted and stored in environment files (`chmod 600`) with
 | Parameter | Configuration Value | Usage Scope & Permissions |
 |---|---|---|
 | **Account ID** | `738f2def6189bcb43a3d5aae2347ca74` | Global Cloudflare Account ID |
-| **Workers AI Token** | `Stored in ~/.hermes/.env` | AI Inference (`Workers AI: Run`) |
-| **R2 User API Token** | `Stored in ~/.hermes/.env` | `Account > Workers R2 Storage > Edit` |
+| **Workers AI Token** | `Stored in ` | AI Inference (`Workers AI: Run`) |
+| **R2 User API Token** | `Stored in ` | `Account > Workers R2 Storage > Edit` |
 | **Bucket Name** | `voldemort-gallery` | Primary Object Storage Bucket |
 | **Storage Class** | `Standard` | 10 GB Free Storage / Month |
 | **Jurisdiction / Region** | `Automatic (APAC / Singapore)` | Low-latency global edge distribution |
@@ -164,7 +164,7 @@ def upload_bytes_to_r2(payload: bytes, key: str, content_type: str = "image/jpeg
         return False
 ```
 
-### B. CLI Client (`~/.hermes/bin/cf-flux`)
+### B. CLI Client (``)
 
 The CLI script integrates AI generation and auto-cleaning:
 
@@ -178,7 +178,7 @@ cf-flux "Swiss architectural minimalist poster"
 # 2. Save explicitly to local destination:
 cf-flux "Cyberpunk neon rain Tokyo" -o ./hero.jpg
 
-# 3. Retain copy in ~/.hermes/image_cache/:
+# 3. Retain copy in 
 cf-flux "Minimalist black obsidian pyramid" --keep-local
 ```
 

@@ -3,7 +3,7 @@ tags:
   - engineering/architecture
   - telegram
   - bots
-  - hermes
+  - 
   - cloudflare
 title: "🤖 Telegram Bots Dual Architecture & Modular Engine Specification"
 ---
@@ -23,10 +23,10 @@ The environment operates **two distinct, complementary Telegram Bots** serving s
 │                                 TELEGRAM ECOSYSTEM (VPS 24/7)                              │
 │                                                                                             │
 │  ┌──────────────────────────────────────────┐    ┌──────────────────────────────────────────┐
-│  │ 🤖 BOT 1: Voldemort Menu Bot             │    │ ⚕️ BOT 2: Hermes AI Assistant Gateway    │
+│  │ 🤖 BOT 1: Voldemort Menu Bot             │    │ ⚕️ BOT 2: AI Assistant Gateway    │
 │  │ • Handle: @Voldemort_menu_bot            │    │ • Handle: Dedicated Assistant Bot        │
 │  │ • Token: 8874533491:AAHh...              │    │ • Token: 8247955434:AAEE...              │
-│  │ • Runtime: Docker (voldemort-menu-bot)   │    │ • Runtime: Systemd Unit (hermes-gateway) │
+│  │ • Runtime: Docker (voldemort-menu-bot)   │    │ • Runtime: Systemd Unit (ai-gateway) │
 │  │ • Domain: Menu UI, Flux AI, MarkItDown,  │    │ • Domain: Autonomous Engineering, 67     │
 │  │   Dozzle VPS Status, Cloudflare R2 Mon   │    │   Skills, Google Workspace, Deep Memory  │
 │  └──────────────────┬───────────────────────┘    └────────────────────┬─────────────────────┘
@@ -36,7 +36,7 @@ The environment operates **two distinct, complementary Telegram Bots** serving s
 │  │                                 SHARED INFRASTRUCTURE                                  │ │
 │  │ • OmniRoute AI Gateway: http://127.0.0.1:20128/v1 (Model: AG -> Gemini Flash High Pool) │ │
 │  │ • Cloudflare Workers AI & R2: @cf/flux-1-schnell & bucket voldemort-gallery             │ │
-│  │ • Persistent Storage: ~/.hermes/state.db, ~/.hermes/memories/USER.md, ~/.hermes/skills/ │ │
+│  │ • Persistent Storage:    │ │
 │  └────────────────────────────────────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -98,23 +98,23 @@ telegram_bot/
 
 ---
 
-## ⚕️ 3. Bot 2: Hermes AI Assistant Telegram Gateway
+## ⚕️ 3. Bot 2:  AI Assistant Telegram Gateway
 
 ### A. Core Engine & Capabilities
 
-- **Engine**: Native Hermes Autonomous Agent daemon (`hermes gateway run --external-supervisor`).
-- **Personality**: `Hermes Core` (`SOUL.md`) with Senior SRE persona.
+- **Engine**: Native  Autonomous Agent daemon (` gateway run --external-supervisor`).
+- **Personality**: ` Core` (`SOUL.md`) with Senior SRE persona.
 - **Skill Arsenal**: **67 active skill packages** with pre-installed virtualenv dependencies (`docx`, `pdf-toolkit`, `youtube-content`, `reddit-reading`, `web-search`, etc.).
 - **Workspace Integration**: Google Workspace API OAuth2 (`gmail`, `drive`, `calendar`, `docs`, `sheets`).
-- **Memory Subsystem**: Persistent user profiling (`~/.hermes/memories/USER.md`), SQLite session state (`state.db`), and cron execution ledger.
+- **Memory Subsystem**: Persistent user profiling (``), SQLite session state (`state.db`), and cron execution ledger.
 
 ### B. Systemd Daemon Deployment
 
-- **Unit**: `/etc/systemd/system/hermes-gateway.service`
+- **Unit**: `/etc/systemd/system/ai-gateway.service`
 - **User**: `voldemort`
-- **Working Directory**: `/home/voldemort/.hermes`
+- **Working Directory**: `/home/voldemort/.`
 - **Auto-Restart**: `always` (restart delay 5s)
-- **Logs**: `/home/voldemort/.hermes/logs/gateway.log`
+- **Logs**: `/home/voldemort/./logs/gateway.log`
 
 ---
 
@@ -122,7 +122,7 @@ telegram_bot/
 
 Running multiple polling bots on the same token triggers `HTTP 409 Conflict: terminated by other getUpdates request`. The infrastructure prevents this via:
 1. **Isolated Tokens**: Bot 1 (`8874533491:...`) and Bot 2 (`8247955434:...`) use dedicated bot tokens registered via `@BotFather`.
-2. **Decommissioned Local Daemons**: The local macOS launchd job `ai.hermes.gateway` was cleanly unloaded (`launchctl bootout`) to ensure exclusive 24/7 cloud polling from `voldemort-vps`.
+2. **Decommissioned Local Daemons**: The local macOS launchd job `ai..gateway` was cleanly unloaded (`launchctl bootout`) to ensure exclusive 24/7 cloud polling from `voldemort-vps`.
 
 ---
 
@@ -135,9 +135,9 @@ ssh voldemort-vps "docker ps | grep voldemort-menu-bot"
 # 2. Tail Voldemort Menu Bot Logs
 ssh voldemort-vps "docker logs voldemort-menu-bot --tail 30 -f"
 
-# 3. Check Hermes AI Assistant Gateway Service Status
-ssh voldemort-vps "systemctl status hermes-gateway.service --no-pager"
+# 3. Check AI Assistant Gateway Service Status
+ssh voldemort-vps "systemctl status ai-gateway.service --no-pager"
 
-# 4. Tail Hermes Gateway Logs
-ssh voldemort-vps "tail -n 30 -f /home/voldemort/.hermes/logs/gateway.log"
+# 4. Tail  Gateway Logs
+ssh voldemort-vps "tail -n 30 -f /home/voldemort/./logs/gateway.log"
 ```

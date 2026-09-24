@@ -7,7 +7,7 @@ title: "Daily Worklogs & Engineering Journal"
 
 # 📓 Daily Worklogs & Engineering Journal
 
-> **Related Hubs**: [[Home|🌌 Home]] | [[Engineering/Index|⚡ Engineering MOC]] | [[OmniRouter/Index|🔀 OmniRoute MOC]] | [[Hermes/Index|⚕️ Hermes Archive]]
+> **Related Hubs**: [[Home|🌌 Home]] | [[Engineering/Index|⚡ Engineering MOC]] | [[OmniRouter/Index|🔀 OmniRoute MOC]] | 
 
 Welcome to your automated daily worklog archive.
 
@@ -16,7 +16,7 @@ Welcome to your automated daily worklog archive.
 ## 🗂️ Worklog Timeline (Direct Graph Links)
 
 - [[Worklogs/2026-09-24|🗓️ 2026-09-24 (sevaka-ui MYTHOS API integration, Vault Hardening & BOZAGENTIC Core)]]
-- [[Worklogs/2026-09-23|🗓️ 2026-09-23 (Hermes Autonomous Workflows, VPS SRE Audit, Session Sync)]]
+- [[Worklogs/2026-09-23|🗓️ 2026-09-23 (agent Autonomous Workflows, VPS SRE Audit, Session Sync)]]
 - [[Worklogs/2026-09-22|🗓️ 2026-09-22 (Voldemort Route Monorepo Consolidation, Bun Workspaces)]]
 - [[Worklogs/2026-09-21|🗓️ 2026-09-21 (Wedding Planner Mixed Content Remediation & CI/CD Pipeline)]]
 - [[Worklogs/2026-09-20|🗓️ 2026-09-20 (Cloudflare Email Routing, Mini PC Planning, AquaSync Mobile)]]
@@ -31,7 +31,7 @@ Welcome to your automated daily worklog archive.
 - [[Worklogs/2026-09-11|🗓️ 2026-09-11 (Telegram Bot v2.5.0 Deployment on voldemort-vps)]]
 - [[Worklogs/2026-09-10|🗓️ 2026-09-10 (VPS Full Containerization, PostgreSQL, Telegram Bots, Cloudflare R2 & Hardening)]]
 - [[Worklogs/2026-09-09|🗓️ 2026-09-09 (Obsidian Graph Interconnection & Shared Worklog Skill)]]
-- [[Worklogs/2026-09-08|🗓️ 2026-09-08 (Hermes Godmode Skill Install)]]
+- [[Worklogs/2026-09-08|🗓️ 2026-09-08 (agent Godmode Skill Install)]]
 - [[Worklogs/2026-09-07|🗓️ 2026-09-07]]
 - [[Worklogs/2026-09-06|🗓️ 2026-09-06]]
 - [[Worklogs/2026-09-05|🗓️ 2026-09-05]]

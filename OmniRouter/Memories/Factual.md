@@ -228,26 +228,6 @@ Sum of 15314 + 87776 = 103090
 
 ---
 
-## 📌 `vps:hermes:model`
-
-- **Key**: `vps:hermes:model`
-- **Access Count**: `14327`
-- **Created**: `2026-09-15T05:14:34.836Z`
-- **Updated**: `2026-09-15T05:14:34.836Z`
-
-### Memory Content
-```text
-Hermes model configuration on VPS updated from AG to Agnes.
-```
-
-### Metadata
-```json
-{
-  "reason": "Record the model change for Hermes on VPS from AG to Agnes."
-}
-```
-
----
 
 ## 📌 `preference:it`
 

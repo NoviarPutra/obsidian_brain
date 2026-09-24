@@ -13,9 +13,9 @@ type: reference
 
 # 🎨 Anti-AI-Slop Visual Tuning & Image Generation Protocol
 
-> **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[Genjutsu_and_GSAP_Skills_Workflow|⚡ Genjutsu & GSAP]] | [[Hermes/SOUL|⚕️ Hermes SOUL]] | [[Home|🌌 Home]]
+> **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[Genjutsu_and_GSAP_Skills_Workflow|⚡ Genjutsu & GSAP]] |  | [[Home|🌌 Home]]
 
-Dokumen ini adalah **single source of truth** untuk subagent **`hermes-visual`** (generasi gambar Cloudflare FLUX.1, diagram arsitektur, infografis Baoyu, dan video motion) serta **Kilo Agent** (perancangan UI visual & motion Genjutsu) agar seluruh output visual di ekosistem terbebas dari artefak klise/generik AI (*plastic look, oversaturated neon, cliché compositions*).
+Dokumen ini adalah **single source of truth** untuk subagent **`visual-agent`** (generasi gambar Cloudflare FLUX.1, diagram arsitektur, infografis Baoyu, dan video motion) serta **Kilo Agent** (perancangan UI visual & motion Genjutsu) agar seluruh output visual di ekosistem terbebas dari artefak klise/generik AI (*plastic look, oversaturated neon, cliché compositions*).
 
 ---
 
@@ -68,7 +68,7 @@ Setiap kali merancang prompt visual, agen wajib menyandarkan deskripsi pada **pa
 
 ## 🛠️ 4. Asset Routing & Production
 
-- **Image & Diagram Generation**: Didelegasikan ke subagent **`hermes-visual`** via tool `image_gen` (Cloudflare Workers AI - FLUX.1 Schnell) dan Hermes CLI (`hermes -z`).
+- **Image & Diagram Generation**: Didelegasikan ke subagent **`visual-agent`** via tool `image_gen` (Cloudflare Workers AI - FLUX.1 Schnell) dan CLI (` -z`).
 - **UI & Creative Code (Frontend)**: Ditangani langsung oleh **Kilo Native** via skill Genjutsu (`cast`, `paint`, `threejs-r3f`, `canvas-generative`).
 - **Target Folder**: `public/assets/images/` atau direct code (SVG / HTML5 Canvas / Excalidraw JSON).
 - **Aspect Ratio Mapping**:

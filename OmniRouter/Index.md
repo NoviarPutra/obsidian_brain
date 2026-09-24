@@ -8,7 +8,7 @@ title: "OmniRoute Architecture & Operations Hub"
 
 # 🔀 OmniRoute Architecture & Operations Hub
 
-> **Related**: [[Home|🌌 Home]] | [[Engineering/Index|⚡ Engineering MOC]] | [[Hermes/Index|🤖 Hermes MOC]]
+> **Related**: [[Home|🌌 Home]] | [[Engineering/Index|⚡ Engineering MOC]]
 
 Selamat datang di Map of Content (MOC) operasional **OmniRoute Gateway & Autonomous Ecosystem**. Modul ini memetakan seluruh komponen arsitektur, basis memori otonom, dan telemetri analitik.
 

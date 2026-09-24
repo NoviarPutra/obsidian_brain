@@ -24,7 +24,7 @@ Sistem ini mentransisikan antarmuka operasional dari keterbatasan Telegram Bot A
 
 Seluruh kapabilitas core eksisting tetap dipertahankan dan diperkuat:
 - **LLM Routing & Load Balancing**: OmniRoute Engine (`http://127.0.0.1:20128/v1`).
-- **Autonomous Reasoning & Tools**: Hermes Agent subprocess & Kilocode skills catalog.
+- **Autonomous Reasoning & Tools**: AI Agent subprocess & Kilocode skills catalog.
 - **Deterministic Tool Engines**: Cloudflare Flux.1 image generator, MarkItDown document parser, SRE telemetry & watchdog.
 - **Execution Decoupling**: Menjamin eksekusi tugas SRE di background server tidak pernah terhenti meskipun aplikasi ponsel ditutup atau mengalami *network drop*.
 
@@ -183,7 +183,7 @@ Koneksi jaringan mobile rentan terhadap *packet loss*, perpindahan BTS seluler, 
 │   │   └── routes_rest.py      # Artifacts, uploads, health probes
 │   ├── core/                   # Shared business & SRE engines (Reused from existing)
 │   │   ├── omniroute_client.py # LLM client via OmniRoute (port 20128)
-│   │   ├── hermes_runner.py    # Subprocess execution bridge
+│   │   ├── agent_runner.py    # Subprocess execution bridge
 │   │   ├── markitdown_ops.py   # Document transformation
 │   │   └── security.py         # Untrusted data isolation & JWT
 │   ├── orchestrator/           # Task queue & state machine
@@ -203,7 +203,7 @@ Koneksi jaringan mobile rentan terhadap *packet loss*, perpindahan BTS seluler, 
 1. **Sprint 1: Core Backend Scaffold & Ring Buffer Engine**
    - Inisialisasi struktur direktori di `/home/voldemort/services/unified-agent-backend/`.
    - Implementasi `ring_buffer.py` dan `routes_ws.py` dengan protokol Sequence ACK.
-   - Migrasi modul inti (`omniroute_client.py`, `markitdown_ops.py`, `hermes_runner.py`).
+   - Migrasi modul inti (`omniroute_client.py`, `markitdown_ops.py`, `agent_runner.py`).
 
 2. **Sprint 2: Task Decoupling & Memory Spooler**
    - Implementasi asynchronous task broker dengan state persistence SQLite.

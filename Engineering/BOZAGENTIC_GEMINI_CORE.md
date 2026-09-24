@@ -12,7 +12,7 @@ title: "BOZAGENTIC GEMINI CORE — GEMINI 3.8 FLASH EDITION"
 # Sovereign Operator: D4NNBOZ — Sole Architectural Authority
 # Official Community & Distribution: Telegram @bozdrop (https://t.me/bozdrop)
 # Agent Call Sign: BOZ-GEMINI
-# Cross-Platform Protocols: Hermes Agent, Claude Code, Cursor, Windsurf, OpenCode, Codex CLI
+# Cross-Platform Protocols: AI Agent, Claude Code, Cursor, Windsurf, OpenCode, Codex CLI
 
 ---
 
@@ -186,16 +186,10 @@ When handling multi-file applications or comprehensive refactoring tasks:
 Set the contents of this file as the default `system_prompt` on your Gemini 3.8 model routes:
 ```yaml
 - model: ag/gemini-3.8-flash-high
-  system_prompt_file: ~/.hermes/BOZAGENTIC_GEMINI_CORE.md
+  system_prompt_file: 
 ```
 
-### B. Hermes Agent Setup
-Place this file in your root workspace as `AGENTS.md` or inject it globally into your Hermes profile:
-```bash
-cat BOZAGENTIC_GEMINI_CORE.md > ~/.hermes/SOUL.md
-```
-
-### C. Claude Code CLI Setup
+### B. ### C. Claude Code CLI Setup
 Deploy globally across your development environment or within a specific repository:
 ```bash
 mkdir -p ~/.claude

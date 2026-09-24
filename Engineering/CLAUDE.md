@@ -142,7 +142,7 @@ Sistem beroperasi dalam profil operasional defensif yang terfokus pada stabilita
 # 📓 4. Autonomous Worklog & Real-Time Vault Memory Ingestion
 
 - **Pre-Session Context Ingestion (Active Memory Reflection)**: Di awal sesi percakapan atau sebelum memulai task coding, Claude Code dan Opencode secara proaktif membaca file daily worklog terkini:
-  `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md` (hari ini) atau hari kemarin jika hari ini baru mulai. Ini menjamin pemahaman instan terhadap progres pekerjaan yang baru saja diselesaikan oleh Kilo, Hermes, atau agen lain.
+  `/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md` (hari ini) atau hari kemarin jika hari ini baru mulai. Ini menjamin pemahaman instan terhadap progres pekerjaan yang baru saja diselesaikan oleh Kilo, , atau agen lain.
 - **Mandatory Task Completion Persistence (Opencode & Obsidian Integration)**:
   - Setiap menyelesaikan task/instruksi teknis (baik mikro, minor, maupun level arsitektural), agent (Opencode / Claude Code) **wajib secara otonom mendokumentasikan progres ke daily worklog Obsidian** (`/Users/pt-dika/Documents/Obsidian/Worklogs/YYYY-MM-DD.md`) menggunakan Local REST API / MCP atau file direct append.
   - Dokumentasi mencakup: timestamp, ringkasan tindakan teknis, root-cause/status verifikasi sistem, serta path file konfigurasi terkait.

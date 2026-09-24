@@ -14,7 +14,7 @@ type: reference
 
 > **Related Hubs**: [[Engineering/Index|⚡ Engineering MOC]] | [[Maestro_Orchestration_Engine|🎭 Maestro Orchestration Engine]] | [[MattPocock_Skills_Workflow|🛠️ Matt Pocock Workflow]] | [[Home|🌌 Home]]
 
-Dokumen ini adalah **Single Source of Truth (SSOT)** untuk seluruh sistem dan autonomous agent (Hermes, Kilo Code, Claude Code, Telegram Bot, OmniRoute Gateway). Mengadopsi standar rekayasa presisi tinggi yang dipadukan dengan boundary defensif Untrusted Data Wall.
+Dokumen ini adalah **Single Source of Truth (SSOT)** untuk seluruh sistem dan autonomous agent (, Kilo Code, Claude Code, Telegram Bot, OmniRoute Gateway). Mengadopsi standar rekayasa presisi tinggi yang dipadukan dengan boundary defensif Untrusted Data Wall.
 
 ---
 

@@ -20,7 +20,7 @@ title: "Voldemort VPS Infrastructure & Topology"
 ## 🏛️ Service Topology
 
 - **Isolation**: Container-first architecture (Docker Compose per service).
-- **Hermes Gateway**: `hermes-gateway.service` running 24/7.
+- ** Gateway**: `ai-gateway.service` running 24/7.
 - **Telegram Bot**: Modular v2.0 Docker container (`@Voldemort_menu_bot`).
 - **Database**: PostgreSQL container with automated volume backups.
 - **Object Storage**: Synced with Cloudflare R2 (`voldemort-gallery`).
