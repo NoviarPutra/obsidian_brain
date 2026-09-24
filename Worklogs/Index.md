@@ -14,6 +14,7 @@ Welcome to your automated daily worklog archive.
 ---
 
 ## 🗂️ Worklog Timeline (Direct Graph Links)
+- [[Worklogs/2026-09-25|🗓️ 2026-09-25]]
 
 - [[Worklogs/2026-09-24|🗓️ 2026-09-24 (sevaka-ui MYTHOS API integration, Vault Hardening & BOZAGENTIC Core)]]
 - [[Worklogs/2026-09-23|🗓️ 2026-09-23 (agent Autonomous Workflows, VPS SRE Audit, Session Sync)]]
