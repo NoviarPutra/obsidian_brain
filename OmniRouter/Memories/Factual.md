@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 13
-last_synced: "2026-09-24T18:48:19.801678+00:00"
+last_synced: "2026-09-24T19:03:20.319341+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-24 18:48:19 UTC*
+*Synced from OmniRoute VPS database on 2026-09-24 19:03:20 UTC*
 
 **Total `Factual` Records**: `13`
 
 ## 📌 `pattern:accidentally_leak_credentials`
 
 - **Key**: `pattern:accidentally_leak_credentials`
-- **Access Count**: `7617`
+- **Access Count**: `7651`
 - **Created**: `2026-09-21T08:08:07.470Z`
 - **Updated**: `2026-09-21T09:23:25.852Z`
 
@@ -38,7 +38,7 @@ accidentally leak credentials
 ## 📌 `preference:persona_omniroute`
 
 - **Key**: `preference:persona_omniroute`
-- **Access Count**: `18101`
+- **Access Count**: `18181`
 - **Created**: `2026-09-17T06:44:16.155Z`
 - **Updated**: `2026-09-17T06:44:16.155Z`
 
@@ -59,7 +59,7 @@ User prefers OmniRoute Core AI persona: formal concise Indonesian for explanatio
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
 - **Key**: `preference:when_you_y_embed_the_lesson_in_the_skill`
-- **Access Count**: `16247`
+- **Access Count**: `16327`
 - **Created**: `2026-09-16T11:14:58.596Z`
 - **Updated**: `2026-09-16T11:15:47.034Z`
 
@@ -82,7 +82,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `preference:omniroute_persona`
 
 - **Key**: `preference:omniroute_persona`
-- **Access Count**: `17974`
+- **Access Count**: `18054`
 - **Created**: `2026-09-16T10:16:54.489Z`
 - **Updated**: `2026-09-16T10:16:54.489Z`
 
@@ -103,7 +103,7 @@ User prefers OmniRoute Engineering Persona & Communication Standard (Fabric Patt
 ## 📌 `persona:omniroute_engineering`
 
 - **Key**: `persona:omniroute_engineering`
-- **Access Count**: `18102`
+- **Access Count**: `18182`
 - **Created**: `2026-09-16T09:16:02.305Z`
 - **Updated**: `2026-09-16T09:16:02.305Z`
 
@@ -124,7 +124,7 @@ Communication preference: User prefers OmniRoute Engineering Persona & Communica
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `15201`
+- **Access Count**: `15279`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -145,7 +145,7 @@ User requested Kilo autocomplete to use OmniRoute VPS provider with AG model.
 ## 📌 `persona:omniroute_core_ai`
 
 - **Key**: `persona:omniroute_core_ai`
-- **Access Count**: `18566`
+- **Access Count**: `18646`
 - **Created**: `2026-09-16T07:29:34.426Z`
 - **Updated**: `2026-09-16T08:49:58.486Z`
 
@@ -166,7 +166,7 @@ OmniRoute Core AI with Ponytail (lazy senior dev) style. Language: Bahasa Indone
 ## 📌 `persona:omniroute_sre`
 
 - **Key**: `persona:omniroute_sre`
-- **Access Count**: `18300`
+- **Access Count**: `18380`
 - **Created**: `2026-09-16T07:25:00.455Z`
 - **Updated**: `2026-09-16T07:25:00.455Z`
 
@@ -187,7 +187,7 @@ OmniRoute Core AI & Ponytail engineering standard. Tone: formal-lugas Indonesian
 ## 📌 `persona:omniroute_fabric_core`
 
 - **Key**: `persona:omniroute_fabric_core`
-- **Access Count**: `18784`
+- **Access Count**: `18864`
 - **Created**: `2026-09-16T06:54:13.757371Z`
 - **Updated**: `2026-09-16T06:54:13.757371Z`
 
@@ -212,7 +212,7 @@ OmniRoute Unified Engineering Persona (Fabric Pattern Specification):
 ## 📌 `math:15314+87776`
 
 - **Key**: `math:15314+87776`
-- **Access Count**: `12526`
+- **Access Count**: `12538`
 - **Created**: `2026-09-15T06:44:19.635Z`
 - **Updated**: `2026-09-15T06:44:19.635Z`
 
@@ -231,7 +231,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `15487`
+- **Access Count**: `15565`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -252,7 +252,7 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `15654`
+- **Access Count**: `15688`
 - **Created**: `2026-09-15T03:37:49.795Z`
 - **Updated**: `2026-09-16T10:37:57.595Z`
 
@@ -275,7 +275,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `18650`
+- **Access Count**: `18730`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-16T06:54:13.751616Z`
 
