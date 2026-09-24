@@ -2,14 +2,14 @@
 tags:
   - omniroute/memory
   - omniroute/dashboard
-total_memories: 22
-last_synced: "2026-09-24T20:18:22.003916+00:00"
+total_memories: 24
+last_synced: "2026-09-24T20:33:22.703899+00:00"
 ---
 # 🧠 OmniRoute Knowledge & Memory Hub
 
 Welcome to the automated **OmniRoute Memory Vault**. Memory snapshots from AI sessions are indexed here into specialized memory models.
 
-*Last snapshot taken on 2026-09-24 20:18:22 UTC*
+*Last snapshot taken on 2026-09-24 20:33:22 UTC*
 
 ## 📊 Summary by Type
 
@@ -17,10 +17,10 @@ Welcome to the automated **OmniRoute Memory Vault**. Memory snapshots from AI se
 | :--- | :--- | :--- |
 | **Factual** (Facts, Keys, Specs) | `13` | [[Factual]] |
 | **Episodic** (Past Session Experiences) | `3` | [[Episodic]] |
-| **Procedural** (Workflows & Rules) | `5` | [[Procedural]] |
+| **Procedural** (Workflows & Rules) | `7` | [[Procedural]] |
 | **Semantic** (Conceptual Knowledge) | `1` | [[Semantic]] |
 
-**Total Active Memories**: `22`
+**Total Active Memories**: `24`
 
 ---
 
