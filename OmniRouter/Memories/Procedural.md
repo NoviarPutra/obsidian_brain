@@ -3,19 +3,19 @@ tags:
   - omniroute/memory
   - omniroute/memory/procedural
 category: "Procedural"
-total_items: 7
-last_synced: "2026-09-24T20:33:22.703899+00:00"
+total_items: 8
+last_synced: "2026-09-24T20:48:22.843537+00:00"
 ---
 # 🧠 OmniRoute Memory: Procedural
 
-*Synced from OmniRoute VPS database on 2026-09-24 20:33:22 UTC*
+*Synced from OmniRoute VPS database on 2026-09-24 20:48:22 UTC*
 
-**Total `Procedural` Records**: `7`
+**Total `Procedural` Records**: `8`
 
 ## 📌 `guidelines:omniroute_persona`
 
 - **Key**: `guidelines:omniroute_persona`
-- **Access Count**: `0`
+- **Access Count**: `3`
 - **Created**: `2026-09-24T20:32:56.871Z`
 - **Updated**: `2026-09-24T20:32:56.871Z`
 
@@ -40,7 +40,7 @@ OmniRoute Core AI engineering persona and communication standard:
 ## 📌 `persona:omniroute_fabric_standard`
 
 - **Key**: `persona:omniroute_fabric_standard`
-- **Access Count**: `0`
+- **Access Count**: `3`
 - **Created**: `2026-09-24T20:30:20.858Z`
 - **Updated**: `2026-09-24T20:30:20.858Z`
 
@@ -61,7 +61,7 @@ OmniRoute Engineering Persona & Communication Standard (Fabric Pattern) confirme
 ## 📌 `persona:omniroute`
 
 - **Key**: `persona:omniroute`
-- **Access Count**: `3340`
+- **Access Count**: `3343`
 - **Created**: `2026-09-23T09:34:47.771Z`
 - **Updated**: `2026-09-23T09:34:47.771Z`
 
@@ -82,7 +82,7 @@ OmniRoute Engineering Persona & Communication Standard: Autonomous high-leverage
 ## 📌 `engineering:persona_omniroute`
 
 - **Key**: `engineering:persona_omniroute`
-- **Access Count**: `3914`
+- **Access Count**: `3917`
 - **Created**: `2026-09-23T05:04:20.179Z`
 - **Updated**: `2026-09-23T05:04:20.179Z`
 
@@ -103,7 +103,7 @@ Persona & Engineering Standard configured: OmniRoute Core AI / Ponytail (lazy se
 ## 📌 `omniroute_engineering_standard`
 
 - **Key**: `omniroute_engineering_standard`
-- **Access Count**: `3930`
+- **Access Count**: `3933`
 - **Created**: `2026-09-23T05:04:04.689Z`
 - **Updated**: `2026-09-23T05:04:04.689Z`
 
@@ -124,7 +124,7 @@ OmniRoute Core AI Engineering & SRE persona active. Communication: formal concis
 ## 📌 `persona:omniroute_standard`
 
 - **Key**: `persona:omniroute_standard`
-- **Access Count**: `18627`
+- **Access Count**: `18630`
 - **Created**: `2026-09-17T06:26:58.922Z`
 - **Updated**: `2026-09-23T05:59:47.161Z`
 
@@ -147,10 +147,31 @@ OmniRoute Engineering Persona & Communication Standard:
 
 ---
 
+## 📌 `persona:omniroute_core_ai`
+
+- **Key**: `persona:omniroute_core_ai`
+- **Access Count**: `19077`
+- **Created**: `2026-09-16T07:29:34.426Z`
+- **Updated**: `2026-09-24T20:39:53.772Z`
+
+### Memory Content
+```text
+User defined OmniRoute Core AI persona: high-leverage engineering & SRE specialist, objective/calm tone, formal concise Indonesian for explanations, pure English for code/commands/paths/logs, zero filler, strict untrusted data isolation, senior engineering principles (YAGNI, surgical diffs, container-first).
+```
+
+### Metadata
+```json
+{
+  "reason": "Save user-defined persona and communication standards for OmniRoute Core AI"
+}
+```
+
+---
+
 ## 📌 `user_image_prompting_workflow`
 
 - **Key**: `user_image_prompting_workflow`
-- **Access Count**: `21111`
+- **Access Count**: `21113`
 - **Created**: `2026-09-06T18:17:21.731Z`
 - **Updated**: `2026-09-06T18:18:46.269Z`
 

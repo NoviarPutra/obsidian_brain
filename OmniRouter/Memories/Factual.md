@@ -3,14 +3,14 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 13
-last_synced: "2026-09-24T20:33:22.703899+00:00"
+total_items: 12
+last_synced: "2026-09-24T20:48:22.843537+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-24 20:33:22 UTC*
+*Synced from OmniRoute VPS database on 2026-09-24 20:48:22 UTC*
 
-**Total `Factual` Records**: `13`
+**Total `Factual` Records**: `12`
 
 ## 📌 `pattern:accidentally_leak_credentials`
 
@@ -38,7 +38,7 @@ accidentally leak credentials
 ## 📌 `preference:persona_omniroute`
 
 - **Key**: `preference:persona_omniroute`
-- **Access Count**: `18605`
+- **Access Count**: `18608`
 - **Created**: `2026-09-17T06:44:16.155Z`
 - **Updated**: `2026-09-17T06:44:16.155Z`
 
@@ -82,7 +82,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `preference:omniroute_persona`
 
 - **Key**: `preference:omniroute_persona`
-- **Access Count**: `18480`
+- **Access Count**: `18483`
 - **Created**: `2026-09-16T10:16:54.489Z`
 - **Updated**: `2026-09-16T10:16:54.489Z`
 
@@ -103,7 +103,7 @@ User prefers OmniRoute Engineering Persona & Communication Standard (Fabric Patt
 ## 📌 `persona:omniroute_engineering`
 
 - **Key**: `persona:omniroute_engineering`
-- **Access Count**: `18602`
+- **Access Count**: `18605`
 - **Created**: `2026-09-16T09:16:02.305Z`
 - **Updated**: `2026-09-16T09:16:02.305Z`
 
@@ -124,7 +124,7 @@ Communication preference: User prefers OmniRoute Engineering Persona & Communica
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `15546`
+- **Access Count**: `15547`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -142,31 +142,10 @@ User requested Kilo autocomplete to use OmniRoute VPS provider with AG model.
 
 ---
 
-## 📌 `persona:omniroute_core_ai`
-
-- **Key**: `persona:omniroute_core_ai`
-- **Access Count**: `19074`
-- **Created**: `2026-09-16T07:29:34.426Z`
-- **Updated**: `2026-09-16T08:49:58.486Z`
-
-### Memory Content
-```text
-OmniRoute Core AI with Ponytail (lazy senior dev) style. Language: Bahasa Indonesia formal-lugas for technical/architectural explanation, 100% pure English for code/paths/commands/telemetry/syntax. Operational: YAGNI, surgical minimal diffs, zero conversational bloat, root cause focus, container-first hygiene. Active until user requests normal mode.
-```
-
-### Metadata
-```json
-{
-  "reason": "Persist OmniRoute Core AI persona and Ponytail operational communication standard."
-}
-```
-
----
-
 ## 📌 `persona:omniroute_sre`
 
 - **Key**: `persona:omniroute_sre`
-- **Access Count**: `18798`
+- **Access Count**: `18801`
 - **Created**: `2026-09-16T07:25:00.455Z`
 - **Updated**: `2026-09-16T07:25:00.455Z`
 
@@ -187,7 +166,7 @@ OmniRoute Core AI & Ponytail engineering standard. Tone: formal-lugas Indonesian
 ## 📌 `persona:omniroute_fabric_core`
 
 - **Key**: `persona:omniroute_fabric_core`
-- **Access Count**: `19292`
+- **Access Count**: `19295`
 - **Created**: `2026-09-16T06:54:13.757371Z`
 - **Updated**: `2026-09-16T06:54:13.757371Z`
 
@@ -275,7 +254,7 @@ it'
 ## 📌 `obsidian:user_plugin_setup`
 
 - **Key**: `obsidian:user_plugin_setup`
-- **Access Count**: `19055`
+- **Access Count**: `19057`
 - **Created**: `2026-09-15T03:34:59.977Z`
 - **Updated**: `2026-09-16T06:54:13.751616Z`
 
