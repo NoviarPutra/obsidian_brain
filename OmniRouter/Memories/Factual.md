@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 7
-last_synced: "2026-09-25T05:03:35.899776+00:00"
+last_synced: "2026-09-25T09:03:41.643570+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-25 05:03:35 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 09:03:41 UTC*
 
 **Total `Factual` Records**: `7`
 
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `2`
+- **Access Count**: `30`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
@@ -42,7 +42,7 @@ Principles:
 ## 📌 `pattern:accidentally_leak_credentials`
 
 - **Key**: `pattern:accidentally_leak_credentials`
-- **Access Count**: `7935`
+- **Access Count**: `7958`
 - **Created**: `2026-09-21T08:08:07.470Z`
 - **Updated**: `2026-09-21T09:23:25.852Z`
 
@@ -65,7 +65,7 @@ accidentally leak credentials
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
 - **Key**: `preference:when_you_y_embed_the_lesson_in_the_skill`
-- **Access Count**: `16783`
+- **Access Count**: `16788`
 - **Created**: `2026-09-16T11:14:58.596Z`
 - **Updated**: `2026-09-16T11:15:47.034Z`
 
@@ -88,7 +88,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `15577`
+- **Access Count**: `15606`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -109,7 +109,7 @@ User requested Kilo autocomplete to use OmniRoute VPS provider with AG model.
 ## 📌 `math:15314+87776`
 
 - **Key**: `math:15314+87776`
-- **Access Count**: `12566`
+- **Access Count**: `12571`
 - **Created**: `2026-09-15T06:44:19.635Z`
 - **Updated**: `2026-09-15T06:44:19.635Z`
 
@@ -128,7 +128,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `15857`
+- **Access Count**: `15886`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -149,9 +149,9 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `15972`
+- **Access Count**: `15977`
 - **Created**: `2026-09-15T03:37:49.795Z`
-- **Updated**: `2026-09-25T01:33:26.562Z`
+- **Updated**: `2026-09-25T08:55:41.751Z`
 
 ### Memory Content
 ```text
@@ -162,7 +162,7 @@ it'
 ```json
 {
   "category": "preference",
-  "extractedAt": "2026-09-25T01:33:26.562Z",
+  "extractedAt": "2026-09-25T08:55:41.751Z",
   "source": "llm_response"
 }
 ```
