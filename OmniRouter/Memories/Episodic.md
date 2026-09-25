@@ -3,19 +3,40 @@ tags:
   - omniroute/memory
   - omniroute/memory/episodic
 category: "Episodic"
-total_items: 4
-last_synced: "2026-09-25T10:03:43.704685+00:00"
+total_items: 5
+last_synced: "2026-09-25T11:48:46.346669+00:00"
 ---
 # 🧠 OmniRoute Memory: Episodic
 
-*Synced from OmniRoute VPS database on 2026-09-25 10:03:43 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 11:48:46 UTC*
 
-**Total `Episodic` Records**: `4`
+**Total `Episodic` Records**: `5`
+
+## 📌 `opencode:api_key_retrieval`
+
+- **Key**: `opencode:api_key_retrieval`
+- **Access Count**: `34`
+- **Created**: `2026-09-25T11:37:20.782Z`
+- **Updated**: `2026-09-25T11:37:20.782Z`
+
+### Memory Content
+```text
+User inquired about how to retrieve their opencode API key.
+```
+
+### Metadata
+```json
+{
+  "reason": "Log inquiry regarding opencode API key retrieval"
+}
+```
+
+---
 
 ## 📌 `session:intro_persona_query`
 
 - **Key**: `session:intro_persona_query`
-- **Access Count**: `88`
+- **Access Count**: `123`
 - **Created**: `2026-09-25T05:35:15.811Z`
 - **Updated**: `2026-09-25T05:35:15.811Z`
 
@@ -36,7 +57,7 @@ User greeted and inquired about persona and current capabilities.
 ## 📌 `decision:its_semantics_identifier_to_locate_it_an`
 
 - **Key**: `decision:its_semantics_identifier_to_locate_it_an`
-- **Access Count**: `14244`
+- **Access Count**: `14295`
 - **Created**: `2026-09-18T15:12:26.551Z`
 - **Updated**: `2026-09-18T15:12:26.551Z`
 
@@ -59,7 +80,7 @@ its semantics identifier to locate it and then simulate a tap
 ## 📌 `decision:_reportsrepositoryprovider`
 
 - **Key**: `decision:_reportsrepositoryprovider`
-- **Access Count**: `12762`
+- **Access Count**: `12797`
 - **Created**: `2026-09-18T15:07:48.459Z`
 - **Updated**: `2026-09-18T15:07:48.459Z`
 
@@ -82,7 +103,7 @@ its semantics identifier to locate it and then simulate a tap
 ## 📌 `obsidian_vault_review`
 
 - **Key**: `obsidian_vault_review`
-- **Access Count**: `18306`
+- **Access Count**: `18357`
 - **Created**: `2026-09-16T04:10:52.501Z`
 - **Updated**: `2026-09-16T04:10:52.501Z`
 
