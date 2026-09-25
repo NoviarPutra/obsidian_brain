@@ -3,19 +3,42 @@ tags:
   - omniroute/memory
   - omniroute/memory/procedural
 category: "Procedural"
-total_items: 2
-last_synced: "2026-09-25T03:03:33.007644+00:00"
+total_items: 3
+last_synced: "2026-09-25T05:03:35.899776+00:00"
 ---
 # 🧠 OmniRoute Memory: Procedural
 
-*Synced from OmniRoute VPS database on 2026-09-25 03:03:33 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 05:03:35 UTC*
 
-**Total `Procedural` Records**: `2`
+**Total `Procedural` Records**: `3`
+
+## 📌 `workflow:omniroute_visual_ponytail`
+
+- **Key**: `workflow:omniroute_visual_ponytail`
+- **Access Count**: `2`
+- **Created**: `2026-09-25T04:57:13.725Z`
+- **Updated**: `2026-09-25T04:57:13.725Z`
+
+### Memory Content
+```text
+User requested Kilo autocomplete to use OmniRoute VPS provider with AG model.
+End-to-end visual workflow: User shares creative/image idea, Kilo brainstorms/refines and engineers the anti-AI-slop optical prompt, then Kilo directly invokes Hermes CLI (hermes -z / Cloudflare FLUX image_gen) to produce the final image artifact without requiring manual copy-paste from user. If user explicitly asks only for prompt recipes, provide prompts. Otherwise execute end-to-end autonomously.
+Output style: Ponytail (lazy senior dev — YAGNI, reuse, minimal diffs, deletion over addition, active until user asks for normal mode).
+```
+
+### Metadata
+```json
+{
+  "reason": "Persist OmniRoute AG model preference, Ponytail output style, and Hermes CLI visual workflow."
+}
+```
+
+---
 
 ## 📌 `preference:image_generation_workflow`
 
 - **Key**: `preference:image_generation_workflow`
-- **Access Count**: `8`
+- **Access Count**: `10`
 - **Created**: `2026-09-25T01:29:57.800Z`
 - **Updated**: `2026-09-25T01:29:57.800Z`
 
@@ -36,7 +59,7 @@ Workflow preference: When user shares creative/image ideas, brainstorm/engineer 
 ## 📌 `user_image_prompting_workflow`
 
 - **Key**: `user_image_prompting_workflow`
-- **Access Count**: `21215`
+- **Access Count**: `21218`
 - **Created**: `2026-09-06T18:17:21.731Z`
 - **Updated**: `2026-09-06T18:18:46.269Z`
 

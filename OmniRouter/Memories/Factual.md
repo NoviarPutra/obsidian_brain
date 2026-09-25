@@ -3,14 +3,41 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 6
-last_synced: "2026-09-25T01:33:29.826395+00:00"
+total_items: 7
+last_synced: "2026-09-25T05:03:35.899776+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-25 01:33:29 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 05:03:35 UTC*
 
-**Total `Factual` Records**: `6`
+**Total `Factual` Records**: `7`
+
+## 📌 `preference:output_style_ponytail`
+
+- **Key**: `preference:output_style_ponytail`
+- **Access Count**: `2`
+- **Created**: `2026-09-25T04:57:56.832Z`
+- **Updated**: `2026-09-25T04:57:56.832Z`
+
+### Memory Content
+```text
+User preference for OmniRoute Output Style: 'Ponytail — lazy senior dev'.
+Principles:
+- Lazy senior developer: efficient, minimalist, YAGNI.
+- Best code is the code never written.
+- Reuse existing code, stdlib, platform features before writing new code.
+- Minimal diffs, root cause bug fixing, no boilerplate or unrequested abstractions.
+- Active until user asks for normal mode.
+```
+
+### Metadata
+```json
+{
+  "reason": "Persist user's chosen output style 'Ponytail' for pair programming."
+}
+```
+
+---
 
 ## 📌 `pattern:accidentally_leak_credentials`
 
@@ -38,7 +65,7 @@ accidentally leak credentials
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
 - **Key**: `preference:when_you_y_embed_the_lesson_in_the_skill`
-- **Access Count**: `16781`
+- **Access Count**: `16783`
 - **Created**: `2026-09-16T11:14:58.596Z`
 - **Updated**: `2026-09-16T11:15:47.034Z`
 
@@ -61,7 +88,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `15574`
+- **Access Count**: `15577`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -101,7 +128,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `15855`
+- **Access Count**: `15857`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
