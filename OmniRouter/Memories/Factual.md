@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 12
-last_synced: "2026-09-25T14:48:52.138601+00:00"
+last_synced: "2026-09-25T17:33:56.611386+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-25 14:48:52 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 17:33:56 UTC*
 
 **Total `Factual` Records**: `12`
 
 ## 📌 `preference:output_style`
 
 - **Key**: `preference:output_style`
-- **Access Count**: `53`
+- **Access Count**: `57`
 - **Created**: `2026-09-25T13:11:45.906Z`
 - **Updated**: `2026-09-25T13:12:31.633Z`
 
@@ -99,7 +99,7 @@ User uses opencode terminal with default model 'big pickle'
 ## 📌 `preference:free_tier_only`
 
 - **Key**: `preference:free_tier_only`
-- **Access Count**: `25`
+- **Access Count**: `29`
 - **Created**: `2026-09-25T09:06:17.356Z`
 - **Updated**: `2026-09-25T09:06:17.356Z`
 
@@ -120,7 +120,7 @@ User requested only free tier options/services.
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `293`
+- **Access Count**: `297`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
