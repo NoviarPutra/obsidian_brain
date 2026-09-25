@@ -3,19 +3,40 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 10
-last_synced: "2026-09-25T09:48:43.139121+00:00"
+total_items: 11
+last_synced: "2026-09-25T10:03:43.704685+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-25 09:48:43 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 10:03:43 UTC*
 
-**Total `Factual` Records**: `10`
+**Total `Factual` Records**: `11`
+
+## 📌 `preference:language_indonesian`
+
+- **Key**: `preference:language_indonesian`
+- **Access Count**: `0`
+- **Created**: `2026-09-25T09:52:01.699Z`
+- **Updated**: `2026-09-25T09:52:01.699Z`
+
+### Memory Content
+```text
+User asks questions in Indonesian.
+```
+
+### Metadata
+```json
+{
+  "reason": "Record user language preference for future interactions"
+}
+```
+
+---
 
 ## 📌 `user_preference:setup_combo_requirements`
 
 - **Key**: `user_preference:setup_combo_requirements`
-- **Access Count**: `1`
+- **Access Count**: `22`
 - **Created**: `2026-09-25T09:41:01.584Z`
 - **Updated**: `2026-09-25T09:41:01.584Z`
 
@@ -36,7 +57,7 @@ User requested zero-gap, robust, bulletproof, futureproof, and anti-memory-leak 
 ## 📌 `user:opencode_default_model`
 
 - **Key**: `user:opencode_default_model`
-- **Access Count**: `67`
+- **Access Count**: `88`
 - **Created**: `2026-09-25T09:17:22.991Z`
 - **Updated**: `2026-09-25T09:17:22.991Z`
 
@@ -78,7 +99,7 @@ User requested only free tier options/services.
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `96`
+- **Access Count**: `117`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
@@ -128,7 +149,7 @@ accidentally leak credentials
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
 - **Key**: `preference:when_you_y_embed_the_lesson_in_the_skill`
-- **Access Count**: `16830`
+- **Access Count**: `16851`
 - **Created**: `2026-09-16T11:14:58.596Z`
 - **Updated**: `2026-09-16T11:15:47.034Z`
 
@@ -151,7 +172,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `15658`
+- **Access Count**: `15679`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -191,7 +212,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `15938`
+- **Access Count**: `15959`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
