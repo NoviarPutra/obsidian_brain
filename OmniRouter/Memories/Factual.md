@@ -3,19 +3,61 @@ tags:
   - omniroute/memory
   - omniroute/memory/factual
 category: "Factual"
-total_items: 7
-last_synced: "2026-09-25T09:03:41.643570+00:00"
+total_items: 9
+last_synced: "2026-09-25T09:18:41.897673+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-25 09:03:41 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 09:18:41 UTC*
 
-**Total `Factual` Records**: `7`
+**Total `Factual` Records**: `9`
+
+## 📌 `user:opencode_default_model`
+
+- **Key**: `user:opencode_default_model`
+- **Access Count**: `1`
+- **Created**: `2026-09-25T09:17:22.991Z`
+- **Updated**: `2026-09-25T09:17:22.991Z`
+
+### Memory Content
+```text
+User uses opencode terminal with default model 'big pickle'
+```
+
+### Metadata
+```json
+{
+  "reason": "User explicitly mentioned their environment/default setup"
+}
+```
+
+---
+
+## 📌 `preference:free_tier_only`
+
+- **Key**: `preference:free_tier_only`
+- **Access Count**: `2`
+- **Created**: `2026-09-25T09:06:17.356Z`
+- **Updated**: `2026-09-25T09:06:17.356Z`
+
+### Memory Content
+```text
+User requested only free tier options/services.
+```
+
+### Metadata
+```json
+{
+  "reason": "User specified 'Yang free tier only' preference"
+}
+```
+
+---
 
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `30`
+- **Access Count**: `48`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
@@ -42,7 +84,7 @@ Principles:
 ## 📌 `pattern:accidentally_leak_credentials`
 
 - **Key**: `pattern:accidentally_leak_credentials`
-- **Access Count**: `7958`
+- **Access Count**: `7962`
 - **Created**: `2026-09-21T08:08:07.470Z`
 - **Updated**: `2026-09-21T09:23:25.852Z`
 
@@ -65,7 +107,7 @@ accidentally leak credentials
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
 - **Key**: `preference:when_you_y_embed_the_lesson_in_the_skill`
-- **Access Count**: `16788`
+- **Access Count**: `16792`
 - **Created**: `2026-09-16T11:14:58.596Z`
 - **Updated**: `2026-09-16T11:15:47.034Z`
 
@@ -88,7 +130,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `15606`
+- **Access Count**: `15610`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -109,7 +151,7 @@ User requested Kilo autocomplete to use OmniRoute VPS provider with AG model.
 ## 📌 `math:15314+87776`
 
 - **Key**: `math:15314+87776`
-- **Access Count**: `12571`
+- **Access Count**: `12575`
 - **Created**: `2026-09-15T06:44:19.635Z`
 - **Updated**: `2026-09-15T06:44:19.635Z`
 
@@ -128,7 +170,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `15886`
+- **Access Count**: `15890`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -149,9 +191,9 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `15977`
+- **Access Count**: `15981`
 - **Created**: `2026-09-15T03:37:49.795Z`
-- **Updated**: `2026-09-25T08:55:41.751Z`
+- **Updated**: `2026-09-25T09:17:30.192Z`
 
 ### Memory Content
 ```text
@@ -162,7 +204,7 @@ it'
 ```json
 {
   "category": "preference",
-  "extractedAt": "2026-09-25T08:55:41.751Z",
+  "extractedAt": "2026-09-25T09:17:30.192Z",
   "source": "llm_response"
 }
 ```
