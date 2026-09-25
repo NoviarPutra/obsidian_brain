@@ -3,14 +3,35 @@ tags:
   - omniroute/memory
   - omniroute/memory/episodic
 category: "Episodic"
-total_items: 3
-last_synced: "2026-09-25T05:03:35.899776+00:00"
+total_items: 4
+last_synced: "2026-09-25T05:48:36.839274+00:00"
 ---
 # 🧠 OmniRoute Memory: Episodic
 
-*Synced from OmniRoute VPS database on 2026-09-25 05:03:35 UTC*
+*Synced from OmniRoute VPS database on 2026-09-25 05:48:36 UTC*
 
-**Total `Episodic` Records**: `3`
+**Total `Episodic` Records**: `4`
+
+## 📌 `session:intro_persona_query`
+
+- **Key**: `session:intro_persona_query`
+- **Access Count**: `3`
+- **Created**: `2026-09-25T05:35:15.811Z`
+- **Updated**: `2026-09-25T05:35:15.811Z`
+
+### Memory Content
+```text
+User greeted and inquired about persona and current capabilities.
+```
+
+### Metadata
+```json
+{
+  "reason": "Record user query about persona and capabilities"
+}
+```
+
+---
 
 ## 📌 `decision:its_semantics_identifier_to_locate_it_an`
 
