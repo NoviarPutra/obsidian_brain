@@ -67,13 +67,17 @@ sync_vault() {
         hostname=$(hostname -s 2>/dev/null || echo "Mac")
         local timestamp
         timestamp=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
-        git commit -m "Auto-sync by ${hostname} [${timestamp}]" >> "$LOG_FILE" 2>&1 || true
-        
-        # Push to origin
-        if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
-            echo "[$(date '+%Y-%m-%d %H:%M:%S')] Vault pushed successfully." >> "$LOG_FILE"
+        # A rejected commit must not be swallowed: "|| true" plus a push that exits
+        # 0 on an already-up-to-date branch made a blocked commit look successful.
+        if git commit -m "Auto-sync by ${hostname} [${timestamp}]" >> "$LOG_FILE" 2>&1; then
+            # Push to origin
+            if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
+                echo "[$(date '+%Y-%m-%d %H:%M:%S')] Vault pushed successfully." >> "$LOG_FILE"
+            else
+                echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push failed, will retry next cycle." >> "$LOG_FILE"
+            fi
         else
-            echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push failed, will retry next cycle." >> "$LOG_FILE"
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: commit REJECTED (pre-commit hook or git failure). NOT pushing; tree stays dirty. Diagnose with: python3 $VAULT_DIR/scripts/vault_lint.py" >> "$LOG_FILE"
         fi
     fi
 
