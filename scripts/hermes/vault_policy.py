@@ -24,14 +24,24 @@ Policy, from the approved spec (Engineering/Hermes_Obsidian_Integration_Spec.md)
   reads          Engineering/, Worklogs/, Hermes/ only
   anything else inside the vault: denied
 
-Paths outside the vault are not this hook's business and pass through; writes there
-are already bounded by HERMES_WRITE_SAFE_ROOT.
+Protected paths outside the vault (PROTECTED_ROOTS) are denied outright, for both
+file tools and `terminal`. Everything else outside the vault passes through; writes
+there are already bounded by HERMES_WRITE_SAFE_ROOT.
 """
 import json
 import os
 import sys
 
 VAULT = "/home/voldemort/services/obsidian-stack/vault"
+
+# Paths outside the vault that Hermes must not touch at all. ~/.omniroute holds
+# OmniRoute's storage.sqlite: provider credentials, API keys and combo config. On
+# 2026-09-26 an autonomous `terminal` command destroyed it and every OmniRoute route
+# answered 500 until the DB was restored from backup. HERMES_WRITE_SAFE_ROOT does not
+# cover this path, and `terminal` never consults the write sandbox at all
+# (agent/file_safety.py is not imported by tools/terminal_tool.py), so this hook is
+# the only place the rule can exist.
+PROTECTED_ROOTS = ("/home/voldemort/.omniroute",)
 
 WRITE_FREE = ("Hermes/",)
 WRITE_CREATE_ONLY = ("Engineering/",)
@@ -40,6 +50,7 @@ READ_ALLOWED = ("Engineering/", "Worklogs/", "Hermes/")
 
 READ_TOOLS = ("read_file", "search_files")
 WRITE_TOOLS = ("write_file", "patch")
+TERMINAL_TOOLS = ("terminal",)
 
 DIFF_PREVIEW_CHARS = 400
 
@@ -61,6 +72,38 @@ def approve(message, rule_key):
 
 def under_any(rel, prefixes):
     return any(rel == p.rstrip("/") or rel.startswith(p) for p in prefixes)
+
+
+def protected_root_for(raw_path, cwd):
+    """Return the PROTECTED_ROOTS entry containing raw_path, or None."""
+    if not raw_path:
+        return None
+    path = os.path.expanduser(str(raw_path))
+    if not os.path.isabs(path):
+        path = os.path.join(cwd or "/", path)
+    resolved = os.path.realpath(path)
+    for root in PROTECTED_ROOTS:
+        real_root = os.path.realpath(root)
+        if resolved == real_root or resolved.startswith(real_root + os.sep):
+            return root
+    return None
+
+
+def protected_mention(text):
+    """Return the protected root a shell string refers to, or None.
+
+    Matched on the directory's own name rather than its full path, because every way
+    of writing it - /home/voldemort/.omniroute, ~/.omniroute, $HOME/.omniroute, or a
+    `cd` into it followed by a bare filename - contains that token, and a shell string
+    cannot be resolved the way a path argument can. A false positive costs one refused
+    command; a miss costs the router.
+    """
+    if not text:
+        return None
+    for root in PROTECTED_ROOTS:
+        if os.path.basename(root) in str(text):
+            return root
+    return None
 
 
 def vault_relative(raw_path, cwd):
@@ -96,10 +139,34 @@ def main():
     if not isinstance(args, dict):
         block("vault policy hook got a non-object tool_input; denying to fail closed.")
 
+    if tool in TERMINAL_TOOLS:
+        root = protected_mention(args.get("command")) or protected_mention(args.get("workdir"))
+        if root:
+            # To let a specific maintenance job through again, swap this block() for
+            # approve(msg, f"protected_path:{root}"): that routes the command to a
+            # human instead of refusing it, and still fails closed on no answer.
+            block(
+                f"Command refused: it references {root}, which is off limits. That "
+                f"directory holds OmniRoute's storage.sqlite - provider credentials, "
+                f"API keys and combo config. A terminal command wiped it on 2026-09-26 "
+                f"and every OmniRoute route answered 500 until it was restored from "
+                f"backup. Ask the operator to run this themselves."
+            )
+        emit(None)
+
     if tool not in READ_TOOLS + WRITE_TOOLS:
         emit(None)
 
     raw_path = args.get("path")
+
+    protected = protected_root_for(raw_path, cwd)
+    if protected:
+        block(
+            f"Denied: {raw_path!r} is under {protected}. That directory holds "
+            f"OmniRoute's storage.sqlite, so Hermes neither reads it - the credentials "
+            f"in it would leave this host on the next model call - nor writes it, after "
+            f"a terminal command destroyed it on 2026-09-26."
+        )
 
     # search_files without a path would sweep from the cwd, which may be the vault
     # root and would return notes outside the read whitelist.
