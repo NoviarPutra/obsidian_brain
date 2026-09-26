@@ -17,6 +17,8 @@ Thumbs.db
 .smart-env
 
 # Prevent stray / untitled temporary files in root
+# Atomic-write staging files (Hermes writes .tmp.* then renames into place)
+**/.tmp.*
 Untitled*.base
 Untitled*.md
 *.tmp
