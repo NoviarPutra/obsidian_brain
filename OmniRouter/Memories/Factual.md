@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 12
-last_synced: "2026-09-26T05:37:05.322292+00:00"
+last_synced: "2026-09-26T06:07:06.113138+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-26 05:37:05 UTC*
+*Synced from OmniRoute VPS database on 2026-09-26 06:07:06 UTC*
 
 **Total `Factual` Records**: `12`
 
 ## 📌 `preference:output_style`
 
 - **Key**: `preference:output_style`
-- **Access Count**: `76`
+- **Access Count**: `72`
 - **Created**: `2026-09-25T13:11:45.906Z`
 - **Updated**: `2026-09-25T13:12:31.633Z`
 
@@ -57,7 +57,7 @@ User asks questions in Indonesian.
 ## 📌 `user_preference:setup_combo_requirements`
 
 - **Key**: `user_preference:setup_combo_requirements`
-- **Access Count**: `254`
+- **Access Count**: `250`
 - **Created**: `2026-09-25T09:41:01.584Z`
 - **Updated**: `2026-09-25T09:41:01.584Z`
 
@@ -78,7 +78,7 @@ User requested zero-gap, robust, bulletproof, futureproof, and anti-memory-leak 
 ## 📌 `user:opencode_default_model`
 
 - **Key**: `user:opencode_default_model`
-- **Access Count**: `264`
+- **Access Count**: `260`
 - **Created**: `2026-09-25T09:17:22.991Z`
 - **Updated**: `2026-09-25T09:17:22.991Z`
 
@@ -120,7 +120,7 @@ User requested only free tier options/services.
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `319`
+- **Access Count**: `315`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
@@ -170,7 +170,7 @@ accidentally leak credentials
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
 - **Key**: `preference:when_you_y_embed_the_lesson_in_the_skill`
-- **Access Count**: `17012`
+- **Access Count**: `17008`
 - **Created**: `2026-09-16T11:14:58.596Z`
 - **Updated**: `2026-09-26T05:28:57.485Z`
 
