@@ -1,0 +1,23 @@
+[Unit]
+Description=Hermes daily vault journal
+Documentation=file:///home/voldemort/services/obsidian-stack/vault/Engineering/Hermes_Obsidian_Integration_Spec.md
+# Fires the alert unit when this one fails, from outside this process, so an OOM kill or
+# a failed start still reports.
+OnFailure=hermes-journal-alert.service
+After=hermes-gateway.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/voldemort/.hermes/hermes-agent/venv/bin/python /home/voldemort/.hermes/bin/vault-journal.py
+# TimeoutStartSec, not RuntimeMaxSec: systemd ignores the latter for Type=oneshot, which
+# would leave a hung tick running forever. Longer than the wrapper's own budget (300s
+# model call + 120s lint) so it gets to report its own failure before systemd kills it.
+TimeoutStartSec=600
+# The box shares 3.9G with omniroute and the menu bot; a one-shot agent run must not be
+# the thing that pushes it into swap.
+MemoryHigh=700M
+MemoryMax=900M
+TasksMax=256
+Nice=10
+StandardOutput=journal
+StandardError=journal

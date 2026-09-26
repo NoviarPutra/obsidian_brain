@@ -1,0 +1,6 @@
+[Unit]
+Description=Page the owner when the Hermes journal tick fails
+
+[Service]
+Type=oneshot
+ExecStart=/home/voldemort/.hermes/bin/journal-alert.sh hermes-journal.service

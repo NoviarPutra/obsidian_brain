@@ -1,0 +1,15 @@
+[Unit]
+Description=Hermes daily vault journal (23:50 WIB)
+
+[Timer]
+# Host runs UTC; the explicit zone keeps the schedule pinned to Jakarta regardless.
+OnCalendar=*-*-* 23:50:00 Asia/Jakarta
+# Deliberately NOT Persistent: a missed day should stay missed rather than fire an
+# unexpected catch-up tick at boot.
+Persistent=false
+AccuracySec=1m
+RandomizedDelaySec=2m
+Unit=hermes-journal.service
+
+[Install]
+WantedBy=timers.target
