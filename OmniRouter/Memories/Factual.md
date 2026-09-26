@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 12
-last_synced: "2026-09-26T17:07:22.931919+00:00"
+last_synced: "2026-09-26T17:37:23.752545+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-26 17:07:22 UTC*
+*Synced from OmniRoute VPS database on 2026-09-26 17:37:23 UTC*
 
 **Total `Factual` Records**: `12`
 
 ## 📌 `preference:output_style`
 
 - **Key**: `preference:output_style`
-- **Access Count**: `270`
+- **Access Count**: `271`
 - **Created**: `2026-09-25T13:11:45.906Z`
 - **Updated**: `2026-09-25T13:12:31.633Z`
 
@@ -36,7 +36,7 @@ User prefers 'Ponytail — lazy senior dev' output style: efficient, terse, YAGN
 ## 📌 `preference:language_indonesian`
 
 - **Key**: `preference:language_indonesian`
-- **Access Count**: `355`
+- **Access Count**: `356`
 - **Created**: `2026-09-25T09:52:01.699Z`
 - **Updated**: `2026-09-25T09:52:01.699Z`
 
@@ -57,7 +57,7 @@ User asks questions in Indonesian.
 ## 📌 `user_preference:setup_combo_requirements`
 
 - **Key**: `user_preference:setup_combo_requirements`
-- **Access Count**: `443`
+- **Access Count**: `444`
 - **Created**: `2026-09-25T09:41:01.584Z`
 - **Updated**: `2026-09-25T09:41:01.584Z`
 
@@ -78,7 +78,7 @@ User requested zero-gap, robust, bulletproof, futureproof, and anti-memory-leak 
 ## 📌 `user:opencode_default_model`
 
 - **Key**: `user:opencode_default_model`
-- **Access Count**: `458`
+- **Access Count**: `459`
 - **Created**: `2026-09-25T09:17:22.991Z`
 - **Updated**: `2026-09-25T09:17:22.991Z`
 
@@ -99,7 +99,7 @@ User uses opencode terminal with default model 'big pickle'
 ## 📌 `preference:free_tier_only`
 
 - **Key**: `preference:free_tier_only`
-- **Access Count**: `232`
+- **Access Count**: `246`
 - **Created**: `2026-09-25T09:06:17.356Z`
 - **Updated**: `2026-09-25T09:06:17.356Z`
 
@@ -120,7 +120,7 @@ User requested only free tier options/services.
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `513`
+- **Access Count**: `514`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
@@ -147,7 +147,7 @@ Principles:
 ## 📌 `pattern:accidentally_leak_credentials`
 
 - **Key**: `pattern:accidentally_leak_credentials`
-- **Access Count**: `8394`
+- **Access Count**: `8395`
 - **Created**: `2026-09-21T08:08:07.470Z`
 - **Updated**: `2026-09-21T09:23:25.852Z`
 
@@ -170,7 +170,7 @@ accidentally leak credentials
 ## 📌 `preference:when_you_y_embed_the_lesson_in_the_skill`
 
 - **Key**: `preference:when_you_y_embed_the_lesson_in_the_skill`
-- **Access Count**: `17200`
+- **Access Count**: `17201`
 - **Created**: `2026-09-16T11:14:58.596Z`
 - **Updated**: `2026-09-26T05:28:57.485Z`
 
@@ -193,7 +193,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `16064`
+- **Access Count**: `16065`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -214,7 +214,7 @@ User requested Kilo autocomplete to use OmniRoute VPS provider with AG model.
 ## 📌 `math:15314+87776`
 
 - **Key**: `math:15314+87776`
-- **Access Count**: `12806`
+- **Access Count**: `12807`
 - **Created**: `2026-09-15T06:44:19.635Z`
 - **Updated**: `2026-09-15T06:44:19.635Z`
 
@@ -233,7 +233,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `16323`
+- **Access Count**: `16324`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
@@ -254,9 +254,9 @@ Hermes model configuration on VPS updated from AG to Agnes.
 ## 📌 `preference:it`
 
 - **Key**: `preference:it`
-- **Access Count**: `16360`
+- **Access Count**: `16361`
 - **Created**: `2026-09-15T03:37:49.795Z`
-- **Updated**: `2026-09-26T16:55:34.823Z`
+- **Updated**: `2026-09-26T17:37:22.728Z`
 
 ### Memory Content
 ```text
@@ -267,7 +267,7 @@ it'
 ```json
 {
   "category": "preference",
-  "extractedAt": "2026-09-26T16:55:34.823Z",
+  "extractedAt": "2026-09-26T17:37:22.728Z",
   "source": "llm_response"
 }
 ```
