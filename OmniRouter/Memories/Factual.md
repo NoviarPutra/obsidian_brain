@@ -4,11 +4,11 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 13
-last_synced: "2026-09-26T17:52:23.951236+00:00"
+last_synced: "2026-09-26T18:07:24.551556+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-26 17:52:23 UTC*
+*Synced from OmniRoute VPS database on 2026-09-26 18:07:24 UTC*
 
 **Total `Factual` Records**: `13`
 
@@ -36,7 +36,7 @@ Prefers free tier options and services.
 ## 📌 `preference:output_style`
 
 - **Key**: `preference:output_style`
-- **Access Count**: `273`
+- **Access Count**: `276`
 - **Created**: `2026-09-25T13:11:45.906Z`
 - **Updated**: `2026-09-25T13:12:31.633Z`
 
@@ -78,7 +78,7 @@ User asks questions in Indonesian.
 ## 📌 `user_preference:setup_combo_requirements`
 
 - **Key**: `user_preference:setup_combo_requirements`
-- **Access Count**: `446`
+- **Access Count**: `448`
 - **Created**: `2026-09-25T09:41:01.584Z`
 - **Updated**: `2026-09-25T09:41:01.584Z`
 
@@ -120,7 +120,7 @@ User uses opencode terminal with default model 'big pickle'
 ## 📌 `preference:free_tier_only`
 
 - **Key**: `preference:free_tier_only`
-- **Access Count**: `248`
+- **Access Count**: `250`
 - **Created**: `2026-09-25T09:06:17.356Z`
 - **Updated**: `2026-09-25T09:06:17.356Z`
 
@@ -141,7 +141,7 @@ User requested only free tier options/services.
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `516`
+- **Access Count**: `519`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
@@ -214,7 +214,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `16067`
+- **Access Count**: `16068`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -254,7 +254,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `16326`
+- **Access Count**: `16327`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
