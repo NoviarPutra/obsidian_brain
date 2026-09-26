@@ -4,18 +4,18 @@ tags:
   - omniroute/memory/factual
 category: "Factual"
 total_items: 12
-last_synced: "2026-09-26T06:07:06.113138+00:00"
+last_synced: "2026-09-26T10:22:13.132304+00:00"
 ---
 # 🧠 OmniRoute Memory: Factual
 
-*Synced from OmniRoute VPS database on 2026-09-26 06:07:06 UTC*
+*Synced from OmniRoute VPS database on 2026-09-26 10:22:13 UTC*
 
 **Total `Factual` Records**: `12`
 
 ## 📌 `preference:output_style`
 
 - **Key**: `preference:output_style`
-- **Access Count**: `72`
+- **Access Count**: `78`
 - **Created**: `2026-09-25T13:11:45.906Z`
 - **Updated**: `2026-09-25T13:12:31.633Z`
 
@@ -36,7 +36,7 @@ User prefers 'Ponytail — lazy senior dev' output style: efficient, terse, YAGN
 ## 📌 `preference:language_indonesian`
 
 - **Key**: `preference:language_indonesian`
-- **Access Count**: `163`
+- **Access Count**: `169`
 - **Created**: `2026-09-25T09:52:01.699Z`
 - **Updated**: `2026-09-25T09:52:01.699Z`
 
@@ -78,7 +78,7 @@ User requested zero-gap, robust, bulletproof, futureproof, and anti-memory-leak 
 ## 📌 `user:opencode_default_model`
 
 - **Key**: `user:opencode_default_model`
-- **Access Count**: `260`
+- **Access Count**: `266`
 - **Created**: `2026-09-25T09:17:22.991Z`
 - **Updated**: `2026-09-25T09:17:22.991Z`
 
@@ -120,7 +120,7 @@ User requested only free tier options/services.
 ## 📌 `preference:output_style_ponytail`
 
 - **Key**: `preference:output_style_ponytail`
-- **Access Count**: `315`
+- **Access Count**: `321`
 - **Created**: `2026-09-25T04:57:56.832Z`
 - **Updated**: `2026-09-25T04:57:56.832Z`
 
@@ -193,7 +193,7 @@ when you Y' — embed the lesson in the skill that governs that task so the next
 ## 📌 `config:kilo_autocomplete_provider`
 
 - **Key**: `config:kilo_autocomplete_provider`
-- **Access Count**: `15866`
+- **Access Count**: `15872`
 - **Created**: `2026-09-16T08:37:46.274Z`
 - **Updated**: `2026-09-16T08:37:46.274Z`
 
@@ -233,7 +233,7 @@ Sum of 15314 + 87776 = 103090
 ## 📌 `vps:hermes:model`
 
 - **Key**: `vps:hermes:model`
-- **Access Count**: `16125`
+- **Access Count**: `16131`
 - **Created**: `2026-09-15T05:14:34.836Z`
 - **Updated**: `2026-09-15T05:14:34.836Z`
 
